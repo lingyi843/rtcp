@@ -1,0 +1,47 @@
+{
+  "file": "C:\\Users\\zhangyi\\Documents\\五轴曲面打印\\outputs\\曲面打印阶段任务_20261021_01a13e39\\六台曲面打印机_阶段任务版_20261021.xlsx",
+  "bytes": 60178,
+  "sheets": [
+    "机器阶段看板",
+    "阶段任务",
+    "问题闭环",
+    "测试记录",
+    "后续任务与方案"
+  ],
+  "current_tasks": 21,
+  "historical_milestones": 3,
+  "cached_counts": [
+    "已有完整打印结果：3台",
+    "尚待完整打印验收：2台；黄色另按功能验收"
+  ],
+  "formula_errors": [],
+  "owners": "all blank",
+  "freeze_panes": [
+    [
+      2,
+      2,
+      "C3"
+    ],
+    [
+      3,
+      6,
+      "D7"
+    ],
+    [
+      3,
+      6,
+      "D7"
+    ],
+    [
+      3,
+      6,
+      "D7"
+    ],
+    [
+      3,
+      6,
+      "D7"
+    ]
+  ],
+  "old_file_sha256_unchanged": "C407864E7A30E8F9EAC5CA349F7C4F5D487287A2501A7F1C7CC828DA4ABC4D2E"
+}

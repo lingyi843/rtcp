@@ -1,0 +1,3392 @@
+{
+  "schema_version": 1,
+  "offline_only": true,
+  "live_supported": false,
+  "filename": "cluster-44.xml",
+  "sha256": "81169ed6f96663435ccd2b8593fa0291cdb1a3a2a265607a735483aa0f6e7dc2",
+  "object_count": 77,
+  "embedded_code_executed": false,
+  "limitations": [
+    "Graph metadata only, not a Grasshopper solution",
+    "Cluster string evidence is not full binary graph reconstruction",
+    "Saved GHX and historical G-code are not assumed to be a matched export"
+  ],
+  "objects": [
+    {
+      "index": 0,
+      "guid": "eb1334b5-d4c5-4133-8da5-a8ab47f25c29",
+      "type": "Group",
+      "nickname": "",
+      "values": {
+        "Description": "A group of Grasshopper objects"
+      },
+      "ports": [
+        {
+          "kind": "Container",
+          "index": null,
+          "name": "Group",
+          "guid": "eb1334b5-d4c5-4133-8da5-a8ab47f25c29",
+          "sources": [],
+          "expression": null,
+          "description": "A group of Grasshopper objects",
+          "upstream": []
+        }
+      ],
+      "scalars": [],
+      "clusters": []
+    },
+    {
+      "index": 1,
+      "guid": "39c5b85e-2cfd-4c79-9eac-ac87270fc1df",
+      "type": "Group",
+      "nickname": "Travel Path Length",
+      "values": {
+        "Description": "A group of Grasshopper objects"
+      },
+      "ports": [
+        {
+          "kind": "Container",
+          "index": null,
+          "name": "Group",
+          "guid": "39c5b85e-2cfd-4c79-9eac-ac87270fc1df",
+          "sources": [],
+          "expression": null,
+          "description": "A group of Grasshopper objects",
+          "upstream": []
+        }
+      ],
+      "scalars": [],
+      "clusters": []
+    },
+    {
+      "index": 2,
+      "guid": "0e65bed9-27ae-4bf7-a0c9-9614646faaf6",
+      "type": "ACXYZ",
+      "nickname": "ACXYZ",
+      "values": {
+        "Description": "ACXYZ"
+      },
+      "ports": [
+        {
+          "kind": "Container",
+          "index": null,
+          "name": "ACXYZ",
+          "guid": "0e65bed9-27ae-4bf7-a0c9-9614646faaf6",
+          "sources": [],
+          "expression": null,
+          "description": "ACXYZ",
+          "upstream": []
+        }
+      ],
+      "scalars": [],
+      "clusters": []
+    },
+    {
+      "index": 3,
+      "guid": "9c0b465b-1c03-4add-b99a-6bc02708d09b",
+      "type": "Explode Tree",
+      "nickname": "BANG!",
+      "values": {
+        "Description": "Extract all the branches from a tree"
+      },
+      "ports": [
+        {
+          "kind": "Container",
+          "index": null,
+          "name": "Explode Tree",
+          "guid": "9c0b465b-1c03-4add-b99a-6bc02708d09b",
+          "sources": [],
+          "expression": null,
+          "description": "Extract all the branches from a tree",
+          "upstream": []
+        },
+        {
+          "kind": "InputParam",
+          "index": "0",
+          "name": "Data",
+          "guid": "0987e44a-3bff-4662-ac6b-b8a0819fbb3a",
+          "sources": [
+            "be6d35e3-4781-4888-8edf-84e04123a719"
+          ],
+          "expression": null,
+          "description": "Data to explode",
+          "upstream": [
+            {
+              "object_index": 6,
+              "port": "Differenced"
+            }
+          ]
+        },
+        {
+          "kind": "OutputParam",
+          "index": "0",
+          "name": "Branch 0",
+          "guid": "eaa3b778-19fa-4b79-8805-5a9364e50e76",
+          "sources": [],
+          "expression": null,
+          "description": "All data inside the branch at index: 0",
+          "upstream": []
+        },
+        {
+          "kind": "OutputParam",
+          "index": "1",
+          "name": "Branch 1",
+          "guid": "b0375454-366c-44aa-b044-0cd70bdf2e1f",
+          "sources": [],
+          "expression": null,
+          "description": "All data inside the branch at index: 1",
+          "upstream": []
+        },
+        {
+          "kind": "OutputParam",
+          "index": "2",
+          "name": "Branch 2",
+          "guid": "534ac52f-7c38-46e6-b3d1-7b7d6e769d32",
+          "sources": [],
+          "expression": null,
+          "description": "All data inside the branch at index: 2",
+          "upstream": []
+        },
+        {
+          "kind": "OutputParam",
+          "index": "3",
+          "name": "Branch 3",
+          "guid": "774bd161-1e1b-4637-9c8e-7547f23ad622",
+          "sources": [],
+          "expression": null,
+          "description": "All data inside the branch at index: 3",
+          "upstream": []
+        },
+        {
+          "kind": "OutputParam",
+          "index": "4",
+          "name": "Branch 4",
+          "guid": "999adfe3-5d34-454b-8bd2-a13f11ee2bcf",
+          "sources": [],
+          "expression": null,
+          "description": "All data inside the branch at index: 4",
+          "upstream": []
+        }
+      ],
+      "scalars": [],
+      "clusters": []
+    },
+    {
+      "index": 4,
+      "guid": "6b168ba7-a1d8-402c-bdd9-148fcf8da724",
+      "type": "Scribble",
+      "nickname": "Scribble",
+      "values": {
+        "Description": "A quick note"
+      },
+      "ports": [
+        {
+          "kind": "Container",
+          "index": null,
+          "name": "Scribble",
+          "guid": "6b168ba7-a1d8-402c-bdd9-148fcf8da724",
+          "sources": [],
+          "expression": null,
+          "description": "A quick note",
+          "upstream": []
+        }
+      ],
+      "scalars": [],
+      "clusters": []
+    },
+    {
+      "index": 5,
+      "guid": "56814a96-ab3f-4e8f-986c-60a95ab8fb86",
+      "type": "FeedRate",
+      "nickname": "FeedRate",
+      "values": {
+        "Description": "Second item for multiplication"
+      },
+      "ports": [
+        {
+          "kind": "Container",
+          "index": null,
+          "name": "FeedRate",
+          "guid": "56814a96-ab3f-4e8f-986c-60a95ab8fb86",
+          "sources": [],
+          "expression": null,
+          "description": "Second item for multiplication",
+          "upstream": []
+        }
+      ],
+      "scalars": [],
+      "clusters": []
+    },
+    {
+      "index": 6,
+      "guid": "4ac9f90c-31a9-48b9-880b-6f2038abe2d7",
+      "type": "Relative Differences",
+      "nickname": "RelDif",
+      "values": {
+        "Description": "Compute relative differences for a list of data"
+      },
+      "ports": [
+        {
+          "kind": "Container",
+          "index": null,
+          "name": "Relative Differences",
+          "guid": "4ac9f90c-31a9-48b9-880b-6f2038abe2d7",
+          "sources": [],
+          "expression": null,
+          "description": "Compute relative differences for a list of data",
+          "upstream": []
+        },
+        {
+          "kind": "param_input",
+          "index": "0",
+          "name": "Values",
+          "guid": "4fe04abb-34e0-4547-8b20-769b5ca27c6e",
+          "sources": [
+            "0e65bed9-27ae-4bf7-a0c9-9614646faaf6"
+          ],
+          "expression": null,
+          "description": "List of data to operate on (numbers or points or vectors allowed)",
+          "upstream": [
+            {
+              "object_index": 2,
+              "port": "ACXYZ"
+            }
+          ]
+        },
+        {
+          "kind": "param_output",
+          "index": "0",
+          "name": "Differenced",
+          "guid": "be6d35e3-4781-4888-8edf-84e04123a719",
+          "sources": [],
+          "expression": null,
+          "description": "Differences between consecutive items",
+          "upstream": []
+        }
+      ],
+      "scalars": [],
+      "clusters": []
+    },
+    {
+      "index": 7,
+      "guid": "1d069e60-6fa6-4cf7-948c-82b14c0e0af4",
+      "type": "C# Script",
+      "nickname": "C#",
+      "values": {
+        "Description": "A C#.NET scriptable component",
+        "ScriptSource": "\n    double As; //square of a axis differences\n    double Cs;\n    double Xs;\n    double Ys;\n    double Zs;\n    double Es;\n\n    As = Math.Pow(a, 2);\n    Cs = Math.Pow(c, 2);\n    Xs = Math.Pow(x, 2);\n    Ys = Math.Pow(y, 2);\n    Zs = Math.Pow(z, 2);\n    Es = Math.Pow(e, 2);\n    \n    D = Math.Sqrt(As + Cs + Xs + Ys + Zs +Es);\n"
+      },
+      "ports": [
+        {
+          "kind": "Container",
+          "index": null,
+          "name": "C# Script",
+          "guid": "1d069e60-6fa6-4cf7-948c-82b14c0e0af4",
+          "sources": [],
+          "expression": null,
+          "description": "A C#.NET scriptable component",
+          "upstream": []
+        },
+        {
+          "kind": "InputParam",
+          "index": "0",
+          "name": "a",
+          "guid": "d6056f9c-86c6-4442-bbe3-0ff327d7f093",
+          "sources": [
+            "eaa3b778-19fa-4b79-8805-5a9364e50e76"
+          ],
+          "expression": null,
+          "description": "Script Variable a",
+          "upstream": [
+            {
+              "object_index": 3,
+              "port": "Branch 0"
+            }
+          ]
+        },
+        {
+          "kind": "InputParam",
+          "index": "1",
+          "name": "c",
+          "guid": "702ccd57-8a14-470d-8a24-20a68b7beb6d",
+          "sources": [
+            "b0375454-366c-44aa-b044-0cd70bdf2e1f"
+          ],
+          "expression": null,
+          "description": "Script Variable c",
+          "upstream": [
+            {
+              "object_index": 3,
+              "port": "Branch 1"
+            }
+          ]
+        },
+        {
+          "kind": "InputParam",
+          "index": "2",
+          "name": "x",
+          "guid": "879ea240-d02c-432d-8d46-4aba758a91f0",
+          "sources": [
+            "534ac52f-7c38-46e6-b3d1-7b7d6e769d32"
+          ],
+          "expression": null,
+          "description": "Script Variable x",
+          "upstream": [
+            {
+              "object_index": 3,
+              "port": "Branch 2"
+            }
+          ]
+        },
+        {
+          "kind": "InputParam",
+          "index": "3",
+          "name": "y",
+          "guid": "38d0d5f0-b172-439f-af43-ea176b16ae8b",
+          "sources": [
+            "774bd161-1e1b-4637-9c8e-7547f23ad622"
+          ],
+          "expression": null,
+          "description": "Script Variable y",
+          "upstream": [
+            {
+              "object_index": 3,
+              "port": "Branch 3"
+            }
+          ]
+        },
+        {
+          "kind": "InputParam",
+          "index": "4",
+          "name": "z",
+          "guid": "51a9be15-2c8d-4936-8aa3-5f705711378f",
+          "sources": [
+            "999adfe3-5d34-454b-8bd2-a13f11ee2bcf"
+          ],
+          "expression": null,
+          "description": "Script Variable z",
+          "upstream": [
+            {
+              "object_index": 3,
+              "port": "Branch 4"
+            }
+          ]
+        },
+        {
+          "kind": "InputParam",
+          "index": "5",
+          "name": "e",
+          "guid": "92c2a8f0-dfad-4ce3-b012-ae480ce10f6e",
+          "sources": [
+            "46b8907e-6171-4b27-ab57-595ec896eac8"
+          ],
+          "expression": null,
+          "description": "Script Variable e",
+          "upstream": [
+            {
+              "object_index": 16,
+              "port": "Number"
+            }
+          ]
+        },
+        {
+          "kind": "OutputParam",
+          "index": "0",
+          "name": "out",
+          "guid": "7a24353e-ad38-4b05-9ff2-1b0c917c4d9c",
+          "sources": [],
+          "expression": null,
+          "description": "Print, Reflect and Error streams",
+          "upstream": []
+        },
+        {
+          "kind": "OutputParam",
+          "index": "1",
+          "name": "D",
+          "guid": "930e8bd6-634e-431a-8b50-fd0f5d653e85",
+          "sources": [],
+          "expression": null,
+          "description": "Output parameter D",
+          "upstream": []
+        }
+      ],
+      "scalars": [],
+      "clusters": []
+    },
+    {
+      "index": 8,
+      "guid": "ba4c3aff-d395-43f6-a3e9-2a0ba8e1981e",
+      "type": "Panel",
+      "nickname": "Euclidian Distance (mm)",
+      "values": {
+        "Description": "A panel for custom notes and text values",
+        "UserText": "Double click to edit panel content…"
+      },
+      "ports": [
+        {
+          "kind": "Container",
+          "index": null,
+          "name": "Panel",
+          "guid": "ba4c3aff-d395-43f6-a3e9-2a0ba8e1981e",
+          "sources": [
+            "930e8bd6-634e-431a-8b50-fd0f5d653e85"
+          ],
+          "expression": null,
+          "description": "A panel for custom notes and text values",
+          "upstream": [
+            {
+              "object_index": 7,
+              "port": "D"
+            }
+          ]
+        }
+      ],
+      "scalars": [],
+      "clusters": []
+    },
+    {
+      "index": 9,
+      "guid": "12637b5f-8459-4fa8-a6b6-0e8262d4ec09",
+      "type": "Division",
+      "nickname": "A/B",
+      "values": {
+        "Description": "Mathematical division"
+      },
+      "ports": [
+        {
+          "kind": "Container",
+          "index": null,
+          "name": "Division",
+          "guid": "12637b5f-8459-4fa8-a6b6-0e8262d4ec09",
+          "sources": [],
+          "expression": null,
+          "description": "Mathematical division",
+          "upstream": []
+        },
+        {
+          "kind": "param_input",
+          "index": "0",
+          "name": "A",
+          "guid": "07aa7cbd-66f9-407a-a27c-7ab8c2fa4162",
+          "sources": [
+            "930e8bd6-634e-431a-8b50-fd0f5d653e85"
+          ],
+          "expression": null,
+          "description": "Item to divide (dividend)",
+          "upstream": [
+            {
+              "object_index": 7,
+              "port": "D"
+            }
+          ]
+        },
+        {
+          "kind": "param_input",
+          "index": "1",
+          "name": "B",
+          "guid": "21b9e6fa-f7d9-45a9-9096-770ea3a159bf",
+          "sources": [
+            "bb359c6f-1a32-4a96-9a5e-740953e2f865"
+          ],
+          "expression": null,
+          "description": "Item to divide with (divisor)",
+          "upstream": [
+            {
+              "object_index": 11,
+              "port": "Number"
+            }
+          ]
+        },
+        {
+          "kind": "param_output",
+          "index": "0",
+          "name": "Result",
+          "guid": "ed477684-49c7-4ca9-8bdd-aea2750a9abd",
+          "sources": [],
+          "expression": null,
+          "description": "The result of the Division",
+          "upstream": []
+        }
+      ],
+      "scalars": [],
+      "clusters": []
+    },
+    {
+      "index": 10,
+      "guid": "eafe693a-6520-4f5d-8b3e-042df5f178e0",
+      "type": "Segment Length",
+      "nickname": "Segment Length",
+      "values": {
+        "Description": "Contains a collection of floating point numbers"
+      },
+      "ports": [
+        {
+          "kind": "Container",
+          "index": null,
+          "name": "Segment Length",
+          "guid": "eafe693a-6520-4f5d-8b3e-042df5f178e0",
+          "sources": [],
+          "expression": null,
+          "description": "Contains a collection of floating point numbers",
+          "upstream": []
+        }
+      ],
+      "scalars": [],
+      "clusters": []
+    },
+    {
+      "index": 11,
+      "guid": "bb359c6f-1a32-4a96-9a5e-740953e2f865",
+      "type": "Number",
+      "nickname": "Num",
+      "values": {
+        "Description": "Contains a collection of floating point numbers"
+      },
+      "ports": [
+        {
+          "kind": "Container",
+          "index": null,
+          "name": "Number",
+          "guid": "bb359c6f-1a32-4a96-9a5e-740953e2f865",
+          "sources": [
+            "eafe693a-6520-4f5d-8b3e-042df5f178e0"
+          ],
+          "expression": null,
+          "description": "Contains a collection of floating point numbers",
+          "upstream": [
+            {
+              "object_index": 10,
+              "port": "Segment Length"
+            }
+          ]
+        }
+      ],
+      "scalars": [],
+      "clusters": []
+    },
+    {
+      "index": 12,
+      "guid": "d6ca69d1-eb8e-48ca-b06f-3589645a4593",
+      "type": "Panel",
+      "nickname": "Speed Compensation Ratio",
+      "values": {
+        "Description": "A panel for custom notes and text values",
+        "UserText": "Double click to edit panel content…"
+      },
+      "ports": [
+        {
+          "kind": "Container",
+          "index": null,
+          "name": "Panel",
+          "guid": "d6ca69d1-eb8e-48ca-b06f-3589645a4593",
+          "sources": [
+            "ed477684-49c7-4ca9-8bdd-aea2750a9abd"
+          ],
+          "expression": null,
+          "description": "A panel for custom notes and text values",
+          "upstream": [
+            {
+              "object_index": 9,
+              "port": "Result"
+            }
+          ]
+        }
+      ],
+      "scalars": [],
+      "clusters": []
+    },
+    {
+      "index": 13,
+      "guid": "5f89b781-8512-4c10-818b-f7895a2d7991",
+      "type": "FeedRate",
+      "nickname": "FeedRate",
+      "values": {
+        "Description": "List with replaced values"
+      },
+      "ports": [
+        {
+          "kind": "Container",
+          "index": null,
+          "name": "FeedRate",
+          "guid": "5f89b781-8512-4c10-818b-f7895a2d7991",
+          "sources": [
+            "6e4e946b-683a-4c21-9afb-b79d1de72d6d"
+          ],
+          "expression": null,
+          "description": "List with replaced values",
+          "upstream": [
+            {
+              "object_index": 64,
+              "port": "List"
+            }
+          ]
+        }
+      ],
+      "scalars": [],
+      "clusters": []
+    },
+    {
+      "index": 14,
+      "guid": "fa020f5f-6d94-4198-925f-4cb070f1e7c6",
+      "type": "Multiplication",
+      "nickname": "A×B",
+      "values": {
+        "Description": "Mathematical multiplication"
+      },
+      "ports": [
+        {
+          "kind": "Container",
+          "index": null,
+          "name": "Multiplication",
+          "guid": "fa020f5f-6d94-4198-925f-4cb070f1e7c6",
+          "sources": [],
+          "expression": null,
+          "description": "Mathematical multiplication",
+          "upstream": []
+        },
+        {
+          "kind": "InputParam",
+          "index": "0",
+          "name": "A",
+          "guid": "2b0d0212-4a44-4687-afc1-24723ec8cc7a",
+          "sources": [
+            "ed477684-49c7-4ca9-8bdd-aea2750a9abd"
+          ],
+          "expression": null,
+          "description": "First item for multiplication",
+          "upstream": [
+            {
+              "object_index": 9,
+              "port": "Result"
+            }
+          ]
+        },
+        {
+          "kind": "InputParam",
+          "index": "1",
+          "name": "B",
+          "guid": "d41a3c5b-10fe-4d6e-90de-728f1c14b8ef",
+          "sources": [
+            "56814a96-ab3f-4e8f-986c-60a95ab8fb86"
+          ],
+          "expression": null,
+          "description": "Second item for multiplication",
+          "upstream": [
+            {
+              "object_index": 5,
+              "port": "FeedRate"
+            }
+          ]
+        },
+        {
+          "kind": "OutputParam",
+          "index": "0",
+          "name": "Result",
+          "guid": "64b9a0da-15b5-43c9-9fde-cae13b072e3b",
+          "sources": [],
+          "expression": null,
+          "description": "Result of multiplication",
+          "upstream": []
+        }
+      ],
+      "scalars": [],
+      "clusters": []
+    },
+    {
+      "index": 15,
+      "guid": "be95fb24-c52b-463f-aea2-a036d628b185",
+      "type": "Extrusion Length",
+      "nickname": "Extrusion Length",
+      "values": {
+        "Description": "Contains a collection of floating point numbers"
+      },
+      "ports": [
+        {
+          "kind": "Container",
+          "index": null,
+          "name": "Extrusion Length",
+          "guid": "be95fb24-c52b-463f-aea2-a036d628b185",
+          "sources": [],
+          "expression": null,
+          "description": "Contains a collection of floating point numbers",
+          "upstream": []
+        }
+      ],
+      "scalars": [],
+      "clusters": []
+    },
+    {
+      "index": 16,
+      "guid": "46b8907e-6171-4b27-ab57-595ec896eac8",
+      "type": "Number",
+      "nickname": "Num",
+      "values": {
+        "Description": "Contains a collection of floating point numbers"
+      },
+      "ports": [
+        {
+          "kind": "Container",
+          "index": null,
+          "name": "Number",
+          "guid": "46b8907e-6171-4b27-ab57-595ec896eac8",
+          "sources": [
+            "be95fb24-c52b-463f-aea2-a036d628b185"
+          ],
+          "expression": null,
+          "description": "Contains a collection of floating point numbers",
+          "upstream": [
+            {
+              "object_index": 15,
+              "port": "Extrusion Length"
+            }
+          ]
+        }
+      ],
+      "scalars": [],
+      "clusters": []
+    },
+    {
+      "index": 17,
+      "guid": "ab99ddcb-9284-4a8c-be85-6fff7c52dadc",
+      "type": "Scribble",
+      "nickname": "Scribble",
+      "values": {
+        "Description": "A quick note"
+      },
+      "ports": [
+        {
+          "kind": "Container",
+          "index": null,
+          "name": "Scribble",
+          "guid": "ab99ddcb-9284-4a8c-be85-6fff7c52dadc",
+          "sources": [],
+          "expression": null,
+          "description": "A quick note",
+          "upstream": []
+        }
+      ],
+      "scalars": [],
+      "clusters": []
+    },
+    {
+      "index": 18,
+      "guid": "68c6b14b-4b8e-4c77-a2bc-df23b9c072dc",
+      "type": "Panel",
+      "nickname": "New Sped (mm/min)",
+      "values": {
+        "Description": "A panel for custom notes and text values",
+        "UserText": "Double click to edit panel content…"
+      },
+      "ports": [
+        {
+          "kind": "Container",
+          "index": null,
+          "name": "Panel",
+          "guid": "68c6b14b-4b8e-4c77-a2bc-df23b9c072dc",
+          "sources": [
+            "64b9a0da-15b5-43c9-9fde-cae13b072e3b"
+          ],
+          "expression": null,
+          "description": "A panel for custom notes and text values",
+          "upstream": [
+            {
+              "object_index": 14,
+              "port": "Result"
+            }
+          ]
+        }
+      ],
+      "scalars": [],
+      "clusters": []
+    },
+    {
+      "index": 19,
+      "guid": "7ddf252d-a1f2-4b47-b4e1-340cc7401fac",
+      "type": "C# Script",
+      "nickname": "C#",
+      "values": {
+        "Description": "A C#.NET scriptable component",
+        "ScriptSource": "\n    double Time; // time for each line of G-code (Min)\n\n    Time = D / F;\n\n\n    Af = Math.Abs(a / Time);\n    Cf = Math.Abs(c / Time);\n    Xf = Math.Abs(x / Time);\n    Yf = Math.Abs(y / Time);\n    Zf = Math.Abs(z / Time);\n    Ef = Math.Abs(e / Time);\n\n\n\n\n"
+      },
+      "ports": [
+        {
+          "kind": "Container",
+          "index": null,
+          "name": "C# Script",
+          "guid": "7ddf252d-a1f2-4b47-b4e1-340cc7401fac",
+          "sources": [],
+          "expression": null,
+          "description": "A C#.NET scriptable component",
+          "upstream": []
+        },
+        {
+          "kind": "InputParam",
+          "index": "0",
+          "name": "D",
+          "guid": "3c33731a-704f-4ae1-b59a-c9ebb494f959",
+          "sources": [
+            "930e8bd6-634e-431a-8b50-fd0f5d653e85"
+          ],
+          "expression": null,
+          "description": "Script Variable D",
+          "upstream": [
+            {
+              "object_index": 7,
+              "port": "D"
+            }
+          ]
+        },
+        {
+          "kind": "InputParam",
+          "index": "1",
+          "name": "F",
+          "guid": "fc5d3214-3b9a-45be-b22e-12a247d754ca",
+          "sources": [
+            "6e4e946b-683a-4c21-9afb-b79d1de72d6d"
+          ],
+          "expression": null,
+          "description": "Script Variable F",
+          "upstream": [
+            {
+              "object_index": 64,
+              "port": "List"
+            }
+          ]
+        },
+        {
+          "kind": "InputParam",
+          "index": "2",
+          "name": "a",
+          "guid": "3095aa9f-98ef-4ec2-8e1d-a2871f06c4df",
+          "sources": [
+            "eaa3b778-19fa-4b79-8805-5a9364e50e76"
+          ],
+          "expression": null,
+          "description": "Script Variable a",
+          "upstream": [
+            {
+              "object_index": 3,
+              "port": "Branch 0"
+            }
+          ]
+        },
+        {
+          "kind": "InputParam",
+          "index": "3",
+          "name": "c",
+          "guid": "fba48f90-b636-4fb0-8804-8a2b53deb0e4",
+          "sources": [
+            "b0375454-366c-44aa-b044-0cd70bdf2e1f"
+          ],
+          "expression": null,
+          "description": "Script Variable c",
+          "upstream": [
+            {
+              "object_index": 3,
+              "port": "Branch 1"
+            }
+          ]
+        },
+        {
+          "kind": "InputParam",
+          "index": "4",
+          "name": "x",
+          "guid": "5a441e6c-49ff-4558-b746-12a765058033",
+          "sources": [
+            "534ac52f-7c38-46e6-b3d1-7b7d6e769d32"
+          ],
+          "expression": null,
+          "description": "Script Variable x",
+          "upstream": [
+            {
+              "object_index": 3,
+              "port": "Branch 2"
+            }
+          ]
+        },
+        {
+          "kind": "InputParam",
+          "index": "5",
+          "name": "y",
+          "guid": "f1567aff-795c-414a-9d68-f7836ecb8635",
+          "sources": [
+            "774bd161-1e1b-4637-9c8e-7547f23ad622"
+          ],
+          "expression": null,
+          "description": "Script Variable y",
+          "upstream": [
+            {
+              "object_index": 3,
+              "port": "Branch 3"
+            }
+          ]
+        },
+        {
+          "kind": "InputParam",
+          "index": "6",
+          "name": "z",
+          "guid": "72755a2b-68ff-4924-b5dc-1dc62cf70368",
+          "sources": [
+            "999adfe3-5d34-454b-8bd2-a13f11ee2bcf"
+          ],
+          "expression": null,
+          "description": "Script Variable z",
+          "upstream": [
+            {
+              "object_index": 3,
+              "port": "Branch 4"
+            }
+          ]
+        },
+        {
+          "kind": "InputParam",
+          "index": "7",
+          "name": "e",
+          "guid": "312db7dd-6fef-4a8c-bbb5-d6d44732913e",
+          "sources": [
+            "46b8907e-6171-4b27-ab57-595ec896eac8"
+          ],
+          "expression": null,
+          "description": "Script Variable e",
+          "upstream": [
+            {
+              "object_index": 16,
+              "port": "Number"
+            }
+          ]
+        },
+        {
+          "kind": "OutputParam",
+          "index": "0",
+          "name": "out",
+          "guid": "d5c0a05d-133b-46da-bcee-e0d4a6010b1c",
+          "sources": [],
+          "expression": null,
+          "description": "Print, Reflect and Error streams",
+          "upstream": []
+        },
+        {
+          "kind": "OutputParam",
+          "index": "1",
+          "name": "Af",
+          "guid": "4a6b792d-16b4-4cfc-98d7-98fd01cdebca",
+          "sources": [],
+          "expression": null,
+          "description": "Output parameter Af",
+          "upstream": []
+        },
+        {
+          "kind": "OutputParam",
+          "index": "2",
+          "name": "Cf",
+          "guid": "1e9a435c-f3d2-4146-bdbc-d3f24ca37760",
+          "sources": [],
+          "expression": null,
+          "description": "Output parameter Cf",
+          "upstream": []
+        },
+        {
+          "kind": "OutputParam",
+          "index": "3",
+          "name": "Xf",
+          "guid": "1d54d72d-e07d-447b-a3fb-9ad7aec42de4",
+          "sources": [],
+          "expression": null,
+          "description": "Output parameter Xf",
+          "upstream": []
+        },
+        {
+          "kind": "OutputParam",
+          "index": "4",
+          "name": "Yf",
+          "guid": "5ee75759-ed20-40df-84f6-4e16d24b33e9",
+          "sources": [],
+          "expression": null,
+          "description": "Output parameter Yf",
+          "upstream": []
+        },
+        {
+          "kind": "OutputParam",
+          "index": "5",
+          "name": "Zf",
+          "guid": "81cbc9b8-9892-4029-99b9-211b5f8ed045",
+          "sources": [],
+          "expression": null,
+          "description": "Output parameter Zf",
+          "upstream": []
+        },
+        {
+          "kind": "OutputParam",
+          "index": "6",
+          "name": "Ef",
+          "guid": "82b571fe-f3be-4aa5-b2d7-ceb07006261b",
+          "sources": [],
+          "expression": null,
+          "description": "Output parameter Ef",
+          "upstream": []
+        }
+      ],
+      "scalars": [],
+      "clusters": []
+    },
+    {
+      "index": 20,
+      "guid": "78291bce-3dbe-4d8b-bae7-d200a6789d95",
+      "type": "Panel",
+      "nickname": "Feed (mm/min)",
+      "values": {
+        "Description": "A panel for custom notes and text values",
+        "UserText": "Double click to edit panel content…"
+      },
+      "ports": [
+        {
+          "kind": "Container",
+          "index": null,
+          "name": "Panel",
+          "guid": "78291bce-3dbe-4d8b-bae7-d200a6789d95",
+          "sources": [
+            "82b571fe-f3be-4aa5-b2d7-ceb07006261b"
+          ],
+          "expression": null,
+          "description": "A panel for custom notes and text values",
+          "upstream": [
+            {
+              "object_index": 19,
+              "port": "Ef"
+            }
+          ]
+        }
+      ],
+      "scalars": [],
+      "clusters": []
+    },
+    {
+      "index": 21,
+      "guid": "6d86ead8-7e0c-46e7-b80b-51b1b47cbdf5",
+      "type": "C# Script",
+      "nickname": "Maximum feedrate Over ride",
+      "values": {
+        "Description": "A C#.NET scriptable component",
+        "ScriptSource": "\n\n    //M203 X12000.00 Y12000.00 Z750.00 E1500.00 A5000.00 C5000.00\n\n    for (int i = 0; i < x.Count; i++){\n\n      if(x[i] > 9000){\n        x[i] = 9000;\n      }\n\n      A = x;\n    }"
+      },
+      "ports": [
+        {
+          "kind": "Container",
+          "index": null,
+          "name": "C# Script",
+          "guid": "6d86ead8-7e0c-46e7-b80b-51b1b47cbdf5",
+          "sources": [],
+          "expression": null,
+          "description": "A C#.NET scriptable component",
+          "upstream": []
+        },
+        {
+          "kind": "InputParam",
+          "index": "0",
+          "name": "x",
+          "guid": "f4539d41-0504-4918-a631-0efc7b0ac6c6",
+          "sources": [
+            "64b9a0da-15b5-43c9-9fde-cae13b072e3b"
+          ],
+          "expression": null,
+          "description": "Script Variable x",
+          "upstream": [
+            {
+              "object_index": 14,
+              "port": "Result"
+            }
+          ]
+        },
+        {
+          "kind": "OutputParam",
+          "index": "0",
+          "name": "out",
+          "guid": "9de3636c-3946-4e09-b40d-a2510f635cc3",
+          "sources": [],
+          "expression": null,
+          "description": "Print, Reflect and Error streams",
+          "upstream": []
+        },
+        {
+          "kind": "OutputParam",
+          "index": "1",
+          "name": "A",
+          "guid": "851f9187-4709-4c57-be53-af9cf2b10b38",
+          "sources": [],
+          "expression": null,
+          "description": "Output parameter A",
+          "upstream": []
+        }
+      ],
+      "scalars": [],
+      "clusters": []
+    },
+    {
+      "index": 22,
+      "guid": "a1c1e48c-4b0f-4027-b864-9ccc6beff462",
+      "type": "Travel Speed",
+      "nickname": "Travel Speed",
+      "values": {
+        "Description": "First item for multiplication"
+      },
+      "ports": [
+        {
+          "kind": "Container",
+          "index": null,
+          "name": "Travel Speed",
+          "guid": "a1c1e48c-4b0f-4027-b864-9ccc6beff462",
+          "sources": [],
+          "expression": null,
+          "description": "First item for multiplication",
+          "upstream": []
+        }
+      ],
+      "scalars": [],
+      "clusters": []
+    },
+    {
+      "index": 23,
+      "guid": "f8994934-4be1-49b1-9ae8-eb10b25b7570",
+      "type": "Panel",
+      "nickname": "",
+      "values": {
+        "Description": "A panel for custom notes and text values",
+        "UserText": "Double click to edit panel content…"
+      },
+      "ports": [
+        {
+          "kind": "Container",
+          "index": null,
+          "name": "Panel",
+          "guid": "f8994934-4be1-49b1-9ae8-eb10b25b7570",
+          "sources": [
+            "46b8907e-6171-4b27-ab57-595ec896eac8"
+          ],
+          "expression": null,
+          "description": "A panel for custom notes and text values",
+          "upstream": [
+            {
+              "object_index": 16,
+              "port": "Number"
+            }
+          ]
+        }
+      ],
+      "scalars": [],
+      "clusters": []
+    },
+    {
+      "index": 24,
+      "guid": "382b511d-c75f-4791-8f26-43f73713fd2c",
+      "type": "C# Script",
+      "nickname": "Retraction Speed Index",
+      "values": {
+        "Description": "A C#.NET scriptable component",
+        "ScriptSource": "\n\n    List<double> index = new List<double>();\n    // List<double> rotation = new List<double>();\n\n    for(int i = 0; i < x.Count; i++){\n\n      if(x[i] == 0 || x[i] == 1 ){ // FIND ENTERING AND EXITTING\n\n        index.Add(i);\n      }\n\n    }\n\n    Index = index;\n\n"
+      },
+      "ports": [
+        {
+          "kind": "Container",
+          "index": null,
+          "name": "C# Script",
+          "guid": "382b511d-c75f-4791-8f26-43f73713fd2c",
+          "sources": [],
+          "expression": null,
+          "description": "A C#.NET scriptable component",
+          "upstream": []
+        },
+        {
+          "kind": "InputParam",
+          "index": "0",
+          "name": "x",
+          "guid": "3e593952-3e8e-4268-ae28-a10a4cfe6565",
+          "sources": [
+            "f8994934-4be1-49b1-9ae8-eb10b25b7570"
+          ],
+          "expression": null,
+          "description": "Script Variable x",
+          "upstream": [
+            {
+              "object_index": 23,
+              "port": "Panel"
+            }
+          ]
+        },
+        {
+          "kind": "OutputParam",
+          "index": "0",
+          "name": "out",
+          "guid": "259bb4c4-8138-44a7-a8f4-776caa8ed1af",
+          "sources": [],
+          "expression": null,
+          "description": "Print, Reflect and Error streams",
+          "upstream": []
+        },
+        {
+          "kind": "OutputParam",
+          "index": "1",
+          "name": "Index",
+          "guid": "9781a1df-12bb-4378-b8ff-7d1b6d8af63f",
+          "sources": [],
+          "expression": null,
+          "description": "Output parameter Index",
+          "upstream": []
+        }
+      ],
+      "scalars": [],
+      "clusters": []
+    },
+    {
+      "index": 25,
+      "guid": "7f6fa8d2-15ce-4a59-8b50-d8de52fcc0be",
+      "type": "Panel",
+      "nickname": "",
+      "values": {
+        "Description": "A panel for custom notes and text values",
+        "UserText": "Double click to edit panel content…"
+      },
+      "ports": [
+        {
+          "kind": "Container",
+          "index": null,
+          "name": "Panel",
+          "guid": "7f6fa8d2-15ce-4a59-8b50-d8de52fcc0be",
+          "sources": [
+            "9781a1df-12bb-4378-b8ff-7d1b6d8af63f"
+          ],
+          "expression": null,
+          "description": "A panel for custom notes and text values",
+          "upstream": [
+            {
+              "object_index": 24,
+              "port": "Index"
+            }
+          ]
+        }
+      ],
+      "scalars": [],
+      "clusters": []
+    },
+    {
+      "index": 26,
+      "guid": "efa9efe9-0cc6-4fdf-9265-0a4c8faedd4a",
+      "type": "Replace Items",
+      "nickname": "Replace",
+      "values": {
+        "Description": "Replace certain items in a list."
+      },
+      "ports": [
+        {
+          "kind": "Container",
+          "index": null,
+          "name": "Replace Items",
+          "guid": "efa9efe9-0cc6-4fdf-9265-0a4c8faedd4a",
+          "sources": [],
+          "expression": null,
+          "description": "Replace certain items in a list.",
+          "upstream": []
+        },
+        {
+          "kind": "param_input",
+          "index": "0",
+          "name": "List",
+          "guid": "2e103b34-5db0-4b61-a076-40605e6230b0",
+          "sources": [
+            "4416c0ec-7e06-4935-802e-cd0fbd3661a8"
+          ],
+          "expression": null,
+          "description": "List to modify",
+          "upstream": [
+            {
+              "object_index": 66,
+              "port": "Relay"
+            }
+          ]
+        },
+        {
+          "kind": "param_input",
+          "index": "1",
+          "name": "Item",
+          "guid": "3145b5f6-6f1c-46e0-ae58-fdb438a7992a",
+          "sources": [
+            "8184e399-84a2-439c-b4b3-c661f8026cc3"
+          ],
+          "expression": null,
+          "description": "Items to replace with. If no items are supplied, nulls will be inserted.",
+          "upstream": [
+            {
+              "object_index": 27,
+              "port": "Result"
+            }
+          ]
+        },
+        {
+          "kind": "param_input",
+          "index": "2",
+          "name": "Indices",
+          "guid": "25224791-38ad-4b5b-9747-423c0f4dfce0",
+          "sources": [
+            "107aeb49-4206-4fe5-a297-475846f9ba46"
+          ],
+          "expression": null,
+          "description": "Replacement index for each item",
+          "upstream": [
+            {
+              "object_index": 33,
+              "port": "Panel"
+            }
+          ]
+        },
+        {
+          "kind": "param_input",
+          "index": "3",
+          "name": "Wrap",
+          "guid": "b17f139f-5a34-4cf2-a844-03700dac2444",
+          "sources": [],
+          "expression": null,
+          "description": "If true, indices will be wrapped",
+          "upstream": []
+        },
+        {
+          "kind": "param_output",
+          "index": "0",
+          "name": "List",
+          "guid": "03600a17-e1c5-4d3e-b5fa-62945005ccf2",
+          "sources": [],
+          "expression": null,
+          "description": "List with replaced values",
+          "upstream": []
+        }
+      ],
+      "scalars": [],
+      "clusters": []
+    },
+    {
+      "index": 27,
+      "guid": "42b79622-3fc8-453d-8521-1f4656800b29",
+      "type": "Multiplication",
+      "nickname": "A×B",
+      "values": {
+        "Description": "Mathematical multiplication"
+      },
+      "ports": [
+        {
+          "kind": "Container",
+          "index": null,
+          "name": "Multiplication",
+          "guid": "42b79622-3fc8-453d-8521-1f4656800b29",
+          "sources": [],
+          "expression": null,
+          "description": "Mathematical multiplication",
+          "upstream": []
+        },
+        {
+          "kind": "InputParam",
+          "index": "0",
+          "name": "A",
+          "guid": "f5786c05-1202-4c2a-9386-5bf1eb7cddf7",
+          "sources": [
+            "a1c1e48c-4b0f-4027-b864-9ccc6beff462"
+          ],
+          "expression": null,
+          "description": "First item for multiplication",
+          "upstream": [
+            {
+              "object_index": 22,
+              "port": "Travel Speed"
+            }
+          ]
+        },
+        {
+          "kind": "InputParam",
+          "index": "1",
+          "name": "B",
+          "guid": "4a27f52c-5fde-4a15-9c69-91cbd4ef9d28",
+          "sources": [
+            "9567c562-43c1-4625-9572-597822b19eb5"
+          ],
+          "expression": null,
+          "description": "Second item for multiplication",
+          "upstream": [
+            {
+              "object_index": 36,
+              "port": "Result"
+            }
+          ]
+        },
+        {
+          "kind": "OutputParam",
+          "index": "0",
+          "name": "Result",
+          "guid": "8184e399-84a2-439c-b4b3-c661f8026cc3",
+          "sources": [],
+          "expression": null,
+          "description": "Result of multiplication",
+          "upstream": []
+        }
+      ],
+      "scalars": [],
+      "clusters": []
+    },
+    {
+      "index": 28,
+      "guid": "edbdf712-b781-4f6f-b9e2-d01603275a6f",
+      "type": "Travel Path Length",
+      "nickname": "Travel Path Length",
+      "values": {
+        "Description": "Contains a collection of floating point numbers"
+      },
+      "ports": [
+        {
+          "kind": "Container",
+          "index": null,
+          "name": "Travel Path Length",
+          "guid": "edbdf712-b781-4f6f-b9e2-d01603275a6f",
+          "sources": [],
+          "expression": null,
+          "description": "Contains a collection of floating point numbers",
+          "upstream": []
+        }
+      ],
+      "scalars": [],
+      "clusters": []
+    },
+    {
+      "index": 29,
+      "guid": "eee33485-0d0f-4445-8295-105b084dfb15",
+      "type": "Panel",
+      "nickname": "Travel Path Length",
+      "values": {
+        "Description": "A panel for custom notes and text values",
+        "UserText": "Double click to edit panel content…"
+      },
+      "ports": [
+        {
+          "kind": "Container",
+          "index": null,
+          "name": "Panel",
+          "guid": "eee33485-0d0f-4445-8295-105b084dfb15",
+          "sources": [
+            "f0167341-f7a8-4caf-a5f5-df41fb1def77"
+          ],
+          "expression": null,
+          "description": "A panel for custom notes and text values",
+          "upstream": [
+            {
+              "object_index": 30,
+              "port": "Number"
+            }
+          ]
+        }
+      ],
+      "scalars": [],
+      "clusters": []
+    },
+    {
+      "index": 30,
+      "guid": "f0167341-f7a8-4caf-a5f5-df41fb1def77",
+      "type": "Number",
+      "nickname": "Num",
+      "values": {
+        "Description": "Contains a collection of floating point numbers"
+      },
+      "ports": [
+        {
+          "kind": "Container",
+          "index": null,
+          "name": "Number",
+          "guid": "f0167341-f7a8-4caf-a5f5-df41fb1def77",
+          "sources": [
+            "edbdf712-b781-4f6f-b9e2-d01603275a6f"
+          ],
+          "expression": null,
+          "description": "Contains a collection of floating point numbers",
+          "upstream": [
+            {
+              "object_index": 28,
+              "port": "Travel Path Length"
+            }
+          ]
+        }
+      ],
+      "scalars": [],
+      "clusters": []
+    },
+    {
+      "index": 31,
+      "guid": "3bd78a60-bcfb-4a12-9fda-2cb49769d3f6",
+      "type": "Path Chaning Index",
+      "nickname": "Patch Chaingin Index",
+      "values": {
+        "Description": "Contains a collection of floating point numbers"
+      },
+      "ports": [
+        {
+          "kind": "Container",
+          "index": null,
+          "name": "Path Chaning Index",
+          "guid": "3bd78a60-bcfb-4a12-9fda-2cb49769d3f6",
+          "sources": [],
+          "expression": null,
+          "description": "Contains a collection of floating point numbers",
+          "upstream": []
+        }
+      ],
+      "scalars": [],
+      "clusters": []
+    },
+    {
+      "index": 32,
+      "guid": "7e49ec38-56dc-4049-9e59-cb6f60e26b83",
+      "type": "Number",
+      "nickname": "Num",
+      "values": {
+        "Description": "Contains a collection of floating point numbers"
+      },
+      "ports": [
+        {
+          "kind": "Container",
+          "index": null,
+          "name": "Number",
+          "guid": "7e49ec38-56dc-4049-9e59-cb6f60e26b83",
+          "sources": [
+            "3bd78a60-bcfb-4a12-9fda-2cb49769d3f6"
+          ],
+          "expression": null,
+          "description": "Contains a collection of floating point numbers",
+          "upstream": [
+            {
+              "object_index": 31,
+              "port": "Path Chaning Index"
+            }
+          ]
+        }
+      ],
+      "scalars": [],
+      "clusters": []
+    },
+    {
+      "index": 33,
+      "guid": "107aeb49-4206-4fe5-a297-475846f9ba46",
+      "type": "Panel",
+      "nickname": "Path Changing Index",
+      "values": {
+        "Description": "A panel for custom notes and text values",
+        "UserText": "Double click to edit panel content…"
+      },
+      "ports": [
+        {
+          "kind": "Container",
+          "index": null,
+          "name": "Panel",
+          "guid": "107aeb49-4206-4fe5-a297-475846f9ba46",
+          "sources": [
+            "7e49ec38-56dc-4049-9e59-cb6f60e26b83"
+          ],
+          "expression": null,
+          "description": "A panel for custom notes and text values",
+          "upstream": [
+            {
+              "object_index": 32,
+              "port": "Number"
+            }
+          ]
+        }
+      ],
+      "scalars": [],
+      "clusters": []
+    },
+    {
+      "index": 34,
+      "guid": "8140203f-ee1e-40af-9f9e-dde6361526c4",
+      "type": "List Item",
+      "nickname": "Item",
+      "values": {
+        "Description": "Retrieve a specific item from a list."
+      },
+      "ports": [
+        {
+          "kind": "Container",
+          "index": null,
+          "name": "List Item",
+          "guid": "8140203f-ee1e-40af-9f9e-dde6361526c4",
+          "sources": [],
+          "expression": null,
+          "description": "Retrieve a specific item from a list.",
+          "upstream": []
+        },
+        {
+          "kind": "InputParam",
+          "index": "0",
+          "name": "List",
+          "guid": "f8b872e3-17c9-4d81-9437-c3f45d75a132",
+          "sources": [
+            "930e8bd6-634e-431a-8b50-fd0f5d653e85"
+          ],
+          "expression": null,
+          "description": "Base list",
+          "upstream": [
+            {
+              "object_index": 7,
+              "port": "D"
+            }
+          ]
+        },
+        {
+          "kind": "InputParam",
+          "index": "1",
+          "name": "Index",
+          "guid": "4fe04c1a-4020-4887-acea-091574f0a863",
+          "sources": [
+            "107aeb49-4206-4fe5-a297-475846f9ba46"
+          ],
+          "expression": null,
+          "description": "Item index",
+          "upstream": [
+            {
+              "object_index": 33,
+              "port": "Panel"
+            }
+          ]
+        },
+        {
+          "kind": "InputParam",
+          "index": "2",
+          "name": "Wrap",
+          "guid": "c5206ba5-9ca5-4f36-ad2a-e07d7427cac4",
+          "sources": [],
+          "expression": null,
+          "description": "Wrap index to list bounds",
+          "upstream": []
+        },
+        {
+          "kind": "OutputParam",
+          "index": "0",
+          "name": "Item",
+          "guid": "ec17eec7-2c5d-4baf-a601-e8aa6c7c55be",
+          "sources": [],
+          "expression": null,
+          "description": "Item at {i'}",
+          "upstream": []
+        }
+      ],
+      "scalars": [],
+      "clusters": []
+    },
+    {
+      "index": 35,
+      "guid": "34c9a386-b00b-4a66-925f-cb94743ff300",
+      "type": "Panel",
+      "nickname": "Travel Path Euclidiean",
+      "values": {
+        "Description": "A panel for custom notes and text values",
+        "UserText": "Double click to edit panel content…"
+      },
+      "ports": [
+        {
+          "kind": "Container",
+          "index": null,
+          "name": "Panel",
+          "guid": "34c9a386-b00b-4a66-925f-cb94743ff300",
+          "sources": [
+            "ec17eec7-2c5d-4baf-a601-e8aa6c7c55be"
+          ],
+          "expression": null,
+          "description": "A panel for custom notes and text values",
+          "upstream": [
+            {
+              "object_index": 34,
+              "port": "Item"
+            }
+          ]
+        }
+      ],
+      "scalars": [],
+      "clusters": []
+    },
+    {
+      "index": 36,
+      "guid": "7ac516d0-8c31-4479-809b-2535ae4a5e74",
+      "type": "Division",
+      "nickname": "A/B",
+      "values": {
+        "Description": "Mathematical division"
+      },
+      "ports": [
+        {
+          "kind": "Container",
+          "index": null,
+          "name": "Division",
+          "guid": "7ac516d0-8c31-4479-809b-2535ae4a5e74",
+          "sources": [],
+          "expression": null,
+          "description": "Mathematical division",
+          "upstream": []
+        },
+        {
+          "kind": "param_input",
+          "index": "0",
+          "name": "A",
+          "guid": "0945861e-d499-42ec-aa4c-33ef38afd3d5",
+          "sources": [
+            "ec17eec7-2c5d-4baf-a601-e8aa6c7c55be"
+          ],
+          "expression": null,
+          "description": "Item to divide (dividend)",
+          "upstream": [
+            {
+              "object_index": 34,
+              "port": "Item"
+            }
+          ]
+        },
+        {
+          "kind": "param_input",
+          "index": "1",
+          "name": "B",
+          "guid": "2c01ec4b-f508-47e2-8e19-67bb5ddc2fe7",
+          "sources": [
+            "107aeb49-4206-4fe5-a297-475846f9ba46"
+          ],
+          "expression": null,
+          "description": "Item to divide with (divisor)",
+          "upstream": [
+            {
+              "object_index": 33,
+              "port": "Panel"
+            }
+          ]
+        },
+        {
+          "kind": "param_output",
+          "index": "0",
+          "name": "Result",
+          "guid": "9567c562-43c1-4625-9572-597822b19eb5",
+          "sources": [],
+          "expression": null,
+          "description": "The result of the Division",
+          "upstream": []
+        }
+      ],
+      "scalars": [],
+      "clusters": []
+    },
+    {
+      "index": 37,
+      "guid": "5f500304-787e-4fdb-8c17-a4b294d79e6a",
+      "type": "Panel",
+      "nickname": "",
+      "values": {
+        "Description": "A panel for custom notes and text values",
+        "UserText": "Double click to edit panel content…"
+      },
+      "ports": [
+        {
+          "kind": "Container",
+          "index": null,
+          "name": "Panel",
+          "guid": "5f500304-787e-4fdb-8c17-a4b294d79e6a",
+          "sources": [
+            "9567c562-43c1-4625-9572-597822b19eb5"
+          ],
+          "expression": null,
+          "description": "A panel for custom notes and text values",
+          "upstream": [
+            {
+              "object_index": 36,
+              "port": "Result"
+            }
+          ]
+        }
+      ],
+      "scalars": [],
+      "clusters": []
+    },
+    {
+      "index": 38,
+      "guid": "44666213-b314-484f-98ad-5a88cfaa9010",
+      "type": "Panel",
+      "nickname": "",
+      "values": {
+        "Description": "A panel for custom notes and text values",
+        "UserText": "Double click to edit panel content…"
+      },
+      "ports": [
+        {
+          "kind": "Container",
+          "index": null,
+          "name": "Panel",
+          "guid": "44666213-b314-484f-98ad-5a88cfaa9010",
+          "sources": [
+            "4a6b792d-16b4-4cfc-98d7-98fd01cdebca"
+          ],
+          "expression": null,
+          "description": "A panel for custom notes and text values",
+          "upstream": [
+            {
+              "object_index": 19,
+              "port": "Af"
+            }
+          ]
+        }
+      ],
+      "scalars": [],
+      "clusters": []
+    },
+    {
+      "index": 39,
+      "guid": "ae2ca064-bb37-48a3-90b4-29f8829a3621",
+      "type": "C# Script",
+      "nickname": "MIN/MAX index",
+      "values": {
+        "AdditionalSource": "\n",
+        "Description": "A C#.NET scriptable component",
+        "ScriptSource": "\n\n\n\n    for (int j = 0; j < x.Count; j++){\n      for (int k = 0; k < x.Count; k++){\n\n        bool res = Double.IsNaN(x[j]);\n        if (res){\n          x.Remove(x[j]);\n        }\n\n        else if (x[k] == 0){\n          x.Remove(x[k]);\n        }\n      }\n    }\n\n    double maxValue = x.Max();\n    double minValue = x.Min();\n    double minIndex = x.ToList().IndexOf(minValue);\n\n\n    A = maxValue;\n    i = minIndex;\n    B = minValue;\n"
+      },
+      "ports": [
+        {
+          "kind": "Container",
+          "index": null,
+          "name": "C# Script",
+          "guid": "ae2ca064-bb37-48a3-90b4-29f8829a3621",
+          "sources": [],
+          "expression": null,
+          "description": "A C#.NET scriptable component",
+          "upstream": []
+        },
+        {
+          "kind": "InputParam",
+          "index": "0",
+          "name": "x",
+          "guid": "3072fab4-1cc7-4ac6-8da2-539e86270d9f",
+          "sources": [
+            "4a6b792d-16b4-4cfc-98d7-98fd01cdebca"
+          ],
+          "expression": null,
+          "description": "Script Variable x",
+          "upstream": [
+            {
+              "object_index": 19,
+              "port": "Af"
+            }
+          ]
+        },
+        {
+          "kind": "OutputParam",
+          "index": "0",
+          "name": "out",
+          "guid": "cd92a936-f69f-48c1-9333-7e606508f5c7",
+          "sources": [],
+          "expression": null,
+          "description": "Print, Reflect and Error streams",
+          "upstream": []
+        },
+        {
+          "kind": "OutputParam",
+          "index": "1",
+          "name": "A",
+          "guid": "d07d77f7-8e80-4cac-bab5-e7b748c7c985",
+          "sources": [],
+          "expression": null,
+          "description": "Output parameter A",
+          "upstream": []
+        },
+        {
+          "kind": "OutputParam",
+          "index": "2",
+          "name": "i",
+          "guid": "49640bed-4460-4299-827f-5ae3d3e29125",
+          "sources": [],
+          "expression": null,
+          "description": "Output parameter i",
+          "upstream": []
+        },
+        {
+          "kind": "OutputParam",
+          "index": "3",
+          "name": "B",
+          "guid": "5d79ea35-fc60-4bab-a9bd-6d7478751652",
+          "sources": [],
+          "expression": null,
+          "description": "Output parameter B",
+          "upstream": []
+        }
+      ],
+      "scalars": [],
+      "clusters": []
+    },
+    {
+      "index": 40,
+      "guid": "c09ae62b-bd55-4a1d-b304-0c97d7760830",
+      "type": "Panel",
+      "nickname": "Max Value",
+      "values": {
+        "Description": "A panel for custom notes and text values",
+        "UserText": "Double click to edit panel content…"
+      },
+      "ports": [
+        {
+          "kind": "Container",
+          "index": null,
+          "name": "Panel",
+          "guid": "c09ae62b-bd55-4a1d-b304-0c97d7760830",
+          "sources": [
+            "d07d77f7-8e80-4cac-bab5-e7b748c7c985"
+          ],
+          "expression": null,
+          "description": "A panel for custom notes and text values",
+          "upstream": [
+            {
+              "object_index": 39,
+              "port": "A"
+            }
+          ]
+        }
+      ],
+      "scalars": [],
+      "clusters": []
+    },
+    {
+      "index": 41,
+      "guid": "dbb02e91-ac0d-4626-9e84-e85e99dd9b16",
+      "type": "Panel",
+      "nickname": "Min Value",
+      "values": {
+        "Description": "A panel for custom notes and text values",
+        "UserText": "Double click to edit panel content…"
+      },
+      "ports": [
+        {
+          "kind": "Container",
+          "index": null,
+          "name": "Panel",
+          "guid": "dbb02e91-ac0d-4626-9e84-e85e99dd9b16",
+          "sources": [
+            "5d79ea35-fc60-4bab-a9bd-6d7478751652"
+          ],
+          "expression": null,
+          "description": "A panel for custom notes and text values",
+          "upstream": [
+            {
+              "object_index": 39,
+              "port": "B"
+            }
+          ]
+        }
+      ],
+      "scalars": [],
+      "clusters": []
+    },
+    {
+      "index": 42,
+      "guid": "d81a7dab-53b4-4d15-8b76-6fca70ee747a",
+      "type": "Scribble",
+      "nickname": "Scribble",
+      "values": {
+        "Description": "A quick note"
+      },
+      "ports": [
+        {
+          "kind": "Container",
+          "index": null,
+          "name": "Scribble",
+          "guid": "d81a7dab-53b4-4d15-8b76-6fca70ee747a",
+          "sources": [],
+          "expression": null,
+          "description": "A quick note",
+          "upstream": []
+        }
+      ],
+      "scalars": [],
+      "clusters": []
+    },
+    {
+      "index": 43,
+      "guid": "e91e6330-a333-4bb7-be76-d185dfb62c95",
+      "type": "Panel",
+      "nickname": "Index of Min Value",
+      "values": {
+        "Description": "A panel for custom notes and text values",
+        "UserText": "Double click to edit panel content…"
+      },
+      "ports": [
+        {
+          "kind": "Container",
+          "index": null,
+          "name": "Panel",
+          "guid": "e91e6330-a333-4bb7-be76-d185dfb62c95",
+          "sources": [
+            "49640bed-4460-4299-827f-5ae3d3e29125"
+          ],
+          "expression": null,
+          "description": "A panel for custom notes and text values",
+          "upstream": [
+            {
+              "object_index": 39,
+              "port": "i"
+            }
+          ]
+        }
+      ],
+      "scalars": [],
+      "clusters": []
+    },
+    {
+      "index": 44,
+      "guid": "e49d7592-f4a2-4b6e-8b6d-280552e7fdef",
+      "type": "Group",
+      "nickname": "",
+      "values": {
+        "Description": "A group of Grasshopper objects"
+      },
+      "ports": [
+        {
+          "kind": "Container",
+          "index": null,
+          "name": "Group",
+          "guid": "e49d7592-f4a2-4b6e-8b6d-280552e7fdef",
+          "sources": [],
+          "expression": null,
+          "description": "A group of Grasshopper objects",
+          "upstream": []
+        }
+      ],
+      "scalars": [],
+      "clusters": []
+    },
+    {
+      "index": 45,
+      "guid": "a60016e5-08d8-475a-ab08-5da5c95517da",
+      "type": "C# Script",
+      "nickname": "MIN/MAX index",
+      "values": {
+        "AdditionalSource": "\n",
+        "Description": "A C#.NET scriptable component",
+        "ScriptSource": "\n\n\n\n    for (int j = 0; j < x.Count; j++){\n      for (int k = 0; k < x.Count; k++){\n\n        bool res = Double.IsNaN(x[j]);\n        if (res){\n          x.Remove(x[j]);\n        }\n\n        else if (x[k] == 0){\n          x.Remove(x[k]);\n        }\n      }\n    }\n\n    double maxValue = x.Max();\n    double minValue = x.Min();\n    double minIndex = x.ToList().IndexOf(minValue);\n\n\n    A = maxValue;\n    i = minIndex;\n    B = minValue;\n"
+      },
+      "ports": [
+        {
+          "kind": "Container",
+          "index": null,
+          "name": "C# Script",
+          "guid": "a60016e5-08d8-475a-ab08-5da5c95517da",
+          "sources": [],
+          "expression": null,
+          "description": "A C#.NET scriptable component",
+          "upstream": []
+        },
+        {
+          "kind": "InputParam",
+          "index": "0",
+          "name": "x",
+          "guid": "99b89e28-f577-428c-ace6-de55e16b1b8e",
+          "sources": [
+            "1e9a435c-f3d2-4146-bdbc-d3f24ca37760"
+          ],
+          "expression": null,
+          "description": "Script Variable x",
+          "upstream": [
+            {
+              "object_index": 19,
+              "port": "Cf"
+            }
+          ]
+        },
+        {
+          "kind": "OutputParam",
+          "index": "0",
+          "name": "out",
+          "guid": "b6c90dc8-71af-404b-8c36-fd31851c4403",
+          "sources": [],
+          "expression": null,
+          "description": "Print, Reflect and Error streams",
+          "upstream": []
+        },
+        {
+          "kind": "OutputParam",
+          "index": "1",
+          "name": "A",
+          "guid": "32217991-5e67-4bf0-8ca3-0e51cee3107a",
+          "sources": [],
+          "expression": null,
+          "description": "Output parameter A",
+          "upstream": []
+        },
+        {
+          "kind": "OutputParam",
+          "index": "2",
+          "name": "i",
+          "guid": "7606d4f9-48bc-4158-aa24-d480b432d469",
+          "sources": [],
+          "expression": null,
+          "description": "Output parameter i",
+          "upstream": []
+        },
+        {
+          "kind": "OutputParam",
+          "index": "3",
+          "name": "B",
+          "guid": "dbb0dfc4-3cb5-4565-baf1-324c141e000c",
+          "sources": [],
+          "expression": null,
+          "description": "Output parameter B",
+          "upstream": []
+        }
+      ],
+      "scalars": [],
+      "clusters": []
+    },
+    {
+      "index": 46,
+      "guid": "e7d31c51-1103-4860-aa8b-137ede351910",
+      "type": "Panel",
+      "nickname": "Max Value",
+      "values": {
+        "Description": "A panel for custom notes and text values",
+        "UserText": "Double click to edit panel content…"
+      },
+      "ports": [
+        {
+          "kind": "Container",
+          "index": null,
+          "name": "Panel",
+          "guid": "e7d31c51-1103-4860-aa8b-137ede351910",
+          "sources": [
+            "32217991-5e67-4bf0-8ca3-0e51cee3107a"
+          ],
+          "expression": null,
+          "description": "A panel for custom notes and text values",
+          "upstream": [
+            {
+              "object_index": 45,
+              "port": "A"
+            }
+          ]
+        }
+      ],
+      "scalars": [],
+      "clusters": []
+    },
+    {
+      "index": 47,
+      "guid": "9fc8df44-132f-454c-954c-f10cc32a6747",
+      "type": "Panel",
+      "nickname": "Min Value",
+      "values": {
+        "Description": "A panel for custom notes and text values",
+        "UserText": "Double click to edit panel content…"
+      },
+      "ports": [
+        {
+          "kind": "Container",
+          "index": null,
+          "name": "Panel",
+          "guid": "9fc8df44-132f-454c-954c-f10cc32a6747",
+          "sources": [
+            "dbb0dfc4-3cb5-4565-baf1-324c141e000c"
+          ],
+          "expression": null,
+          "description": "A panel for custom notes and text values",
+          "upstream": [
+            {
+              "object_index": 45,
+              "port": "B"
+            }
+          ]
+        }
+      ],
+      "scalars": [],
+      "clusters": []
+    },
+    {
+      "index": 48,
+      "guid": "3cabdd62-738a-4805-b670-248ee6665893",
+      "type": "Panel",
+      "nickname": "Index of Min Value",
+      "values": {
+        "Description": "A panel for custom notes and text values",
+        "UserText": "Double click to edit panel content…"
+      },
+      "ports": [
+        {
+          "kind": "Container",
+          "index": null,
+          "name": "Panel",
+          "guid": "3cabdd62-738a-4805-b670-248ee6665893",
+          "sources": [
+            "7606d4f9-48bc-4158-aa24-d480b432d469"
+          ],
+          "expression": null,
+          "description": "A panel for custom notes and text values",
+          "upstream": [
+            {
+              "object_index": 45,
+              "port": "i"
+            }
+          ]
+        }
+      ],
+      "scalars": [],
+      "clusters": []
+    },
+    {
+      "index": 49,
+      "guid": "d89fbb26-f825-4188-92b5-1ccc73c8f244",
+      "type": "Group",
+      "nickname": "",
+      "values": {
+        "Description": "A group of Grasshopper objects"
+      },
+      "ports": [
+        {
+          "kind": "Container",
+          "index": null,
+          "name": "Group",
+          "guid": "d89fbb26-f825-4188-92b5-1ccc73c8f244",
+          "sources": [],
+          "expression": null,
+          "description": "A group of Grasshopper objects",
+          "upstream": []
+        }
+      ],
+      "scalars": [],
+      "clusters": []
+    },
+    {
+      "index": 50,
+      "guid": "e6f851d0-4b6a-41f9-a29a-3ef6a217b19d",
+      "type": "C# Script",
+      "nickname": "MIN/MAX index",
+      "values": {
+        "AdditionalSource": "\n",
+        "Description": "A C#.NET scriptable component",
+        "ScriptSource": "\n\n\n\n    for (int j = 0; j < x.Count; j++){\n      for (int k = 0; k < x.Count; k++){\n\n        bool res = Double.IsNaN(x[j]);\n        if (res){\n          x.Remove(x[j]);\n        }\n\n        else if (x[k] == 0){\n          x.Remove(x[k]);\n        }\n      }\n    }\n\n    double maxValue = x.Max();\n    double minValue = x.Min();\n    double minIndex = x.ToList().IndexOf(minValue);\n\n\n    A = maxValue;\n    i = minIndex;\n    B = minValue;\n"
+      },
+      "ports": [
+        {
+          "kind": "Container",
+          "index": null,
+          "name": "C# Script",
+          "guid": "e6f851d0-4b6a-41f9-a29a-3ef6a217b19d",
+          "sources": [],
+          "expression": null,
+          "description": "A C#.NET scriptable component",
+          "upstream": []
+        },
+        {
+          "kind": "InputParam",
+          "index": "0",
+          "name": "x",
+          "guid": "e6c7fa1b-5f36-4ab2-a907-ab1d1d7e2baa",
+          "sources": [
+            "1d54d72d-e07d-447b-a3fb-9ad7aec42de4"
+          ],
+          "expression": null,
+          "description": "Script Variable x",
+          "upstream": [
+            {
+              "object_index": 19,
+              "port": "Xf"
+            }
+          ]
+        },
+        {
+          "kind": "OutputParam",
+          "index": "0",
+          "name": "out",
+          "guid": "fc673b09-c912-4fd5-b616-a5a8162e2580",
+          "sources": [],
+          "expression": null,
+          "description": "Print, Reflect and Error streams",
+          "upstream": []
+        },
+        {
+          "kind": "OutputParam",
+          "index": "1",
+          "name": "A",
+          "guid": "7484f025-e8b7-4a58-9416-549b3fefd3ff",
+          "sources": [],
+          "expression": null,
+          "description": "Output parameter A",
+          "upstream": []
+        },
+        {
+          "kind": "OutputParam",
+          "index": "2",
+          "name": "i",
+          "guid": "cb90b951-3b35-45b5-91a4-b019fa6fc741",
+          "sources": [],
+          "expression": null,
+          "description": "Output parameter i",
+          "upstream": []
+        },
+        {
+          "kind": "OutputParam",
+          "index": "3",
+          "name": "B",
+          "guid": "52029ec3-d553-4659-b865-cd42c114ee96",
+          "sources": [],
+          "expression": null,
+          "description": "Output parameter B",
+          "upstream": []
+        }
+      ],
+      "scalars": [],
+      "clusters": []
+    },
+    {
+      "index": 51,
+      "guid": "e76cc63a-886c-4e3f-bf8c-6c62657a42d2",
+      "type": "Panel",
+      "nickname": "Max Value",
+      "values": {
+        "Description": "A panel for custom notes and text values",
+        "UserText": "Double click to edit panel content…"
+      },
+      "ports": [
+        {
+          "kind": "Container",
+          "index": null,
+          "name": "Panel",
+          "guid": "e76cc63a-886c-4e3f-bf8c-6c62657a42d2",
+          "sources": [
+            "7484f025-e8b7-4a58-9416-549b3fefd3ff"
+          ],
+          "expression": null,
+          "description": "A panel for custom notes and text values",
+          "upstream": [
+            {
+              "object_index": 50,
+              "port": "A"
+            }
+          ]
+        }
+      ],
+      "scalars": [],
+      "clusters": []
+    },
+    {
+      "index": 52,
+      "guid": "f6bc4db6-733f-4bf6-9437-4a5e70b10685",
+      "type": "Panel",
+      "nickname": "Min Value",
+      "values": {
+        "Description": "A panel for custom notes and text values",
+        "UserText": "Double click to edit panel content…"
+      },
+      "ports": [
+        {
+          "kind": "Container",
+          "index": null,
+          "name": "Panel",
+          "guid": "f6bc4db6-733f-4bf6-9437-4a5e70b10685",
+          "sources": [
+            "52029ec3-d553-4659-b865-cd42c114ee96"
+          ],
+          "expression": null,
+          "description": "A panel for custom notes and text values",
+          "upstream": [
+            {
+              "object_index": 50,
+              "port": "B"
+            }
+          ]
+        }
+      ],
+      "scalars": [],
+      "clusters": []
+    },
+    {
+      "index": 53,
+      "guid": "6d72bb41-9dfb-4c66-b296-91b3342e9194",
+      "type": "Panel",
+      "nickname": "Index of Min Value",
+      "values": {
+        "Description": "A panel for custom notes and text values",
+        "UserText": "Double click to edit panel content…"
+      },
+      "ports": [
+        {
+          "kind": "Container",
+          "index": null,
+          "name": "Panel",
+          "guid": "6d72bb41-9dfb-4c66-b296-91b3342e9194",
+          "sources": [
+            "cb90b951-3b35-45b5-91a4-b019fa6fc741"
+          ],
+          "expression": null,
+          "description": "A panel for custom notes and text values",
+          "upstream": [
+            {
+              "object_index": 50,
+              "port": "i"
+            }
+          ]
+        }
+      ],
+      "scalars": [],
+      "clusters": []
+    },
+    {
+      "index": 54,
+      "guid": "9593b7f3-147f-4196-8c16-f807da0e026f",
+      "type": "Group",
+      "nickname": "",
+      "values": {
+        "Description": "A group of Grasshopper objects"
+      },
+      "ports": [
+        {
+          "kind": "Container",
+          "index": null,
+          "name": "Group",
+          "guid": "9593b7f3-147f-4196-8c16-f807da0e026f",
+          "sources": [],
+          "expression": null,
+          "description": "A group of Grasshopper objects",
+          "upstream": []
+        }
+      ],
+      "scalars": [],
+      "clusters": []
+    },
+    {
+      "index": 55,
+      "guid": "d5ecad2d-e478-4c8c-9661-bda9a46c06c3",
+      "type": "C# Script",
+      "nickname": "MIN/MAX index",
+      "values": {
+        "AdditionalSource": "\n",
+        "Description": "A C#.NET scriptable component",
+        "ScriptSource": "\n\n\n\n    for (int j = 0; j < x.Count; j++){\n      for (int k = 0; k < x.Count; k++){\n\n        bool res = Double.IsNaN(x[j]);\n        if (res){\n          x.Remove(x[j]);\n        }\n\n        else if (x[k] == 0){\n          x.Remove(x[k]);\n        }\n      }\n    }\n\n    double maxValue = x.Max();\n    double minValue = x.Min();\n    double minIndex = x.ToList().IndexOf(minValue);\n\n\n    A = maxValue;\n    i = minIndex;\n    B = minValue;\n"
+      },
+      "ports": [
+        {
+          "kind": "Container",
+          "index": null,
+          "name": "C# Script",
+          "guid": "d5ecad2d-e478-4c8c-9661-bda9a46c06c3",
+          "sources": [],
+          "expression": null,
+          "description": "A C#.NET scriptable component",
+          "upstream": []
+        },
+        {
+          "kind": "InputParam",
+          "index": "0",
+          "name": "x",
+          "guid": "3d754115-c446-4658-844f-dca05f5e9b57",
+          "sources": [
+            "5ee75759-ed20-40df-84f6-4e16d24b33e9"
+          ],
+          "expression": null,
+          "description": "Script Variable x",
+          "upstream": [
+            {
+              "object_index": 19,
+              "port": "Yf"
+            }
+          ]
+        },
+        {
+          "kind": "OutputParam",
+          "index": "0",
+          "name": "out",
+          "guid": "042201ca-9ca2-4e17-90d7-d82d965d22ab",
+          "sources": [],
+          "expression": null,
+          "description": "Print, Reflect and Error streams",
+          "upstream": []
+        },
+        {
+          "kind": "OutputParam",
+          "index": "1",
+          "name": "A",
+          "guid": "eb2624b6-39b4-49a5-8b94-8defd9ae63c5",
+          "sources": [],
+          "expression": null,
+          "description": "Output parameter A",
+          "upstream": []
+        },
+        {
+          "kind": "OutputParam",
+          "index": "2",
+          "name": "i",
+          "guid": "11950626-2004-4ffa-b16c-291d785f0e29",
+          "sources": [],
+          "expression": null,
+          "description": "Output parameter i",
+          "upstream": []
+        },
+        {
+          "kind": "OutputParam",
+          "index": "3",
+          "name": "B",
+          "guid": "cd7bc1a6-a7f3-4031-a6b9-4877ddc5708f",
+          "sources": [],
+          "expression": null,
+          "description": "Output parameter B",
+          "upstream": []
+        }
+      ],
+      "scalars": [],
+      "clusters": []
+    },
+    {
+      "index": 56,
+      "guid": "bd091197-a679-45dd-9e43-c7a3b725ebc0",
+      "type": "Panel",
+      "nickname": "Max Value",
+      "values": {
+        "Description": "A panel for custom notes and text values",
+        "UserText": "Double click to edit panel content…"
+      },
+      "ports": [
+        {
+          "kind": "Container",
+          "index": null,
+          "name": "Panel",
+          "guid": "bd091197-a679-45dd-9e43-c7a3b725ebc0",
+          "sources": [
+            "eb2624b6-39b4-49a5-8b94-8defd9ae63c5"
+          ],
+          "expression": null,
+          "description": "A panel for custom notes and text values",
+          "upstream": [
+            {
+              "object_index": 55,
+              "port": "A"
+            }
+          ]
+        }
+      ],
+      "scalars": [],
+      "clusters": []
+    },
+    {
+      "index": 57,
+      "guid": "47550872-dea3-4979-adf6-3d6083a1eb75",
+      "type": "Panel",
+      "nickname": "Min Value",
+      "values": {
+        "Description": "A panel for custom notes and text values",
+        "UserText": "Double click to edit panel content…"
+      },
+      "ports": [
+        {
+          "kind": "Container",
+          "index": null,
+          "name": "Panel",
+          "guid": "47550872-dea3-4979-adf6-3d6083a1eb75",
+          "sources": [
+            "cd7bc1a6-a7f3-4031-a6b9-4877ddc5708f"
+          ],
+          "expression": null,
+          "description": "A panel for custom notes and text values",
+          "upstream": [
+            {
+              "object_index": 55,
+              "port": "B"
+            }
+          ]
+        }
+      ],
+      "scalars": [],
+      "clusters": []
+    },
+    {
+      "index": 58,
+      "guid": "f3395e34-db50-4d75-82a9-668ba401d797",
+      "type": "Panel",
+      "nickname": "Index of Min Value",
+      "values": {
+        "Description": "A panel for custom notes and text values",
+        "UserText": "Double click to edit panel content…"
+      },
+      "ports": [
+        {
+          "kind": "Container",
+          "index": null,
+          "name": "Panel",
+          "guid": "f3395e34-db50-4d75-82a9-668ba401d797",
+          "sources": [
+            "11950626-2004-4ffa-b16c-291d785f0e29"
+          ],
+          "expression": null,
+          "description": "A panel for custom notes and text values",
+          "upstream": [
+            {
+              "object_index": 55,
+              "port": "i"
+            }
+          ]
+        }
+      ],
+      "scalars": [],
+      "clusters": []
+    },
+    {
+      "index": 59,
+      "guid": "622cf13a-5b0a-4bf8-8567-7866752bd875",
+      "type": "Group",
+      "nickname": "",
+      "values": {
+        "Description": "A group of Grasshopper objects"
+      },
+      "ports": [
+        {
+          "kind": "Container",
+          "index": null,
+          "name": "Group",
+          "guid": "622cf13a-5b0a-4bf8-8567-7866752bd875",
+          "sources": [],
+          "expression": null,
+          "description": "A group of Grasshopper objects",
+          "upstream": []
+        }
+      ],
+      "scalars": [],
+      "clusters": []
+    },
+    {
+      "index": 60,
+      "guid": "053b7720-42e0-4a80-94bf-cc359f790909",
+      "type": "C# Script",
+      "nickname": "MIN/MAX index",
+      "values": {
+        "AdditionalSource": "\n",
+        "Description": "A C#.NET scriptable component",
+        "ScriptSource": "\n\n\n\n    for (int j = 0; j < x.Count; j++){\n      for (int k = 0; k < x.Count; k++){\n\n        bool res = Double.IsNaN(x[j]);\n        if (res){\n          x.Remove(x[j]);\n        }\n\n        else if (x[k] == 0){\n          x.Remove(x[k]);\n        }\n      }\n    }\n\n    double maxValue = x.Max();\n    double minValue = x.Min();\n    double minIndex = x.ToList().IndexOf(minValue);\n\n\n    A = maxValue;\n    i = minIndex;\n    B = minValue;\n"
+      },
+      "ports": [
+        {
+          "kind": "Container",
+          "index": null,
+          "name": "C# Script",
+          "guid": "053b7720-42e0-4a80-94bf-cc359f790909",
+          "sources": [],
+          "expression": null,
+          "description": "A C#.NET scriptable component",
+          "upstream": []
+        },
+        {
+          "kind": "InputParam",
+          "index": "0",
+          "name": "x",
+          "guid": "b607a86c-761f-44fa-ba00-2e63fd9c4839",
+          "sources": [
+            "81cbc9b8-9892-4029-99b9-211b5f8ed045"
+          ],
+          "expression": null,
+          "description": "Script Variable x",
+          "upstream": [
+            {
+              "object_index": 19,
+              "port": "Zf"
+            }
+          ]
+        },
+        {
+          "kind": "OutputParam",
+          "index": "0",
+          "name": "out",
+          "guid": "93d7d7cc-348f-4058-8860-2516f2a89a7e",
+          "sources": [],
+          "expression": null,
+          "description": "Print, Reflect and Error streams",
+          "upstream": []
+        },
+        {
+          "kind": "OutputParam",
+          "index": "1",
+          "name": "A",
+          "guid": "9262bab1-c572-4b72-8c59-8b54636edbd9",
+          "sources": [],
+          "expression": null,
+          "description": "Output parameter A",
+          "upstream": []
+        },
+        {
+          "kind": "OutputParam",
+          "index": "2",
+          "name": "i",
+          "guid": "748c8d9b-4934-47be-a4ca-e0fcb049eb63",
+          "sources": [],
+          "expression": null,
+          "description": "Output parameter i",
+          "upstream": []
+        },
+        {
+          "kind": "OutputParam",
+          "index": "3",
+          "name": "B",
+          "guid": "b683c52f-db61-4353-a1eb-294acfb31b93",
+          "sources": [],
+          "expression": null,
+          "description": "Output parameter B",
+          "upstream": []
+        }
+      ],
+      "scalars": [],
+      "clusters": []
+    },
+    {
+      "index": 61,
+      "guid": "372ba100-9c15-4070-bfb5-2ccdf691cf89",
+      "type": "Panel",
+      "nickname": "Max Value",
+      "values": {
+        "Description": "A panel for custom notes and text values",
+        "UserText": "Double click to edit panel content…"
+      },
+      "ports": [
+        {
+          "kind": "Container",
+          "index": null,
+          "name": "Panel",
+          "guid": "372ba100-9c15-4070-bfb5-2ccdf691cf89",
+          "sources": [
+            "9262bab1-c572-4b72-8c59-8b54636edbd9"
+          ],
+          "expression": null,
+          "description": "A panel for custom notes and text values",
+          "upstream": [
+            {
+              "object_index": 60,
+              "port": "A"
+            }
+          ]
+        }
+      ],
+      "scalars": [],
+      "clusters": []
+    },
+    {
+      "index": 62,
+      "guid": "f5ab31e1-5079-4679-b3fe-17b0e054c697",
+      "type": "Panel",
+      "nickname": "Min Value",
+      "values": {
+        "Description": "A panel for custom notes and text values",
+        "UserText": "Double click to edit panel content…"
+      },
+      "ports": [
+        {
+          "kind": "Container",
+          "index": null,
+          "name": "Panel",
+          "guid": "f5ab31e1-5079-4679-b3fe-17b0e054c697",
+          "sources": [
+            "b683c52f-db61-4353-a1eb-294acfb31b93"
+          ],
+          "expression": null,
+          "description": "A panel for custom notes and text values",
+          "upstream": [
+            {
+              "object_index": 60,
+              "port": "B"
+            }
+          ]
+        }
+      ],
+      "scalars": [],
+      "clusters": []
+    },
+    {
+      "index": 63,
+      "guid": "5fd3a585-a9db-429b-babe-6fce32a28131",
+      "type": "Panel",
+      "nickname": "Index of Min Value",
+      "values": {
+        "Description": "A panel for custom notes and text values",
+        "UserText": "Double click to edit panel content…"
+      },
+      "ports": [
+        {
+          "kind": "Container",
+          "index": null,
+          "name": "Panel",
+          "guid": "5fd3a585-a9db-429b-babe-6fce32a28131",
+          "sources": [
+            "748c8d9b-4934-47be-a4ca-e0fcb049eb63"
+          ],
+          "expression": null,
+          "description": "A panel for custom notes and text values",
+          "upstream": [
+            {
+              "object_index": 60,
+              "port": "i"
+            }
+          ]
+        }
+      ],
+      "scalars": [],
+      "clusters": []
+    },
+    {
+      "index": 64,
+      "guid": "26c9db77-a083-4b56-8cae-380bcd9c49b9",
+      "type": "Replace Items",
+      "nickname": "Replace",
+      "values": {
+        "Description": "Replace certain items in a list."
+      },
+      "ports": [
+        {
+          "kind": "Container",
+          "index": null,
+          "name": "Replace Items",
+          "guid": "26c9db77-a083-4b56-8cae-380bcd9c49b9",
+          "sources": [],
+          "expression": null,
+          "description": "Replace certain items in a list.",
+          "upstream": []
+        },
+        {
+          "kind": "param_input",
+          "index": "0",
+          "name": "List",
+          "guid": "a56e3797-ff83-44fd-a72d-d3b966d8112e",
+          "sources": [
+            "03600a17-e1c5-4d3e-b5fa-62945005ccf2"
+          ],
+          "expression": null,
+          "description": "List to modify",
+          "upstream": [
+            {
+              "object_index": 26,
+              "port": "List"
+            }
+          ]
+        },
+        {
+          "kind": "param_input",
+          "index": "1",
+          "name": "Item",
+          "guid": "60bcdfb5-e59f-4088-8ea2-4e5fbce87260",
+          "sources": [
+            "a1c1e48c-4b0f-4027-b864-9ccc6beff462"
+          ],
+          "expression": null,
+          "description": "Items to replace with. If no items are supplied, nulls will be inserted.",
+          "upstream": [
+            {
+              "object_index": 22,
+              "port": "Travel Speed"
+            }
+          ]
+        },
+        {
+          "kind": "param_input",
+          "index": "2",
+          "name": "Indices",
+          "guid": "0a08ced3-c23c-4daf-832a-50a9d530c907",
+          "sources": [
+            "7f6fa8d2-15ce-4a59-8b50-d8de52fcc0be"
+          ],
+          "expression": null,
+          "description": "Replacement index for each item",
+          "upstream": [
+            {
+              "object_index": 25,
+              "port": "Panel"
+            }
+          ]
+        },
+        {
+          "kind": "param_input",
+          "index": "3",
+          "name": "Wrap",
+          "guid": "5fa86f6c-cb75-41b6-a6d6-24fcfbd5ce4e",
+          "sources": [],
+          "expression": null,
+          "description": "If true, indices will be wrapped",
+          "upstream": []
+        },
+        {
+          "kind": "param_output",
+          "index": "0",
+          "name": "List",
+          "guid": "6e4e946b-683a-4c21-9afb-b79d1de72d6d",
+          "sources": [],
+          "expression": null,
+          "description": "List with replaced values",
+          "upstream": []
+        }
+      ],
+      "scalars": [],
+      "clusters": []
+    },
+    {
+      "index": 65,
+      "guid": "132f2e4c-0d49-4c43-aa92-4efb9449f69b",
+      "type": "Panel",
+      "nickname": "",
+      "values": {
+        "Description": "A panel for custom notes and text values",
+        "UserText": "Double click to edit panel content…"
+      },
+      "ports": [
+        {
+          "kind": "Container",
+          "index": null,
+          "name": "Panel",
+          "guid": "132f2e4c-0d49-4c43-aa92-4efb9449f69b",
+          "sources": [
+            "6e4e946b-683a-4c21-9afb-b79d1de72d6d"
+          ],
+          "expression": null,
+          "description": "A panel for custom notes and text values",
+          "upstream": [
+            {
+              "object_index": 64,
+              "port": "List"
+            }
+          ]
+        }
+      ],
+      "scalars": [],
+      "clusters": []
+    },
+    {
+      "index": 66,
+      "guid": "4416c0ec-7e06-4935-802e-cd0fbd3661a8",
+      "type": "Relay",
+      "nickname": "",
+      "values": {
+        "Description": "A wire relay object"
+      },
+      "ports": [
+        {
+          "kind": "Container",
+          "index": null,
+          "name": "Relay",
+          "guid": "4416c0ec-7e06-4935-802e-cd0fbd3661a8",
+          "sources": [
+            "851f9187-4709-4c57-be53-af9cf2b10b38"
+          ],
+          "expression": null,
+          "description": "A wire relay object",
+          "upstream": [
+            {
+              "object_index": 21,
+              "port": "A"
+            }
+          ]
+        }
+      ],
+      "scalars": [],
+      "clusters": []
+    },
+    {
+      "index": 67,
+      "guid": "3d340bb0-a758-4435-8381-5f5a9b1223b8",
+      "type": "Panel",
+      "nickname": "",
+      "values": {
+        "Description": "A panel for custom notes and text values",
+        "UserText": "Double click to edit panel content…"
+      },
+      "ports": [
+        {
+          "kind": "Container",
+          "index": null,
+          "name": "Panel",
+          "guid": "3d340bb0-a758-4435-8381-5f5a9b1223b8",
+          "sources": [
+            "999adfe3-5d34-454b-8bd2-a13f11ee2bcf"
+          ],
+          "expression": null,
+          "description": "A panel for custom notes and text values",
+          "upstream": [
+            {
+              "object_index": 3,
+              "port": "Branch 4"
+            }
+          ]
+        }
+      ],
+      "scalars": [],
+      "clusters": []
+    },
+    {
+      "index": 68,
+      "guid": "4bb943de-bb87-474b-93e2-ed71a18248ff",
+      "type": "Panel",
+      "nickname": "",
+      "values": {
+        "Description": "A panel for custom notes and text values",
+        "UserText": "Double click to edit panel content…"
+      },
+      "ports": [
+        {
+          "kind": "Container",
+          "index": null,
+          "name": "Panel",
+          "guid": "4bb943de-bb87-474b-93e2-ed71a18248ff",
+          "sources": [
+            "5ee75759-ed20-40df-84f6-4e16d24b33e9"
+          ],
+          "expression": null,
+          "description": "A panel for custom notes and text values",
+          "upstream": [
+            {
+              "object_index": 19,
+              "port": "Yf"
+            }
+          ]
+        }
+      ],
+      "scalars": [],
+      "clusters": []
+    },
+    {
+      "index": 69,
+      "guid": "a41f1950-fc47-4cc1-bff5-e6e5cc779624",
+      "type": "Division",
+      "nickname": "A/B",
+      "values": {
+        "Description": "Mathematical division"
+      },
+      "ports": [
+        {
+          "kind": "Container",
+          "index": null,
+          "name": "Division",
+          "guid": "a41f1950-fc47-4cc1-bff5-e6e5cc779624",
+          "sources": [],
+          "expression": null,
+          "description": "Mathematical division",
+          "upstream": []
+        },
+        {
+          "kind": "param_input",
+          "index": "0",
+          "name": "A",
+          "guid": "f844cb82-81e4-477b-86b6-7836f18b45d8",
+          "sources": [
+            "44666213-b314-484f-98ad-5a88cfaa9010"
+          ],
+          "expression": null,
+          "description": "Item to divide (dividend)",
+          "upstream": [
+            {
+              "object_index": 38,
+              "port": "Panel"
+            }
+          ]
+        },
+        {
+          "kind": "param_input",
+          "index": "1",
+          "name": "B",
+          "guid": "f00e7515-c0eb-443f-bca5-7c6343fb67a4",
+          "sources": [
+            "5e554fed-fd25-4767-9b95-3f7649629525"
+          ],
+          "expression": null,
+          "description": "Item to divide with (divisor)",
+          "upstream": [
+            {
+              "object_index": 70,
+              "port": "Number Slider"
+            }
+          ]
+        },
+        {
+          "kind": "param_output",
+          "index": "0",
+          "name": "Result",
+          "guid": "e4534506-d3a9-4621-9a27-dc4949dfba7d",
+          "sources": [],
+          "expression": null,
+          "description": "The result of the Division",
+          "upstream": []
+        }
+      ],
+      "scalars": [],
+      "clusters": []
+    },
+    {
+      "index": 70,
+      "guid": "5e554fed-fd25-4767-9b95-3f7649629525",
+      "type": "Number Slider",
+      "nickname": "",
+      "values": {
+        "Description": "Numeric slider for single values"
+      },
+      "ports": [
+        {
+          "kind": "Container",
+          "index": null,
+          "name": "Number Slider",
+          "guid": "5e554fed-fd25-4767-9b95-3f7649629525",
+          "sources": [],
+          "expression": null,
+          "description": "Numeric slider for single values",
+          "upstream": []
+        }
+      ],
+      "scalars": [
+        {
+          "chunk": "Slider",
+          "name": "Value",
+          "type": "gh_double",
+          "value": "60"
+        }
+      ],
+      "clusters": []
+    },
+    {
+      "index": 71,
+      "guid": "0b926f20-25c9-484b-bec4-885c16f7b719",
+      "type": "Panel",
+      "nickname": "",
+      "values": {
+        "Description": "A panel for custom notes and text values",
+        "UserText": "Double click to edit panel content…"
+      },
+      "ports": [
+        {
+          "kind": "Container",
+          "index": null,
+          "name": "Panel",
+          "guid": "0b926f20-25c9-484b-bec4-885c16f7b719",
+          "sources": [
+            "e4534506-d3a9-4621-9a27-dc4949dfba7d"
+          ],
+          "expression": null,
+          "description": "A panel for custom notes and text values",
+          "upstream": [
+            {
+              "object_index": 69,
+              "port": "Result"
+            }
+          ]
+        }
+      ],
+      "scalars": [],
+      "clusters": []
+    },
+    {
+      "index": 72,
+      "guid": "70346219-e524-460a-a4c2-49012589a102",
+      "type": "Panel",
+      "nickname": "",
+      "values": {
+        "Description": "A panel for custom notes and text values",
+        "UserText": "Double click to edit panel content…"
+      },
+      "ports": [
+        {
+          "kind": "Container",
+          "index": null,
+          "name": "Panel",
+          "guid": "70346219-e524-460a-a4c2-49012589a102",
+          "sources": [
+            "6e4e946b-683a-4c21-9afb-b79d1de72d6d"
+          ],
+          "expression": null,
+          "description": "A panel for custom notes and text values",
+          "upstream": [
+            {
+              "object_index": 64,
+              "port": "List"
+            }
+          ]
+        }
+      ],
+      "scalars": [],
+      "clusters": []
+    },
+    {
+      "index": 73,
+      "guid": "00942ffa-02d4-4939-8811-0cb38cb1a244",
+      "type": "Division",
+      "nickname": "A/B",
+      "values": {
+        "Description": "Mathematical division"
+      },
+      "ports": [
+        {
+          "kind": "Container",
+          "index": null,
+          "name": "Division",
+          "guid": "00942ffa-02d4-4939-8811-0cb38cb1a244",
+          "sources": [],
+          "expression": null,
+          "description": "Mathematical division",
+          "upstream": []
+        },
+        {
+          "kind": "param_input",
+          "index": "0",
+          "name": "A",
+          "guid": "1edf6082-6c42-4b90-a524-a2de77d216cd",
+          "sources": [
+            "ba4c3aff-d395-43f6-a3e9-2a0ba8e1981e"
+          ],
+          "expression": null,
+          "description": "Item to divide (dividend)",
+          "upstream": [
+            {
+              "object_index": 8,
+              "port": "Panel"
+            }
+          ]
+        },
+        {
+          "kind": "param_input",
+          "index": "1",
+          "name": "B",
+          "guid": "9bfbf6f5-a980-43e9-9f22-35d31737bb98",
+          "sources": [
+            "68c6b14b-4b8e-4c77-a2bc-df23b9c072dc"
+          ],
+          "expression": null,
+          "description": "Item to divide with (divisor)",
+          "upstream": [
+            {
+              "object_index": 18,
+              "port": "Panel"
+            }
+          ]
+        },
+        {
+          "kind": "param_output",
+          "index": "0",
+          "name": "Result",
+          "guid": "aa2c095f-41ba-401b-89bb-a4bc4fb4c30f",
+          "sources": [],
+          "expression": null,
+          "description": "The result of the Division",
+          "upstream": []
+        }
+      ],
+      "scalars": [],
+      "clusters": []
+    },
+    {
+      "index": 74,
+      "guid": "b9fbd1e8-40b3-4e9c-9971-d0f9e327f3d8",
+      "type": "Panel",
+      "nickname": "",
+      "values": {
+        "Description": "A panel for custom notes and text values",
+        "UserText": "Double click to edit panel content…"
+      },
+      "ports": [
+        {
+          "kind": "Container",
+          "index": null,
+          "name": "Panel",
+          "guid": "b9fbd1e8-40b3-4e9c-9971-d0f9e327f3d8",
+          "sources": [
+            "aa2c095f-41ba-401b-89bb-a4bc4fb4c30f"
+          ],
+          "expression": null,
+          "description": "A panel for custom notes and text values",
+          "upstream": [
+            {
+              "object_index": 73,
+              "port": "Result"
+            }
+          ]
+        }
+      ],
+      "scalars": [],
+      "clusters": []
+    },
+    {
+      "index": 75,
+      "guid": "97efeb8d-099a-4bde-a69d-71ceac0289f1",
+      "type": "Mass Addition",
+      "nickname": "MA",
+      "values": {
+        "Description": "Perform mass addition of a list of items"
+      },
+      "ports": [
+        {
+          "kind": "Container",
+          "index": null,
+          "name": "Mass Addition",
+          "guid": "97efeb8d-099a-4bde-a69d-71ceac0289f1",
+          "sources": [],
+          "expression": null,
+          "description": "Perform mass addition of a list of items",
+          "upstream": []
+        },
+        {
+          "kind": "param_input",
+          "index": "0",
+          "name": "Input",
+          "guid": "70ab0219-a0d1-44cc-a58c-170dea35b3e5",
+          "sources": [
+            "b9fbd1e8-40b3-4e9c-9971-d0f9e327f3d8"
+          ],
+          "expression": null,
+          "description": "Input values for mass addition.",
+          "upstream": [
+            {
+              "object_index": 74,
+              "port": "Panel"
+            }
+          ]
+        },
+        {
+          "kind": "param_output",
+          "index": "0",
+          "name": "Result",
+          "guid": "a956c493-0716-49ae-b87d-426cbdef2d99",
+          "sources": [],
+          "expression": null,
+          "description": "Result of mass addition",
+          "upstream": []
+        },
+        {
+          "kind": "param_output",
+          "index": "1",
+          "name": "Partial Results",
+          "guid": "6df0d893-7a35-4520-8689-f2d94de6b9d3",
+          "sources": [],
+          "expression": null,
+          "description": "List of partial results",
+          "upstream": []
+        }
+      ],
+      "scalars": [],
+      "clusters": []
+    },
+    {
+      "index": 76,
+      "guid": "bd8fe7ba-1b6d-4db5-b7ec-2f0f10f7c634",
+      "type": "Panel",
+      "nickname": "",
+      "values": {
+        "Description": "A panel for custom notes and text values",
+        "UserText": "Double click to edit panel content…"
+      },
+      "ports": [
+        {
+          "kind": "Container",
+          "index": null,
+          "name": "Panel",
+          "guid": "bd8fe7ba-1b6d-4db5-b7ec-2f0f10f7c634",
+          "sources": [
+            "a956c493-0716-49ae-b87d-426cbdef2d99"
+          ],
+          "expression": null,
+          "description": "A panel for custom notes and text values",
+          "upstream": [
+            {
+              "object_index": 75,
+              "port": "Result"
+            }
+          ]
+        }
+      ],
+      "scalars": [],
+      "clusters": []
+    }
+  ]
+}

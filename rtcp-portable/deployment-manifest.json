@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "package": "portable-rtcp-offline",
+  "version": "0.3.0",
+  "live_execution_supported": false,
+  "klipper_adapter_included": true,
+  "gcode_emitter_included": false,
+  "legacy_gcode_audit_included": true,
+  "pre_ik_capture_bridge_included": true,
+  "offline_rest_to_rest_timing_included": true,
+  "continuous_print_planner_included": false,
+  "automatic_install_or_restart": false,
+  "geometry": "common_pivot_rx_u_rz_v",
+  "python_requires": ">=3.10",
+  "runtime_dependencies": [],
+  "machine_profiles_are_external": true,
+  "session_state_migration_supported": false,
+  "raspberry_pi_verified": false,
+  "required_before_live_use": [
+    "Versioned Klipper adapter deployment test and native UV reference API",
+    "Measured machine pivot, rotary signs, limits and gear verification",
+    "Unified XYZUV/E timing, feedrate and extrusion validation",
+    "Open5x coordinate and angle convention validation",
+    "Collision assessment and supervised dry-run acceptance"
+  ]
+}

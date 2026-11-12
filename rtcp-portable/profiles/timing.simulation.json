@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "purpose": "simulation",
+  "axes": {
+    "x": {"velocity": 50, "acceleration": 200},
+    "y": {"velocity": 50, "acceleration": 200},
+    "z": {"velocity": 10, "acceleration": 50},
+    "u": {"velocity": 15, "acceleration": 30},
+    "v": {"velocity": 30, "acceleration": 60},
+    "e": {"velocity": 5, "acceleration": 20},
+    "corexy_a": {"velocity": 60, "acceleration": 250},
+    "corexy_b": {"velocity": 60, "acceleration": 250}
+  }
+}

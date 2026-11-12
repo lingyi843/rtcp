@@ -1,0 +1,13 @@
+{
+  "schema_version": 2,
+  "coordinate_space": "model_bed_zero",
+  "angle_convention": "rx_u_rz_v_controller_degrees",
+  "initial_pose": {"xyz_mm": [30, 0, 10], "u_deg": 0, "v_deg": 0},
+  "events": [
+    {"kind": "move", "target": {"xyz_mm": [30, 15, 15], "u_deg": 30, "v_deg": 45}, "e_delta_mm": 0.8, "tcp_feed_mm_min": 180},
+    {"kind": "extrude", "e_delta_mm": -1, "filament_feed_mm_min": 300},
+    {"kind": "move", "target": {"xyz_mm": [30, 15, 25], "u_deg": 30, "v_deg": 45}, "e_delta_mm": 0, "tcp_feed_mm_min": 600},
+    {"kind": "orient", "u_deg": 0, "v_deg": 0, "angular_feed_deg_min": 300},
+    {"kind": "extrude", "e_delta_mm": 1, "filament_feed_mm_min": 300}
+  ]
+}

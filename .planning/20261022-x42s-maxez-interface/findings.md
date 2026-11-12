@@ -1,0 +1,12 @@
+# Findings
+- BTT official repository README explicitly says driver-related STEP/DIR/EN signals are level-shifted to 5V, not raw 3.3V MCU outputs.
+- X42S manufacturer manual (third-party hosted) states both PLC/opto inputs accept 3.3–24V; opto supports common-anode/NPN only.
+- Must distinguish EZ mechanical breakout, signal buffering, and USB-CAN acquisition adapter.
+- Inspected manufacturer manual pp. 23–25: ordinary input uses GND+EN/STP/DIR with COM unconnected; opto version COM connects to controller signal voltage (3.3/5V). The pictured standard StepStick adapter does NOT establish EZ socket compatibility.
+- Inspected official MAX EZ schematic p.6: M1–M7 each have dedicated 4-pin EN/STP/DIR/GND headers; M8–M10 do not show corresponding 4-pin headers. This can avoid an EZ-socket breakout for a first M1–M7 trial.
+- MAX EZ uses 5V HCT buffers for M1–M9 motion signals; M10 STEP/DIR use TXS0104. Do not generalize identical drive capability across all ten slots.
+- Neither X42S opto input current nor pulse timing is fully specified in reviewed materials; cannot guarantee loaded waveform or required driver current from voltage compatibility alone.
+- Verified official pinout/connector images against schematic. Native four-pin signal headers M1–M7 are distinct from the four-pin A/B motor power connectors.
+- Recommended logical wiring: STP→STP, DIR→DIR, EN→EN, GND→GND; ordinary COM unconnected per manufacturer MCU diagram; opto COM uses the same +5V signal supply. Do not use 24V COM with direct 5V push-pull outputs.
+- Minimum trial BOM: correctly matched complete motor/driver, secure signal/power harness; optional EZ breakout only if socket extraction is required; USB-CAN for separate telemetry path. No automatic requirement for 24V signal conversion or added optocoupler.
+- No printer state/configuration changed. No physical compatibility or waveform test performed.

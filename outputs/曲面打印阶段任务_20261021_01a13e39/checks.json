@@ -1,0 +1,109 @@
+{
+  "checks": [
+    {
+      "name": "initial_stages",
+      "values": [
+        [
+          "完整打印已确认"
+        ],
+        [
+          "完整打印已确认"
+        ],
+        [
+          "完整打印已确认"
+        ],
+        [
+          "待验收"
+        ],
+        [
+          "验收风险"
+        ],
+        [
+          "待验收"
+        ]
+      ]
+    },
+    {
+      "name": "orange_final_only_cannot_pass",
+      "value": "待验收"
+    },
+    {
+      "name": "next_task_follows_status",
+      "value": "A-U02"
+    },
+    {
+      "name": "final_only_cannot_pass",
+      "value": "验收风险"
+    },
+    {
+      "name": "blocking_issue_prevents_pass",
+      "value": "验收风险"
+    },
+    {
+      "name": "closure_without_evidence_still_blocked",
+      "value": "验收风险"
+    },
+    {
+      "name": "all_chain_and_issues_pass",
+      "value": "阶段通过"
+    },
+    {
+      "name": "yellow_function_pass_independent",
+      "yellow": "阶段通过",
+      "pending": "尚待完整打印验收：1台；黄色另按功能验收"
+    },
+    {
+      "name": "restored",
+      "status": [
+        [
+          "完整打印已确认"
+        ],
+        [
+          "完整打印已确认"
+        ],
+        [
+          "完整打印已确认"
+        ],
+        [
+          "待验收"
+        ],
+        [
+          "验收风险"
+        ],
+        [
+          "待验收"
+        ]
+      ],
+      "counts": [
+        "已有完整打印结果：3台",
+        "尚待完整打印验收：2台；黄色另按功能验收"
+      ],
+      "owners": 0
+    }
+  ],
+  "formulaScan": {
+    "recordCount": 1,
+    "truncated": false,
+    "metadata": {
+      "revision": "xxpejx",
+      "target": {
+        "id": "wb/o2dtuz",
+        "beforeLines": 0,
+        "afterLines": 0
+      },
+      "kind": {
+        "requested": "match",
+        "tokens": [
+          "match"
+        ]
+      },
+      "include": {
+        "tokens": []
+      },
+      "exclude": {
+        "tokens": []
+      },
+      "notices": []
+    }
+  }
+}

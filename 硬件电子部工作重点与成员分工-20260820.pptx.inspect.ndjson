@@ -1,0 +1,74 @@
+{"kind":"deck","id":"pr/vtpnpq","name":"Deck"}
+{"kind":"layout","layoutId":"/ppt/slideMasters/slideMaster1.xml","name":"","type":"master","placeholders":[{"name":"title","type":"title","textPreview":"单击此处编辑母版标题样式"},{"name":"body","type":"body","textPreview":"单击此处编辑母版文本样式 | 二级 | 三级 | 四级 | 五级"},{"name":"dateTime","type":"dateTime"},{"name":"footer","type":"footer"},{"name":"slideNumber","type":"slideNumber"}]}
+{"kind":"layout","layoutId":"/ppt/slideLayouts/slideLayout1.xml","name":"标题幻灯片","type":"title","placeholders":[{"name":"title","type":"title","textPreview":"单击此处编辑母版标题样式"},{"name":"subtitle","type":"subtitle","textPreview":"单击此处编辑母版副标题样式"},{"name":"dateTime","type":"dateTime"},{"name":"footer","type":"footer"},{"name":"slideNumber","type":"slideNumber"}]}
+{"kind":"layout","layoutId":"/ppt/slideLayouts/slideLayout2.xml","name":"标题和内容","placeholders":[{"name":"title","type":"title","textPreview":"单击此处编辑母版标题样式"},{"name":"dateTime","type":"dateTime"},{"name":"footer","type":"footer"},{"name":"slideNumber","type":"slideNumber"}]}
+{"kind":"layout","layoutId":"/ppt/slideLayouts/slideLayout3.xml","name":"1_标题和内容","type":"obj","placeholders":[{"name":"title","type":"title","textPreview":"单击此处编辑母版标题样式"},{"name":"2","textPreview":"单击此处编辑母版文本样式 | 二级 | 三级 | 四级 | 五级"},{"name":"dateTime","type":"dateTime"},{"name":"footer","type":"footer"},{"name":"slideNumber","type":"slideNumber"}]}
+{"kind":"layout","layoutId":"/ppt/slideLayouts/slideLayout4.xml","name":"节标题","type":"secHead","placeholders":[{"name":"title","type":"title","textPreview":"单击此处编辑母版标题样式"},{"name":"body","type":"body","textPreview":"单击此处编辑母版文本样式"},{"name":"dateTime","type":"dateTime"},{"name":"footer","type":"footer"},{"name":"slideNumber","type":"slideNumber"}]}
+{"kind":"layout","layoutId":"/ppt/slideLayouts/slideLayout5.xml","name":"自定义版式","placeholders":[{"name":"dateTime","type":"dateTime"},{"name":"footer","type":"footer"},{"name":"slideNumber","type":"slideNumber"}]}
+{"kind":"layout","layoutId":"/ppt/slideLayouts/slideLayout6.xml","name":"空白","type":"blank","placeholders":[{"name":"dateTime","type":"dateTime"},{"name":"footer","type":"footer"},{"name":"slideNumber","type":"slideNumber"}]}
+{"kind":"slide","id":"sl/y90nupkv","slide":1,"title":"硬件电子部工作重点与成员分工","textShapes":3}
+{"kind":"textbox","id":"sh/547294r6","slide":1,"name":"标题 1","placeholder":"title","text":"硬件电子部工作重点与成员分工","textPreview":"硬件电子部工作重点与成员分工","textChars":14,"textLines":1,"bbox":[0,264.06,1280,127.49]}
+{"kind":"textbox","id":"sh/k3yl0zql","slide":1,"name":"副标题 2","placeholder":"subtitle","text":"汇报人：硬件电子部 张易\n探微智造（杭州）科技发展有限公司","textPreview":"汇报人：硬件电子部 张易 | 探微智造（杭州）科技发展有限公司","textChars":29,"textLines":2,"bbox":[160,452.07,960,240.68]}
+{"kind":"textbox","id":"sh/sryl4zqx","slide":1,"name":"文本框 6","text":"2026-08-20 部门工作部署","textPreview":"2026-08-20 部门工作部署","textChars":17,"textLines":1,"bbox":[0,231.32,1280,54.8]}
+{"kind":"image","id":"im/6lgjadw3","slide":1,"name":"图片 5","bbox":[494.9,43.03,252.2,105.41]}
+{"kind":"notes","id":"nt/y90nupkv","slide":1,"text":"[Sources]\n- No external sources used. Content was created from the user-provided template and brief.\n[/Sources]"}
+{"kind":"slide","id":"sl/hwbqtkby","slide":2,"title":"一、部门定位与工作目标","textShapes":1}
+{"kind":"textbox","id":"sh/a10jqpsj","slide":2,"name":"矩形 3","text":"一、部门定位与工作目标\n二、当前阶段工作重点\n三、成员分工与职责边界\n四、协同机制与行动计划","textPreview":"一、部门定位与工作目标 | 二、当前阶段工作重点 | 三、成员分工与职责边界 | 四、协同机制与行动计划","textChars":46,"textLines":4,"bbox":[430.67,90.95,818.71,523.33]}
+{"kind":"notes","id":"nt/hwbqtkby","slide":2,"text":"[Sources]\n- No external sources used. Content was created from the user-provided template and brief.\n[/Sources]"}
+{"kind":"slide","id":"sl/ofy9wn61","slide":3,"title":"部门定位：以“可验证交付”为主线推进硬件研发","textShapes":7}
+{"kind":"textbox","id":"sh/cza94vmx","slide":3,"name":"标题 1","placeholder":"title","text":"部门定位：以“可验证交付”为主线推进硬件研发","textPreview":"部门定位：以“可验证交付”为主线推进硬件研发","textChars":22,"textLines":1,"bbox":[37.33,13.33,1053.33,48]}
+{"kind":"shape","id":"sh/d0jax03i","slide":3,"name":"body-separator","bbox":[70,86,1140,0]}
+{"kind":"textbox","id":"sh/298ryl4v","slide":3,"name":"矩形 3","text":"从需求输入到量产导入，形成方案、样机、验证与版本资料的闭环。","textPreview":"从需求输入到量产导入，形成方案、样机、验证与版本资料的闭环。","textChars":30,"textLines":1,"bbox":[70,102,1140,48]}
+{"kind":"shape","id":"sh/3ah8rqlg","slide":3,"name":"右箭头 4","bbox":[305,212,34,28]}
+{"kind":"shape","id":"sh/obq90bml","slide":3,"name":"右箭头 5","bbox":[590,212,34,28]}
+{"kind":"shape","id":"sh/pcjqtg36","slide":3,"name":"右箭头 6","bbox":[875,212,34,28]}
+{"kind":"textbox","id":"sh/m5cra54z","slide":3,"name":"圆角矩形 7","text":"1 需求澄清\n产品需求、系统边界","textPreview":"1 需求澄清 | 产品需求、系统边界","textChars":16,"textLines":2,"bbox":[70,180,250,95]}
+{"kind":"textbox","id":"sh/n6ls3alk","slide":3,"name":"圆角矩形 8","text":"2 方案评审\n原理图、器件、BOM","textPreview":"2 方案评审 | 原理图、器件、BOM","textChars":17,"textLines":2,"bbox":[340,180,250,95]}
+{"kind":"textbox","id":"sh/n2l4fq98","slide":3,"name":"圆角矩形 9","text":"3 样机验证\n测试、问题、版本","textPreview":"3 样机验证 | 测试、问题、版本","textChars":15,"textLines":2,"bbox":[625,180,250,95]}
+{"kind":"textbox","id":"sh/m1c3mlsn","slide":3,"name":"圆角矩形 10","text":"4 量产导入\n可靠性、资料、供应链","textPreview":"4 量产导入 | 可靠性、资料、供应链","textChars":17,"textLines":2,"bbox":[910,180,250,95]}
+{"kind":"textbox","id":"sh/83ulovat","slide":3,"name":"圆角矩形 12","text":"先明确“谁负责、交付什么、何时验收”，再进入研发细节。","textPreview":"先明确“谁负责、交付什么、何时验收”，再进入研发细节。","textChars":27,"textLines":1,"bbox":[100,600,1080,58]}
+{"kind":"table","id":"tb/0jitonux","slide":3,"name":"表格 23","rows":3,"cols":4,"preview":"主线目标 | 关键抓手 | 结果口径 | 管理要求","bbox":[70,330,1140,235]}
+{"kind":"notes","id":"nt/ofy9wn61","slide":3,"text":"[Sources]\n- No external sources used. Content was created from the user-provided template and brief.\n[/Sources]"}
+{"kind":"slide","id":"sl/jyx0ra1s","slide":4,"title":"当前阶段工作重点","textShapes":1}
+{"kind":"textbox","id":"sh/1cj2d8b6","slide":4,"name":"标题 1","placeholder":"title","text":"当前阶段工作重点","textPreview":"当前阶段工作重点","textChars":8,"textLines":1,"bbox":[37.33,13.33,1053.33,48]}
+{"kind":"shape","id":"sh/0ba143al","slide":4,"name":"body-separator","bbox":[70,86,1140,0]}
+{"kind":"table","id":"tb/etwv2lcn","slide":4,"name":"表格 6","rows":7,"cols":3,"preview":"工作模块 | 本阶段重点 | 核心交付物","bbox":[0.07,85.93,1280,629.07]}
+{"kind":"notes","id":"nt/jyx0ra1s","slide":4,"text":"[Sources]\n- No external sources used. Content was created from the user-provided template and brief.\n[/Sources]"}
+{"kind":"slide","id":"sl/i107q5of","slide":5,"title":"成员分工：按角色明确责任与交付物","textShapes":1}
+{"kind":"textbox","id":"sh/dgbulwnm","slide":5,"name":"标题 1","placeholder":"title","text":"成员分工：按角色明确责任与交付物","textPreview":"成员分工：按角色明确责任与交付物","textChars":16,"textLines":1,"bbox":[37.33,13.33,1053.33,48]}
+{"kind":"shape","id":"sh/cf2tcr61","slide":5,"name":"body-separator","bbox":[70,86,1140,0]}
+{"kind":"table","id":"tb/m94nadsn","slide":5,"name":"表格 6","rows":6,"cols":4,"preview":"岗位 / 责任人 | 核心职责 | 关键交付物 | 协同对象","bbox":[9.53,86.07,1261.13,634]}
+{"kind":"notes","id":"nt/i107q5of","slide":5,"text":"[Sources]\n- No external sources used. Content was created from the user-provided template and brief.\n[/Sources]"}
+{"kind":"slide","id":"sl/x8f69ofe","slide":6,"title":"职责边界：一项工作只设一个最终责任人","textShapes":7}
+{"kind":"textbox","id":"sh/yhg7epsj","slide":6,"name":"标题 1","placeholder":"title","text":"职责边界：一项工作只设一个最终责任人","textPreview":"职责边界：一项工作只设一个最终责任人","textChars":18,"textLines":1,"bbox":[37.33,13.33,1053.33,48]}
+{"kind":"shape","id":"sh/zi98nu94","slide":6,"name":"body-separator","bbox":[70,86,1140,0]}
+{"kind":"textbox","id":"sh/87ipkzal","slide":6,"name":"矩形 3","text":"执行、协同、决策分别明确，避免“都在做”与“无人拍板”。","textPreview":"执行、协同、决策分别明确，避免“都在做”与“无人拍板”。","textChars":28,"textLines":1,"bbox":[70,102,1140,48]}
+{"kind":"shape","id":"sh/98rqt4r6","slide":6,"name":"右箭头 4","bbox":[305,212,34,28]}
+{"kind":"shape","id":"sh/ml07i9sv","slide":6,"name":"右箭头 5","bbox":[590,212,34,28]}
+{"kind":"shape","id":"sh/7m98ru9g","slide":6,"name":"右箭头 6","bbox":[875,212,34,28]}
+{"kind":"textbox","id":"sh/oryp8fah","slide":6,"name":"圆角矩形 7","text":"1 需求提出\n产品 / 项目","textPreview":"1 需求提出 | 产品 / 项目","textChars":14,"textLines":2,"bbox":[70,180,250,95]}
+{"kind":"textbox","id":"sh/pc76hkr2","slide":6,"name":"圆角矩形 8","text":"2 方案分解\n硬件负责人","textPreview":"2 方案分解 | 硬件负责人","textChars":12,"textLines":2,"bbox":[340,180,250,95]}
+{"kind":"textbox","id":"sh/h4bupgn6","slide":6,"name":"圆角矩形 9","text":"3 研发验证\n模块责任人","textPreview":"3 研发验证 | 模块责任人","textChars":12,"textLines":2,"bbox":[625,180,250,95]}
+{"kind":"textbox","id":"sh/w32twb6l","slide":6,"name":"圆角矩形 10","text":"4 评审发布\n部门负责人","textPreview":"4 评审发布 | 部门负责人","textChars":12,"textLines":2,"bbox":[910,180,250,95]}
+{"kind":"textbox","id":"sh/u1kbu1ov","slide":6,"name":"圆角矩形 12","text":"任务有负责人、评审有结论、变更有记录、风险有升级路径。","textPreview":"任务有负责人、评审有结论、变更有记录、风险有升级路径。","textChars":27,"textLines":1,"bbox":[100,600,1080,58]}
+{"kind":"table","id":"tb/ql8zq5kf","slide":6,"name":"表格 23","rows":3,"cols":4,"preview":"责任层级 | 部门负责人 | 模块责任人 | 协同角色","bbox":[70,330,1140,235]}
+{"kind":"notes","id":"nt/x8f69ofe","slide":6,"text":"[Sources]\n- No external sources used. Content was created from the user-provided template and brief.\n[/Sources]"}
+{"kind":"slide","id":"sl/gnmp4jqx","slide":7,"title":"部门协同机制：用固定节奏保障交付","textShapes":1}
+{"kind":"textbox","id":"sh/cb2tkvap","slide":7,"name":"标题 1","placeholder":"title","text":"部门协同机制：用固定节奏保障交付","textPreview":"部门协同机制：用固定节奏保障交付","textChars":16,"textLines":1,"bbox":[37.33,13.33,1053.33,48]}
+{"kind":"shape","id":"sh/dcbud0ra","slide":7,"name":"body-separator","bbox":[70,86,1140,0]}
+{"kind":"table","id":"tb/vit8vmd8","slide":7,"name":"表格 6","rows":6,"cols":3,"preview":"协同场景 | 固定机制 | 输出","bbox":[0,86,1271.8,627.67]}
+{"kind":"notes","id":"nt/gnmp4jqx","slide":7,"text":"[Sources]\n- No external sources used. Content was created from the user-provided template and brief.\n[/Sources]"}
+{"kind":"slide","id":"sl/fu1gfa1s","slide":8,"title":"未来四周行动计划","textShapes":1}
+{"kind":"textbox","id":"sh/18byd4zy","slide":8,"name":"标题 1","placeholder":"title","text":"未来四周行动计划","textPreview":"未来四周行动计划","textChars":8,"textLines":1,"bbox":[37.33,13.33,1053.33,48]}
+{"kind":"shape","id":"sh/g72x4zyd","slide":8,"name":"body-separator","bbox":[70,86,1140,0]}
+{"kind":"table","id":"tb/ixcb6903","slide":8,"name":"表格 6","rows":7,"cols":3,"preview":"时间 / 模块 | 具体事项 | 预期目标","bbox":[0.07,85.93,1280,629.07]}
+{"kind":"notes","id":"nt/fu1gfa1s","slide":8,"text":"[Sources]\n- No external sources used. Content was created from the user-provided template and brief.\n[/Sources]"}
+{"kind":"slide","id":"sl/udsvah03","slide":9,"title":"工作重点明确 · 责任清晰 · 交付闭环","textShapes":5}
+{"kind":"textbox","id":"sh/ofq5svm5","slide":9,"name":"矩形 6","text":"工作重点明确 · 责任清晰 · 交付闭环","textPreview":"工作重点明确 · 责任清晰 · 交付闭环","textChars":20,"textLines":1,"bbox":[0,45.1,1280,139.2]}
+{"kind":"shape","id":"sh/0b65obm9","slide":9,"name":"矩形: 圆角 2","bbox":[193.33,242.67,893.33,216]}
+{"kind":"textbox","id":"sh/nex4jq5k","slide":9,"name":"文本框 3","text":"硬件电子部","textPreview":"硬件电子部","textChars":5,"textLines":1,"bbox":[240,273.33,800,44.16]}
+{"kind":"textbox","id":"sh/mdonql4z","slide":9,"name":"文本框 4","text":"请各位领导批评指导","textPreview":"请各位领导批评指导","textChars":9,"textLines":1,"bbox":[240,329.33,800,50.62]}
+{"kind":"textbox","id":"sh/9gzml0nq","slide":9,"name":"文本框 5","text":"Hardware Electronics Department","textPreview":"Hardware Electronics Department","textChars":31,"textLines":1,"bbox":[240,386.67,800,28]}
+{"kind":"textbox","id":"sh/bih4na5w","slide":9,"name":"文本框 7","text":"汇报人｜张易","textPreview":"汇报人｜张易","textChars":6,"textLines":1,"bbox":[240,419.37,800,27.93]}
+{"kind":"image","id":"im/jutknyd4","slide":9,"name":"图片 1","bbox":[0.07,0.07,1279.93,720]}
+{"kind":"notes","id":"nt/udsvah03","slide":9,"text":"[Sources]\n- No external sources used. Content was created from the user-provided template and brief.\n[/Sources]"}

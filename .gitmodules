@@ -1,0 +1,4 @@
+[submodule "reference/Open5x-upstream"]
+	path = reference/Open5x-upstream
+	url = https://github.com/FreddieHong19/Open5x.git
+	branch = main

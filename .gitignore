@@ -1,0 +1,33 @@
+# Local agent and temporary migration data
+.codex-tmp/
+tmp/
+
+# Python build and runtime caches
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv*/
+venv/
+**/node_modules/
+.pnpm-store/
+build/
+
+# RTCP generated verification environments and packages
+rtcp-portable/.artifacts/
+rtcp-portable/build/
+rtcp-portable/portable_rtcp_offline.egg-info/
+
+# Editor and OS temporary files
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*~
+
+# Logs and process artifacts
+*.log
+*.pid
+

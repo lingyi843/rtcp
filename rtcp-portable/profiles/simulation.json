@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "machine_id": "SYNTHETIC-NOT-A-PRINTER-CALIBRATION",
+  "purpose": "simulation",
+  "geometry": "common_pivot_rx_u_rz_v",
+  "pivot_mm": [150, 150, 30],
+  "u": {"sign": 1, "zero_deg": 0, "limits_deg": [-95, 95], "gear_ratio": [260, 18]},
+  "v": {"sign": 1, "zero_deg": 0, "limits_deg": [-720, 720], "gear_ratio": [1, 1]},
+  "xyz_limits_mm": {"x": [-100, 400], "y": [-100, 400], "z": [-150, 400]},
+  "path": {"chord_tolerance_mm": 0.02, "max_depth": 20, "max_segments": 100000}
+}

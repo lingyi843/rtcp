@@ -1,0 +1,9 @@
+{
+  "schema_version": 1,
+  "registration": {"offset_mm": [5, -3, 0], "frame": "bed_zero_pose"},
+  "points": [
+    {"xyz_mm": [50, 0, 10], "u_deg": 0, "v_deg": 0},
+    {"xyz_mm": [50, 0, 10], "u_deg": 45, "v_deg": 90},
+    {"xyz_mm": [20, 20, 15], "u_deg": 0, "v_deg": 180}
+  ]
+}

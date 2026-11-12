@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "machine_id": "REPLACE-WITH-PHYSICAL-MACHINE-ID",
+  "purpose": "calibrated_offline",
+  "geometry": "common_pivot_rx_u_rz_v",
+  "pivot_mm": [null, null, null],
+  "u": {"sign": null, "zero_deg": 0, "limits_deg": [null, null], "gear_ratio": [260, 18]},
+  "v": {"sign": null, "zero_deg": 0, "limits_deg": [null, null], "gear_ratio": [null, null]},
+  "xyz_limits_mm": {"x": [null, null], "y": [null, null], "z": [null, null]},
+  "path": {"chord_tolerance_mm": 0.02, "max_depth": 20, "max_segments": 100000}
+}

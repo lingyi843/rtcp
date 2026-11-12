@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "portable-rtcp-offline"
+version = "0.3.0"
+description = "Common-pivot CoreXY cradle RTCP tools and opt-in Klipper adapter"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = []
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Programming Language :: Python :: 3",
+  "Operating System :: OS Independent",
+]
+
+[project.scripts]
+rtcp-offline = "rtcp_portable.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["rtcp_portable*"]

@@ -1,0 +1,273 @@
+{
+  "schema_version": 1,
+  "offline_only": true,
+  "live_supported": false,
+  "automatic_rtcp_import_allowed": false,
+  "audit_dialect": "explicit independent XYZ/E modes; unsupported commands invalidate state",
+  "line_count": 8570,
+  "command_counts": {
+    "G90": 2,
+    "G0": 2,
+    "M104": 2,
+    "M109": 1,
+    "G21": 1,
+    "G1": 8546,
+    "M83": 1,
+    "M98": 1
+  },
+  "motion_count": 8548,
+  "raw_word_ranges": {
+    "X": {
+      "minimum": 0.0,
+      "maximum": 0.0,
+      "count": 8540
+    },
+    "Y": {
+      "minimum": 0.0,
+      "maximum": 0.0,
+      "count": 8540
+    },
+    "Z": {
+      "minimum": 20.6,
+      "maximum": 80.0,
+      "count": 8542
+    },
+    "U": {
+      "minimum": 0.0,
+      "maximum": 62.43,
+      "count": 8542
+    },
+    "V": {
+      "minimum": -463.8,
+      "maximum": 0.1,
+      "count": 8542
+    },
+    "E": {
+      "minimum": -1.0,
+      "maximum": 1.317403,
+      "count": 8544
+    },
+    "F": {
+      "minimum": 300.0,
+      "maximum": 1641.731212,
+      "count": 8542
+    }
+  },
+  "explicit_xyzuv_count": 8540,
+  "explicit_xyzuv_xy_zero_count": 8540,
+  "motion_records_with_unresolved_state": 8548,
+  "known_signed_e_sum_mm": 0.0,
+  "unknown_e_delta_count": 8544,
+  "issue_counts": {
+    "external_macro": 1,
+    "possible_post_ik_coordinates": 1
+  },
+  "issue_examples": [
+    {
+      "code": "external_macro",
+      "line": 19,
+      "message": "Macro body unknown; all modal/position state invalidated"
+    },
+    {
+      "code": "possible_post_ik_coordinates",
+      "line": 23,
+      "message": "Most explicit XYZUV records have X=Y=0; do not assume model-space coordinates"
+    }
+  ],
+  "external_commands": [
+    {
+      "line": 19,
+      "text": "M98 P\"/macros/move_to_mid.g\""
+    }
+  ],
+  "limitations": [
+    "Raw word ranges are lexical, not certified physical axis travel",
+    "Unknown macro side effects are not silently assumed away",
+    "Feed words have no certified TCP meaning; no duration is inferred"
+  ],
+  "motion_examples": [
+    {
+      "line": 7,
+      "command": "G0",
+      "words": {
+        "Z": 80.0
+      },
+      "start": {
+        "X": null,
+        "Y": null,
+        "Z": null,
+        "U": null,
+        "V": null
+      },
+      "end": {
+        "X": null,
+        "Y": null,
+        "Z": null,
+        "U": null,
+        "V": null
+      },
+      "e_delta_mm": 0.0,
+      "feed_word": null,
+      "unresolved": [
+        "units_unknown_or_not_mm",
+        "start_pose_unknown",
+        "end_pose_unknown",
+        "feed_unknown"
+      ]
+    },
+    {
+      "line": 13,
+      "command": "G1",
+      "words": {
+        "U": 0.1,
+        "V": 0.1
+      },
+      "start": {
+        "X": null,
+        "Y": null,
+        "Z": null,
+        "U": null,
+        "V": null
+      },
+      "end": {
+        "X": null,
+        "Y": null,
+        "Z": null,
+        "U": 0.1,
+        "V": 0.1
+      },
+      "e_delta_mm": 0.0,
+      "feed_word": null,
+      "unresolved": [
+        "start_pose_unknown",
+        "end_pose_unknown",
+        "feed_unknown"
+      ]
+    },
+    {
+      "line": 14,
+      "command": "G1",
+      "words": {
+        "U": 0.0,
+        "V": 0.0
+      },
+      "start": {
+        "X": null,
+        "Y": null,
+        "Z": null,
+        "U": 0.1,
+        "V": 0.1
+      },
+      "end": {
+        "X": null,
+        "Y": null,
+        "Z": null,
+        "U": 0.0,
+        "V": 0.0
+      },
+      "e_delta_mm": 0.0,
+      "feed_word": null,
+      "unresolved": [
+        "start_pose_unknown",
+        "end_pose_unknown",
+        "feed_unknown"
+      ]
+    },
+    {
+      "line": 8563,
+      "command": "G1",
+      "words": {
+        "F": 600.0,
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 32.4,
+        "U": 32.45,
+        "V": -90.19,
+        "E": 0.0
+      },
+      "start": {
+        "X": null,
+        "Y": null,
+        "Z": null,
+        "U": null,
+        "V": null
+      },
+      "end": {
+        "X": null,
+        "Y": null,
+        "Z": null,
+        "U": null,
+        "V": null
+      },
+      "e_delta_mm": null,
+      "feed_word": 600.0,
+      "unresolved": [
+        "units_unknown_or_not_mm",
+        "distance_mode_unknown",
+        "extrusion_mode_or_units_unknown",
+        "start_pose_unknown",
+        "end_pose_unknown"
+      ]
+    },
+    {
+      "line": 8565,
+      "command": "G1",
+      "words": {
+        "E": -1.0
+      },
+      "start": {
+        "X": null,
+        "Y": null,
+        "Z": null,
+        "U": null,
+        "V": null
+      },
+      "end": {
+        "X": null,
+        "Y": null,
+        "Z": null,
+        "U": null,
+        "V": null
+      },
+      "e_delta_mm": null,
+      "feed_word": 600.0,
+      "unresolved": [
+        "units_unknown_or_not_mm",
+        "extrusion_mode_or_units_unknown",
+        "start_pose_unknown",
+        "end_pose_unknown"
+      ]
+    },
+    {
+      "line": 8567,
+      "command": "G0",
+      "words": {
+        "Z": 80.0
+      },
+      "start": {
+        "X": null,
+        "Y": null,
+        "Z": null,
+        "U": null,
+        "V": null
+      },
+      "end": {
+        "X": null,
+        "Y": null,
+        "Z": null,
+        "U": null,
+        "V": null
+      },
+      "e_delta_mm": 0.0,
+      "feed_word": 600.0,
+      "unresolved": [
+        "units_unknown_or_not_mm",
+        "distance_mode_unknown",
+        "start_pose_unknown",
+        "end_pose_unknown"
+      ]
+    }
+  ],
+  "filename": "banqiu.gcode",
+  "sha256": "90c7c3028997af3eb3650a0dc369f33494aa80fd2842c1d6960395d8fe9f8f79"
+}

@@ -1,0 +1,74 @@
+{"kind":"deck","id":"pr/hp7yfp","name":"Deck"}
+{"kind":"layout","layoutId":"/ppt/slideMasters/slideMaster1.xml","name":"","type":"master","placeholders":[{"name":"title","type":"title","textPreview":"单击此处编辑母版标题样式"},{"name":"body","type":"body","textPreview":"单击此处编辑母版文本样式 | 二级 | 三级 | 四级 | 五级"},{"name":"dateTime","type":"dateTime"},{"name":"footer","type":"footer"},{"name":"slideNumber","type":"slideNumber"}]}
+{"kind":"layout","layoutId":"/ppt/slideLayouts/slideLayout1.xml","name":"标题幻灯片","type":"title","placeholders":[{"name":"title","type":"title","textPreview":"单击此处编辑母版标题样式"},{"name":"subtitle","type":"subtitle","textPreview":"单击此处编辑母版副标题样式"},{"name":"dateTime","type":"dateTime"},{"name":"footer","type":"footer"},{"name":"slideNumber","type":"slideNumber"}]}
+{"kind":"layout","layoutId":"/ppt/slideLayouts/slideLayout2.xml","name":"标题和内容","placeholders":[{"name":"title","type":"title","textPreview":"单击此处编辑母版标题样式"},{"name":"dateTime","type":"dateTime"},{"name":"footer","type":"footer"},{"name":"slideNumber","type":"slideNumber"}]}
+{"kind":"layout","layoutId":"/ppt/slideLayouts/slideLayout3.xml","name":"1_标题和内容","type":"obj","placeholders":[{"name":"title","type":"title","textPreview":"单击此处编辑母版标题样式"},{"name":"2","textPreview":"单击此处编辑母版文本样式 | 二级 | 三级 | 四级 | 五级"},{"name":"dateTime","type":"dateTime"},{"name":"footer","type":"footer"},{"name":"slideNumber","type":"slideNumber"}]}
+{"kind":"layout","layoutId":"/ppt/slideLayouts/slideLayout4.xml","name":"节标题","type":"secHead","placeholders":[{"name":"title","type":"title","textPreview":"单击此处编辑母版标题样式"},{"name":"body","type":"body","textPreview":"单击此处编辑母版文本样式"},{"name":"dateTime","type":"dateTime"},{"name":"footer","type":"footer"},{"name":"slideNumber","type":"slideNumber"}]}
+{"kind":"layout","layoutId":"/ppt/slideLayouts/slideLayout5.xml","name":"自定义版式","placeholders":[{"name":"dateTime","type":"dateTime"},{"name":"footer","type":"footer"},{"name":"slideNumber","type":"slideNumber"}]}
+{"kind":"layout","layoutId":"/ppt/slideLayouts/slideLayout6.xml","name":"空白","type":"blank","placeholders":[{"name":"dateTime","type":"dateTime"},{"name":"footer","type":"footer"},{"name":"slideNumber","type":"slideNumber"}]}
+{"kind":"slide","id":"sl/y90nupkv","slide":1,"title":"硬件组工作重点与成员分工","textShapes":3}
+{"kind":"textbox","id":"sh/547294r6","slide":1,"name":"标题 1","placeholder":"title","text":"硬件组工作重点与成员分工","textPreview":"硬件组工作重点与成员分工","textChars":12,"textLines":1,"bbox":[0,264.06,1280,127.49]}
+{"kind":"textbox","id":"sh/k3yl0zql","slide":1,"name":"副标题 2","placeholder":"subtitle","text":"汇报人：张易\n探微智造（杭州）科技发展有限公司","textPreview":"汇报人：张易 | 探微智造（杭州）科技发展有限公司","textChars":23,"textLines":2,"bbox":[160,452.07,960,240.68]}
+{"kind":"textbox","id":"sh/sryl4zqx","slide":1,"name":"文本框 6","text":"2026-08-20 工作部署","textPreview":"2026-08-20 工作部署","textChars":15,"textLines":1,"bbox":[0,231.32,1280,54.8]}
+{"kind":"image","id":"im/6lgjadw3","slide":1,"name":"图片 5","bbox":[494.9,43.03,252.2,105.41]}
+{"kind":"notes","id":"nt/y90nupkv","slide":1,"text":"[Sources]\n- User-provided team roster, work priorities, and responsibility descriptions, 2026-08-20.\n- User-provided PPT visual reference, used only as a visual reference.\n[/Sources]"}
+{"kind":"slide","id":"sl/hwbqtkby","slide":2,"title":"一、硬件组定位与落地目标","textShapes":1}
+{"kind":"textbox","id":"sh/a10jqpsj","slide":2,"name":"矩形 3","text":"一、硬件组定位与落地目标\n二、当前落地工作重点\n三、成员主责与协同边界\n四、推进机制与近期计划","textPreview":"一、硬件组定位与落地目标 | 二、当前落地工作重点 | 三、成员主责与协同边界 | 四、推进机制与近期计划","textChars":47,"textLines":4,"bbox":[430.67,90.95,818.71,523.33]}
+{"kind":"notes","id":"nt/hwbqtkby","slide":2,"text":"[Sources]\n- User-provided team roster, work priorities, and responsibility descriptions, 2026-08-20.\n- User-provided PPT visual reference, used only as a visual reference.\n[/Sources]"}
+{"kind":"slide","id":"sl/ofy9wn61","slide":3,"title":"硬件组定位：以“落地”为第一目标","textShapes":7}
+{"kind":"textbox","id":"sh/cza94vmx","slide":3,"name":"标题 1","placeholder":"title","text":"硬件组定位：以“落地”为第一目标","textPreview":"硬件组定位：以“落地”为第一目标","textChars":16,"textLines":1,"bbox":[37.33,13.33,1053.33,48]}
+{"kind":"shape","id":"sh/d0jax03i","slide":3,"name":"body-separator","bbox":[70,86,1140,0]}
+{"kind":"textbox","id":"sh/298ryl4v","slide":3,"name":"矩形 3","text":"围绕机器可用、方案定型与硬件实现推进，确保关键模块从调试走向稳定交付。","textPreview":"围绕机器可用、方案定型与硬件实现推进，确保关键模块从调试走向稳定交付。","textChars":35,"textLines":1,"bbox":[70,102,1140,48]}
+{"kind":"shape","id":"sh/3ah8rqlg","slide":3,"name":"右箭头 4","bbox":[305,212,34,28]}
+{"kind":"shape","id":"sh/obq90bml","slide":3,"name":"右箭头 5","bbox":[590,212,34,28]}
+{"kind":"shape","id":"sh/pcjqtg36","slide":3,"name":"右箭头 6","bbox":[875,212,34,28]}
+{"kind":"textbox","id":"sh/m5cra54z","slide":3,"name":"圆角矩形 7","text":"1 CoreXY调试\n机器稳定运行","textPreview":"1 CoreXY调试 | 机器稳定运行","textChars":17,"textLines":2,"bbox":[70,180,250,95]}
+{"kind":"textbox","id":"sh/n6ls3alk","slide":3,"name":"圆角矩形 8","text":"2 视觉激光方案\n技术路线定型","textPreview":"2 视觉激光方案 | 技术路线定型","textChars":15,"textLines":2,"bbox":[340,180,250,95]}
+{"kind":"textbox","id":"sh/n2l4fq98","slide":3,"name":"圆角矩形 9","text":"3 电路板设计\n编码板优化/定制","textPreview":"3 电路板设计 | 编码板优化/定制","textChars":16,"textLines":2,"bbox":[625,180,250,95]}
+{"kind":"textbox","id":"sh/m1c3mlsn","slide":3,"name":"圆角矩形 10","text":"4 系统验证\n联调、校准与闭环","textPreview":"4 系统验证 | 联调、校准与闭环","textChars":15,"textLines":2,"bbox":[910,180,250,95]}
+{"kind":"textbox","id":"sh/83ulovat","slide":3,"name":"圆角矩形 12","text":"不以“完成研究”为终点，以“机器能用、方案能落地”为结果口径。","textPreview":"不以“完成研究”为终点，以“机器能用、方案能落地”为结果口径。","textChars":31,"textLines":1,"bbox":[100,600,1080,58]}
+{"kind":"table","id":"tb/0jitonux","slide":3,"name":"表格 23","rows":3,"cols":4,"preview":"工作导向 | 核心动作 | 验收口径 | 团队分工","bbox":[70,330,1140,235]}
+{"kind":"notes","id":"nt/ofy9wn61","slide":3,"text":"[Sources]\n- User-provided team roster, work priorities, and responsibility descriptions, 2026-08-20.\n- User-provided PPT visual reference, used only as a visual reference.\n[/Sources]"}
+{"kind":"slide","id":"sl/jyx0ra1s","slide":4,"title":"当前工作重点：三条主线并行推进","textShapes":1}
+{"kind":"textbox","id":"sh/1cj2d8b6","slide":4,"name":"标题 1","placeholder":"title","text":"当前工作重点：三条主线并行推进","textPreview":"当前工作重点：三条主线并行推进","textChars":15,"textLines":1,"bbox":[37.33,13.33,1053.33,48]}
+{"kind":"shape","id":"sh/0ba143al","slide":4,"name":"body-separator","bbox":[70,86,1140,0]}
+{"kind":"table","id":"tb/etwv2lcn","slide":4,"name":"表格 6","rows":7,"cols":3,"preview":"工作主线 | 当前重点 | 阶段输出","bbox":[0.07,85.93,1280,629.07]}
+{"kind":"notes","id":"nt/jyx0ra1s","slide":4,"text":"[Sources]\n- User-provided team roster, work priorities, and responsibility descriptions, 2026-08-20.\n- User-provided PPT visual reference, used only as a visual reference.\n[/Sources]"}
+{"kind":"slide","id":"sl/i107q5of","slide":5,"title":"成员分工：主责明确，持续推进","textShapes":1}
+{"kind":"textbox","id":"sh/dgbulwnm","slide":5,"name":"标题 1","placeholder":"title","text":"成员分工：主责明确，持续推进","textPreview":"成员分工：主责明确，持续推进","textChars":14,"textLines":1,"bbox":[37.33,13.33,1053.33,48]}
+{"kind":"shape","id":"sh/cf2tcr61","slide":5,"name":"body-separator","bbox":[70,86,1140,0]}
+{"kind":"table","id":"tb/m94nadsn","slide":5,"name":"表格 6","rows":6,"cols":4,"preview":"成员 | 定位与主责 | 当前重点 | 关键输出","bbox":[9.53,86.07,1261.13,634]}
+{"kind":"notes","id":"nt/i107q5of","slide":5,"text":"[Sources]\n- User-provided team roster, work priorities, and responsibility descriptions, 2026-08-20.\n- User-provided PPT visual reference, used only as a visual reference.\n[/Sources]"}
+{"kind":"slide","id":"sl/x8f69ofe","slide":6,"title":"责任边界：三条主线分别负责，交叉问题统一协调","textShapes":7}
+{"kind":"textbox","id":"sh/yhg7epsj","slide":6,"name":"标题 1","placeholder":"title","text":"责任边界：三条主线分别负责，交叉问题统一协调","textPreview":"责任边界：三条主线分别负责，交叉问题统一协调","textChars":22,"textLines":1,"bbox":[37.33,13.33,1053.33,48]}
+{"kind":"shape","id":"sh/zi98nu94","slide":6,"name":"body-separator","bbox":[70,86,1140,0]}
+{"kind":"textbox","id":"sh/87ipkzal","slide":6,"name":"矩形 3","text":"三位成员各自负责一条主线，项目交叉时由张易统一协调与决策。","textPreview":"三位成员各自负责一条主线，项目交叉时由张易统一协调与决策。","textChars":29,"textLines":1,"bbox":[70,102,1140,48]}
+{"kind":"shape","id":"sh/98rqt4r6","slide":6,"name":"右箭头 4","bbox":[305,212,34,28]}
+{"kind":"shape","id":"sh/ml07i9sv","slide":6,"name":"右箭头 5","bbox":[590,212,34,28]}
+{"kind":"shape","id":"sh/7m98ru9g","slide":6,"name":"右箭头 6","bbox":[875,212,34,28]}
+{"kind":"textbox","id":"sh/oryp8fah","slide":6,"name":"圆角矩形 7","text":"1 CoreXY调试\n吴悠","textPreview":"1 CoreXY调试 | 吴悠","textChars":13,"textLines":2,"bbox":[70,180,250,95]}
+{"kind":"textbox","id":"sh/pc76hkr2","slide":6,"name":"圆角矩形 8","text":"2 视觉/曲面\n宋赛威","textPreview":"2 视觉/曲面 | 宋赛威","textChars":11,"textLines":2,"bbox":[340,180,250,95]}
+{"kind":"textbox","id":"sh/h4bupgn6","slide":6,"name":"圆角矩形 9","text":"3 双目/板卡/流量\n陈炳行","textPreview":"3 双目/板卡/流量 | 陈炳行","textChars":14,"textLines":2,"bbox":[625,180,250,95]}
+{"kind":"textbox","id":"sh/w32twb6l","slide":6,"name":"圆角矩形 10","text":"4 协调与决策\n张易","textPreview":"4 协调与决策 | 张易","textChars":10,"textLines":2,"bbox":[910,180,250,95]}
+{"kind":"textbox","id":"sh/u1kbu1ov","slide":6,"name":"圆角矩形 12","text":"任务到人、问题闭环、跨任务由组长协调。","textPreview":"任务到人、问题闭环、跨任务由组长协调。","textChars":19,"textLines":1,"bbox":[100,600,1080,58]}
+{"kind":"table","id":"tb/ql8zq5kf","slide":6,"name":"表格 23","rows":3,"cols":4,"preview":"工作主线 | 主责人 | 工作范围 | 协同事项","bbox":[70,330,1140,235]}
+{"kind":"notes","id":"nt/x8f69ofe","slide":6,"text":"[Sources]\n- User-provided team roster, work priorities, and responsibility descriptions, 2026-08-20.\n- User-provided PPT visual reference, used only as a visual reference.\n[/Sources]"}
+{"kind":"slide","id":"sl/gnmp4jqx","slide":7,"title":"推进机制：围绕样机和问题闭环快速迭代","textShapes":1}
+{"kind":"textbox","id":"sh/cb2tkvap","slide":7,"name":"标题 1","placeholder":"title","text":"推进机制：围绕样机和问题闭环快速迭代","textPreview":"推进机制：围绕样机和问题闭环快速迭代","textChars":18,"textLines":1,"bbox":[37.33,13.33,1053.33,48]}
+{"kind":"shape","id":"sh/dcbud0ra","slide":7,"name":"body-separator","bbox":[70,86,1140,0]}
+{"kind":"table","id":"tb/vit8vmd8","slide":7,"name":"表格 6","rows":6,"cols":3,"preview":"推进场景 | 固定动作 | 输出","bbox":[0,86,1271.8,627.67]}
+{"kind":"notes","id":"nt/gnmp4jqx","slide":7,"text":"[Sources]\n- User-provided team roster, work priorities, and responsibility descriptions, 2026-08-20.\n- User-provided PPT visual reference, used only as a visual reference.\n[/Sources]"}
+{"kind":"slide","id":"sl/fu1gfa1s","slide":8,"title":"近期推进计划：按主责人拉动关键输出","textShapes":1}
+{"kind":"textbox","id":"sh/18byd4zy","slide":8,"name":"标题 1","placeholder":"title","text":"近期推进计划：按主责人拉动关键输出","textPreview":"近期推进计划：按主责人拉动关键输出","textChars":17,"textLines":1,"bbox":[37.33,13.33,1053.33,48]}
+{"kind":"shape","id":"sh/g72x4zyd","slide":8,"name":"body-separator","bbox":[70,86,1140,0]}
+{"kind":"table","id":"tb/ixcb6903","slide":8,"name":"表格 6","rows":7,"cols":3,"preview":"责任人 / 模块 | 具体推进事项 | 近期目标","bbox":[0.07,85.93,1280,629.07]}
+{"kind":"notes","id":"nt/fu1gfa1s","slide":8,"text":"[Sources]\n- User-provided team roster, work priorities, and responsibility descriptions, 2026-08-20.\n- User-provided PPT visual reference, used only as a visual reference.\n[/Sources]"}
+{"kind":"slide","id":"sl/udsvah03","slide":9,"title":"聚焦落地 · 主责到人 · 闭环推进","textShapes":5}
+{"kind":"textbox","id":"sh/ofq5svm5","slide":9,"name":"矩形 6","text":"聚焦落地 · 主责到人 · 闭环推进","textPreview":"聚焦落地 · 主责到人 · 闭环推进","textChars":18,"textLines":1,"bbox":[0,45.1,1280,139.2]}
+{"kind":"shape","id":"sh/0b65obm9","slide":9,"name":"矩形: 圆角 2","bbox":[193.33,242.67,893.33,216]}
+{"kind":"textbox","id":"sh/nex4jq5k","slide":9,"name":"文本框 3","text":"硬件组","textPreview":"硬件组","textChars":3,"textLines":1,"bbox":[240,273.33,800,44.16]}
+{"kind":"textbox","id":"sh/mdonql4z","slide":9,"name":"文本框 4","text":"让机器真正跑起来，让关键方案真正落地","textPreview":"让机器真正跑起来，让关键方案真正落地","textChars":18,"textLines":1,"bbox":[240,329.33,800,50.62]}
+{"kind":"textbox","id":"sh/9gzml0nq","slide":9,"name":"文本框 5","text":"Hardware Group Delivery Focus","textPreview":"Hardware Group Delivery Focus","textChars":29,"textLines":1,"bbox":[240,386.67,800,28]}
+{"kind":"textbox","id":"sh/bih4na5w","slide":9,"name":"文本框 7","text":"汇报人｜张易","textPreview":"汇报人｜张易","textChars":6,"textLines":1,"bbox":[240,419.37,800,27.93]}
+{"kind":"image","id":"im/jutknyd4","slide":9,"name":"图片 1","bbox":[0.07,0.07,1279.93,720]}
+{"kind":"notes","id":"nt/udsvah03","slide":9,"text":"[Sources]\n- User-provided team roster, work priorities, and responsibility descriptions, 2026-08-20.\n- User-provided PPT visual reference, used only as a visual reference.\n[/Sources]"}

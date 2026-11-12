@@ -1,0 +1,129 @@
+{
+  "created_utc": "2026-11-10T07:27:18.188233+00:00",
+  "offline_only": true,
+  "live_supported": false,
+  "raspberry_pi_tested": false,
+  "success": true,
+  "commands": [
+    {
+      "command": [
+        "C:\\Users\\zhangyi\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-m",
+        "pip",
+        "wheel",
+        "--no-deps",
+        "--no-build-isolation",
+        "--no-index",
+        "--wheel-dir",
+        "C:\\Users\\zhangyi\\Documents\\五轴曲面打印\\rtcp-portable\\.artifacts\\installed-check-6i6l6684\\wheel",
+        "C:\\Users\\zhangyi\\Documents\\五轴曲面打印\\rtcp-portable"
+      ],
+      "cwd": "C:\\Users\\zhangyi\\Documents\\五轴曲面打印\\rtcp-portable\\.artifacts\\installed-check-6i6l6684",
+      "exit_code": 0,
+      "stdout": "Processing C:\\Users\\zhangyi\\Documents\\���������ӡ\\rtcp-portable\n  Preparing metadata (pyproject.toml): started\n  Preparing metadata (pyproject.toml): finished with status 'done'\nBuilding wheels for collected packages: portable-rtcp-offline\n  Building wheel for portable-rtcp-offline (pyproject.toml): started\n  Building wheel for portable-rtcp-offline (pyproject.toml): finished with status 'done'\n  Created wheel for portable-rtcp-offline: filename=portable_rtcp_offline-0.1.0-py3-none-any.whl size=17625 sha256=142732e412e1dc01ee9ae8899ee1778ab6a9e4ae32d61f072389e210f99c8d22\n  Stored in directory: C:\\Users\\zhangyi\\AppData\\Local\\Temp\\pip-ephem-wheel-cache-fp6ayzvy\\wheels\\ae\\92\\d9\\2ec5ac6f085de77e763e446788019c8b73a9217fbdffbcedc7\nSuccessfully built portable-rtcp-offline\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "C:\\Users\\zhangyi\\Documents\\五轴曲面打印\\rtcp-portable\\.artifacts\\installed-check-6i6l6684\\venv\\Scripts\\python.exe",
+        "-m",
+        "pip",
+        "install",
+        "--no-index",
+        "--no-deps",
+        "C:\\Users\\zhangyi\\Documents\\五轴曲面打印\\rtcp-portable\\.artifacts\\installed-check-6i6l6684\\wheel\\portable_rtcp_offline-0.1.0-py3-none-any.whl"
+      ],
+      "cwd": "C:\\Users\\zhangyi\\Documents\\五轴曲面打印\\rtcp-portable\\.artifacts\\installed-check-6i6l6684",
+      "exit_code": 0,
+      "stdout": "Processing c:\\users\\zhangyi\\documents\\���������ӡ\\rtcp-portable\\.artifacts\\installed-check-6i6l6684\\wheel\\portable_rtcp_offline-0.1.0-py3-none-any.whl\nInstalling collected packages: portable-rtcp-offline\nSuccessfully installed portable-rtcp-offline-0.1.0\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "C:\\Users\\zhangyi\\Documents\\五轴曲面打印\\rtcp-portable\\.artifacts\\installed-check-6i6l6684\\venv\\Scripts\\python.exe",
+        "-I",
+        "-c",
+        "import rtcp_portable,sys,pathlib; p=pathlib.Path(rtcp_portable.__file__).resolve(); assert p.is_relative_to(pathlib.Path(sys.prefix).resolve()); assert rtcp_portable.LIVE_EXECUTION_SUPPORTED is False; print(p)"
+      ],
+      "cwd": "C:\\Users\\zhangyi\\Documents\\五轴曲面打印\\rtcp-portable\\.artifacts\\installed-check-6i6l6684",
+      "exit_code": 0,
+      "stdout": "C:\\Users\\zhangyi\\Documents\\���������ӡ\\rtcp-portable\\.artifacts\\installed-check-6i6l6684\\venv\\Lib\\site-packages\\rtcp_portable\\__init__.py\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "C:\\Users\\zhangyi\\Documents\\五轴曲面打印\\rtcp-portable\\.artifacts\\installed-check-6i6l6684\\venv\\Scripts\\python.exe",
+        "-I",
+        "-m",
+        "rtcp_portable",
+        "selfcheck"
+      ],
+      "cwd": "C:\\Users\\zhangyi\\Documents\\五轴曲面打印\\rtcp-portable\\.artifacts\\installed-check-6i6l6684",
+      "exit_code": 0,
+      "stdout": "{\n  \"ok\": true,\n  \"offline_only\": true,\n  \"live_supported\": false,\n  \"checks\": [\n    \"nonzero_pivot_roundtrip\",\n    \"bounded_arc\",\n    \"no_jump_lifecycle\"\n  ],\n  \"arc_segments\": 32\n}\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "C:\\Users\\zhangyi\\Documents\\五轴曲面打印\\rtcp-portable\\.artifacts\\installed-check-6i6l6684\\venv\\Scripts\\python.exe",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-v"
+      ],
+      "cwd": "C:\\Users\\zhangyi\\Documents\\五轴曲面打印\\rtcp-portable\\.artifacts\\installed-check-6i6l6684\\test-copy",
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": "test_missing_snapshot_fails_closed (test_cli.AuditTests.test_missing_snapshot_fails_closed) ... ok\ntest_static_scan_does_not_execute_source (test_cli.AuditTests.test_static_scan_does_not_execute_source) ... ok\ntest_arbitrary_tilt_vision_frame_rejected (test_cli.CLITests.test_arbitrary_tilt_vision_frame_rejected) ... ok\ntest_duplicate_and_nonfinite_json_rejected (test_cli.CLITests.test_duplicate_and_nonfinite_json_rejected) ... ok\ntest_job_missing_fields_and_legacy_aliases_rejected (test_cli.CLITests.test_job_missing_fields_and_legacy_aliases_rejected) ... ok\ntest_missing_input_returns_readable_error (test_cli.CLITests.test_missing_input_returns_readable_error) ... ok\ntest_new_output_is_json (test_cli.CLITests.test_new_output_is_json) ... ok\ntest_output_never_overwrites_existing_file (test_cli.CLITests.test_output_never_overwrites_existing_file) ... ok\ntest_selfcheck (test_cli.CLITests.test_selfcheck) ... ok\ntest_simulation_is_explicitly_not_executable (test_cli.CLITests.test_simulation_is_explicitly_not_executable) ... ok\ntest_unsupported_extrusion_and_feed_fields_rejected (test_cli.CLITests.test_unsupported_extrusion_and_feed_fields_rejected) ... ok\ntest_validate_template_refused (test_cli.CLITests.test_validate_template_refused) ... ok\ntest_bad_gear (test_geometry.ContractTests.test_bad_gear) ... ok\ntest_bad_limits (test_geometry.ContractTests.test_bad_limits) ... ok\ntest_finite_numbers_only (test_geometry.ContractTests.test_finite_numbers_only) ... ok\ntest_immutable_objects (test_geometry.ContractTests.test_immutable_objects) ... ok\ntest_limits_copied_immutable (test_geometry.ContractTests.test_limits_copied_immutable) ... ok\ntest_machine_template_is_rejected (test_geometry.ContractTests.test_machine_template_is_rejected) ... ok\ntest_profile_budgets (test_geometry.ContractTests.test_profile_budgets) ... ok\ntest_sign_is_explicit_integer (test_geometry.ContractTests.test_sign_is_explicit_integer) ... ok\ntest_transform_contract (test_geometry.ContractTests.test_transform_contract) ... ok\ntest_unknown_keys_and_geometry_fail_closed (test_geometry.ContractTests.test_unknown_keys_and_geometry_fail_closed) ... ok\ntest_valid_synthetic_profile (test_geometry.ContractTests.test_valid_synthetic_profile) ... ok\ntest_direction_is_configuration (test_geometry.GeometryTests.test_direction_is_configuration) ... ok\ntest_gear_does_not_multiply_platform_angle (test_geometry.GeometryTests.test_gear_does_not_multiply_platform_angle) ... ok\ntest_identity_adds_pivot_and_offset_once (test_geometry.GeometryTests.test_identity_adds_pivot_and_offset_once) ... ok\ntest_independent_closed_form_1000_cases (test_geometry.GeometryTests.test_independent_closed_form_1000_cases) ... ok\ntest_nonzero_controller_zeros (test_geometry.GeometryTests.test_nonzero_controller_zeros) ... ok\ntest_nonzero_pivot_roundtrip_regression (test_geometry.GeometryTests.test_nonzero_pivot_roundtrip_regression) ... ok\ntest_registration_rotates_with_work (test_geometry.GeometryTests.test_registration_rotates_with_work) ... ok\ntest_u_rotates_about_x_not_old_y (test_geometry.GeometryTests.test_u_rotates_about_x_not_old_y) ... ok\ntest_v_is_inner_axis_and_rotates_with_u (test_geometry.GeometryTests.test_v_is_inner_axis_and_rotates_with_u) ... ok\ntest_arc_midpoint_legacy_regression (test_geometry.PathTests.test_arc_midpoint_legacy_regression) ... ok\ntest_combined_linear_rotary_derivative_bound (test_geometry.PathTests.test_combined_linear_rotary_derivative_bound) ... ok\ntest_dense_sampling_confirms_bounds_100_random_paths (test_geometry.PathTests.test_dense_sampling_confirms_bounds_100_random_paths) ... ok\ntest_depth_budget_fails_closed (test_geometry.PathTests.test_depth_budget_fails_closed) ... ok\ntest_interior_exceeds_limit_despite_valid_endpoints (test_geometry.PathTests.test_interior_exceeds_limit_despite_valid_endpoints) ... ok\ntest_multi_turn_arc_not_missed_by_midpoint (test_geometry.PathTests.test_multi_turn_arc_not_missed_by_midpoint) ... ok\ntest_no_automatic_shortest_angle_wrap (test_geometry.PathTests.test_no_automatic_shortest_angle_wrap) ... ok\ntest_rotary_limits_reject_u270 (test_geometry.PathTests.test_rotary_limits_reject_u270) ... ok\ntest_segment_budget_fails_closed (test_geometry.PathTests.test_segment_budget_fails_closed) ... ok\ntest_straight_line_needs_one_segment (test_geometry.PathTests.test_straight_line_needs_one_segment) ... ok\ntest_transformed_xyz_limit_not_logical_limit (test_geometry.PathTests.test_transformed_xyz_limit_not_logical_limit) ... ok\ntest_zero_radius_can_rotate_without_xyz_motion (test_geometry.PathTests.test_zero_radius_can_rotate_without_xyz_motion) ... ok\ntest_ac_alias_is_not_implicitly_accepted (test_session.SessionTests.test_ac_alias_is_not_implicitly_accepted) ... ok\ntest_begin_end_preserve_physical_position (test_session.SessionTests.test_begin_end_preserve_physical_position) ... ok\ntest_both_rotary_references_required (test_session.SessionTests.test_both_rotary_references_required) ... ok\ntest_cancel_drops_queue_and_requires_new_registration (test_session.SessionTests.test_cancel_drops_queue_and_requires_new_registration) ... ok\ntest_cancel_requires_stop_acknowledgement (test_session.SessionTests.test_cancel_requires_stop_acknowledgement) ... ok\ntest_end_at_rotated_pose_does_not_apply_inverse_again (test_session.SessionTests.test_end_at_rotated_pose_does_not_apply_inverse_again) ... ok\ntest_fault_loses_reference_and_never_parks (test_session.SessionTests.test_fault_loses_reference_and_never_parks) ... ok\ntest_motor_disable_invalidates_reference (test_session.SessionTests.test_motor_disable_invalidates_reference) ... ok\ntest_move_rejected_while_disabled (test_session.SessionTests.test_move_rejected_while_disabled) ... ok\ntest_new_host_never_inherits_references (test_session.SessionTests.test_new_host_never_inherits_references) ... ok\ntest_new_session_cannot_begin (test_session.SessionTests.test_new_session_cannot_begin) ... ok\ntest_no_reference_changes_in_active_session (test_session.SessionTests.test_no_reference_changes_in_active_session) ... ok\ntest_pause_preserves_session_and_reference (test_session.SessionTests.test_pause_preserves_session_and_reference) ... ok\ntest_pending_queue_prevents_end_and_pause (test_session.SessionTests.test_pending_queue_prevents_end_and_pause) ... ok\ntest_queue_not_executed_until_drain (test_session.SessionTests.test_queue_not_executed_until_drain) ... ok\ntest_raw_operations_forbidden_when_active_or_paused (test_session.SessionTests.test_raw_operations_forbidden_when_active_or_paused) ... ok\ntest_reference_change_invalidates_registration (test_session.SessionTests.test_reference_change_invalidates_registration) ... ok\ntest_rejected_move_is_transactional (test_session.SessionTests.test_rejected_move_is_transactional) ... ok\ntest_vision_refuses_tilted_or_nonzero_v_pose (test_session.SessionTests.test_vision_refuses_tilted_or_nonzero_v_pose) ... ok\ntest_vision_requires_explicit_dz (test_session.SessionTests.test_vision_requires_explicit_dz) ... ok\ntest_xyz_rehoming_invalidates_registration (test_session.SessionTests.test_xyz_rehoming_invalidates_registration) ... ok\n\n----------------------------------------------------------------------\nRan 65 tests in 3.011s\n\nOK\n"
+    },
+    {
+      "command": [
+        "C:\\Users\\zhangyi\\Documents\\五轴曲面打印\\rtcp-portable\\.artifacts\\installed-check-6i6l6684\\venv\\Scripts\\python.exe",
+        "-I",
+        "-m",
+        "rtcp_portable",
+        "simulate",
+        "C:\\Users\\zhangyi\\Documents\\五轴曲面打印\\rtcp-portable\\.artifacts\\installed-check-6i6l6684\\test-copy\\profiles\\simulation.json",
+        "C:\\Users\\zhangyi\\Documents\\五轴曲面打印\\rtcp-portable\\.artifacts\\installed-check-6i6l6684\\test-copy\\examples\\arc.json",
+        "--output",
+        "C:\\Users\\zhangyi\\Documents\\五轴曲面打印\\rtcp-portable\\.artifacts\\installed-check-6i6l6684\\installed-simulation.json"
+      ],
+      "cwd": "C:\\Users\\zhangyi\\Documents\\五轴曲面打印\\rtcp-portable\\.artifacts\\installed-check-6i6l6684",
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "C:\\Users\\zhangyi\\Documents\\五轴曲面打印\\rtcp-portable\\.artifacts\\installed-check-6i6l6684\\venv\\Scripts\\rtcp-offline.exe",
+        "selfcheck"
+      ],
+      "cwd": "C:\\Users\\zhangyi\\Documents\\五轴曲面打印\\rtcp-portable\\.artifacts\\installed-check-6i6l6684",
+      "exit_code": 0,
+      "stdout": "{\n  \"ok\": true,\n  \"offline_only\": true,\n  \"live_supported\": false,\n  \"checks\": [\n    \"nonzero_pivot_roundtrip\",\n    \"bounded_arc\",\n    \"no_jump_lifecycle\"\n  ],\n  \"arc_segments\": 32\n}\n",
+      "stderr": ""
+    }
+  ],
+  "wheel_files": [
+    "rtcp_portable/__init__.py",
+    "rtcp_portable/__main__.py",
+    "rtcp_portable/audit.py",
+    "rtcp_portable/cli.py",
+    "rtcp_portable/errors.py",
+    "rtcp_portable/geometry.py",
+    "rtcp_portable/models.py",
+    "rtcp_portable/path.py",
+    "rtcp_portable/selfcheck.py",
+    "rtcp_portable/session.py",
+    "portable_rtcp_offline-0.1.0.dist-info/METADATA",
+    "portable_rtcp_offline-0.1.0.dist-info/WHEEL",
+    "portable_rtcp_offline-0.1.0.dist-info/entry_points.txt",
+    "portable_rtcp_offline-0.1.0.dist-info/top_level.txt",
+    "portable_rtcp_offline-0.1.0.dist-info/RECORD"
+  ],
+  "installed_import": "C:\\Users\\zhangyi\\Documents\\���������ӡ\\rtcp-portable\\.artifacts\\installed-check-6i6l6684\\venv\\Lib\\site-packages\\rtcp_portable\\__init__.py",
+  "wheel": "portable_rtcp_offline-0.1.0-py3-none-any.whl",
+  "wheel_sha256": "142732e412e1dc01ee9ae8899ee1778ab6a9e4ae32d61f072389e210f99c8d22"
+}

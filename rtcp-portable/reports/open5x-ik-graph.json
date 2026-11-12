@@ -1,0 +1,3884 @@
+{
+  "schema_version": 1,
+  "offline_only": true,
+  "live_supported": false,
+  "filename": "cluster-16.xml",
+  "sha256": "db6d46c27106636a8e6f13a40cd3dcd663351d2864b8eb2c759c7db8ce33ca85",
+  "object_count": 54,
+  "embedded_code_executed": false,
+  "limitations": [
+    "Graph metadata only, not a Grasshopper solution",
+    "Cluster string evidence is not full binary graph reconstruction",
+    "Saved GHX and historical G-code are not assumed to be a matched export"
+  ],
+  "objects": [
+    {
+      "index": 0,
+      "guid": "62894b96-3462-4666-9d84-ec11e6e7589a",
+      "type": "Group",
+      "nickname": "",
+      "values": {
+        "Description": "A group of Grasshopper objects"
+      },
+      "ports": [
+        {
+          "kind": "Container",
+          "index": null,
+          "name": "Group",
+          "guid": "62894b96-3462-4666-9d84-ec11e6e7589a",
+          "sources": [],
+          "expression": null,
+          "description": "A group of Grasshopper objects",
+          "upstream": []
+        }
+      ],
+      "scalars": [],
+      "clusters": []
+    },
+    {
+      "index": 1,
+      "guid": "3c4673f8-0fd4-410a-8037-d0620ed71614",
+      "type": "Group",
+      "nickname": "",
+      "values": {
+        "Description": "A group of Grasshopper objects"
+      },
+      "ports": [
+        {
+          "kind": "Container",
+          "index": null,
+          "name": "Group",
+          "guid": "3c4673f8-0fd4-410a-8037-d0620ed71614",
+          "sources": [],
+          "expression": null,
+          "description": "A group of Grasshopper objects",
+          "upstream": []
+        }
+      ],
+      "scalars": [],
+      "clusters": []
+    },
+    {
+      "index": 2,
+      "guid": "94835a42-bd05-44fc-b00b-f33d6cbafcd9",
+      "type": "Deconstruct Plane",
+      "nickname": "DePlane",
+      "values": {
+        "Description": "Deconstruct a plane into its component parts."
+      },
+      "ports": [
+        {
+          "kind": "Container",
+          "index": null,
+          "name": "Deconstruct Plane",
+          "guid": "94835a42-bd05-44fc-b00b-f33d6cbafcd9",
+          "sources": [],
+          "expression": null,
+          "description": "Deconstruct a plane into its component parts.",
+          "upstream": []
+        },
+        {
+          "kind": "param_input",
+          "index": "0",
+          "name": "Plane",
+          "guid": "4e5f96af-914d-42a8-8d28-a317841fb4ee",
+          "sources": [
+            "4717fb48-76df-4fd6-adcb-ea820511cd9f"
+          ],
+          "expression": null,
+          "description": "Plane to deconstruct",
+          "upstream": [
+            {
+              "object_index": 7,
+              "port": "Plane"
+            }
+          ]
+        },
+        {
+          "kind": "param_output",
+          "index": "0",
+          "name": "Origin",
+          "guid": "23b5adb7-e20f-443d-b0eb-9a9121dc9c7e",
+          "sources": [],
+          "expression": null,
+          "description": "Origin point",
+          "upstream": []
+        },
+        {
+          "kind": "param_output",
+          "index": "1",
+          "name": "X-Axis",
+          "guid": "55c843b7-87bc-4a91-b762-4d3314ee51a3",
+          "sources": [],
+          "expression": null,
+          "description": "X-Axis vector",
+          "upstream": []
+        },
+        {
+          "kind": "param_output",
+          "index": "2",
+          "name": "Y-Axis",
+          "guid": "409b418c-bf5a-4ed6-a9b6-7f8690322638",
+          "sources": [],
+          "expression": null,
+          "description": "Y-Axis vector",
+          "upstream": []
+        },
+        {
+          "kind": "param_output",
+          "index": "3",
+          "name": "Z-Axis",
+          "guid": "41d789dd-aceb-468c-86bc-dbab368848e2",
+          "sources": [],
+          "expression": null,
+          "description": "Z-Axis vector",
+          "upstream": []
+        }
+      ],
+      "scalars": [],
+      "clusters": []
+    },
+    {
+      "index": 3,
+      "guid": "ad9d8207-450d-4d10-a91b-670ac3c77d75",
+      "type": "Deconstruct Vector",
+      "nickname": "DeVec",
+      "values": {
+        "Description": "Deconstruct a vector into its component parts."
+      },
+      "ports": [
+        {
+          "kind": "Container",
+          "index": null,
+          "name": "Deconstruct Vector",
+          "guid": "ad9d8207-450d-4d10-a91b-670ac3c77d75",
+          "sources": [],
+          "expression": null,
+          "description": "Deconstruct a vector into its component parts.",
+          "upstream": []
+        },
+        {
+          "kind": "param_input",
+          "index": "0",
+          "name": "Vector",
+          "guid": "8a563784-f4ef-47e3-963b-f6b9138c05e8",
+          "sources": [
+            "41d789dd-aceb-468c-86bc-dbab368848e2"
+          ],
+          "expression": null,
+          "description": "Input vector",
+          "upstream": [
+            {
+              "object_index": 2,
+              "port": "Z-Axis"
+            }
+          ]
+        },
+        {
+          "kind": "param_output",
+          "index": "0",
+          "name": "X component",
+          "guid": "a694c9f2-eb46-4562-9d77-3b5925aadfd1",
+          "sources": [],
+          "expression": null,
+          "description": "Vector {x} component",
+          "upstream": []
+        },
+        {
+          "kind": "param_output",
+          "index": "1",
+          "name": "Y component",
+          "guid": "401ff20b-80c8-4bbf-b430-a34f53f12003",
+          "sources": [],
+          "expression": null,
+          "description": "Vector {y} component",
+          "upstream": []
+        },
+        {
+          "kind": "param_output",
+          "index": "2",
+          "name": "Z component",
+          "guid": "c906d04c-bb22-4916-86fc-7c5dc47857cb",
+          "sources": [],
+          "expression": null,
+          "description": "Vector {z} component",
+          "upstream": []
+        }
+      ],
+      "scalars": [],
+      "clusters": []
+    },
+    {
+      "index": 4,
+      "guid": "d07fc974-2a52-404a-a58e-e0d6078ef814",
+      "type": "Entwine",
+      "nickname": "Simulation_Entwine Matrix",
+      "values": {
+        "Description": "Flatten and combine a collection of data streams"
+      },
+      "ports": [
+        {
+          "kind": "Container",
+          "index": null,
+          "name": "Entwine",
+          "guid": "d07fc974-2a52-404a-a58e-e0d6078ef814",
+          "sources": [],
+          "expression": null,
+          "description": "Flatten and combine a collection of data streams",
+          "upstream": []
+        },
+        {
+          "kind": "InputParam",
+          "index": "0",
+          "name": "Branch {0;0}",
+          "guid": "a5d367fe-88cd-42fd-8543-c7d62e260daf",
+          "sources": [
+            "a9cfac9b-2ef3-4222-b7d2-d9ad84195258"
+          ],
+          "expression": null,
+          "description": "Data to entwine",
+          "upstream": [
+            {
+              "object_index": 24,
+              "port": "Transform"
+            }
+          ]
+        },
+        {
+          "kind": "InputParam",
+          "index": "1",
+          "name": "Branch {0;1}",
+          "guid": "f059f391-a8fd-41b0-b612-fb48f17f8083",
+          "sources": [
+            "dee880a7-c8e2-4339-89a1-6b57fda7b950"
+          ],
+          "expression": null,
+          "description": "Data to entwine",
+          "upstream": [
+            {
+              "object_index": 19,
+              "port": "Transform"
+            }
+          ]
+        },
+        {
+          "kind": "InputParam",
+          "index": "2",
+          "name": "Branch {0;2}",
+          "guid": "63cd7386-5128-4f6d-ab59-5b9ed45fce41",
+          "sources": [
+            "c07f7bbd-cfc2-40f8-9b54-5d4fb20a0492"
+          ],
+          "expression": null,
+          "description": "Data to entwine",
+          "upstream": [
+            {
+              "object_index": 11,
+              "port": "X coordinate"
+            }
+          ]
+        },
+        {
+          "kind": "InputParam",
+          "index": "3",
+          "name": "Branch {0;3}",
+          "guid": "5648bc8a-2179-4ee1-92db-cffcc0cd1234",
+          "sources": [
+            "ee8837c2-681a-4138-b0b9-c584502786d6"
+          ],
+          "expression": null,
+          "description": "Data to entwine",
+          "upstream": [
+            {
+              "object_index": 52,
+              "port": "Relay"
+            }
+          ]
+        },
+        {
+          "kind": "InputParam",
+          "index": "4",
+          "name": "Branch {0;4}",
+          "guid": "0d17c043-946c-46fa-ba79-fce72593964b",
+          "sources": [
+            "9dcf2221-8b66-492f-96a5-9b2df50526ea"
+          ],
+          "expression": null,
+          "description": "Data to entwine",
+          "upstream": [
+            {
+              "object_index": 11,
+              "port": "Z coordinate"
+            }
+          ]
+        },
+        {
+          "kind": "OutputParam",
+          "index": "0",
+          "name": "Result",
+          "guid": "de2b0bbe-c037-4612-97d1-8838076a6f0f",
+          "sources": [],
+          "expression": null,
+          "description": "Entwined result",
+          "upstream": []
+        }
+      ],
+      "scalars": [],
+      "clusters": []
+    },
+    {
+      "index": 5,
+      "guid": "e9bdf845-b78b-43b0-81e9-3d11be72fdcf",
+      "type": "Scribble",
+      "nickname": "Scribble",
+      "values": {
+        "Description": "A quick note"
+      },
+      "ports": [
+        {
+          "kind": "Container",
+          "index": null,
+          "name": "Scribble",
+          "guid": "e9bdf845-b78b-43b0-81e9-3d11be72fdcf",
+          "sources": [],
+          "expression": null,
+          "description": "A quick note",
+          "upstream": []
+        }
+      ],
+      "scalars": [],
+      "clusters": []
+    },
+    {
+      "index": 6,
+      "guid": "07c9bd92-a919-421a-85bf-3824f7642fe6",
+      "type": "Scribble",
+      "nickname": "Scribble",
+      "values": {
+        "Description": "A quick note"
+      },
+      "ports": [
+        {
+          "kind": "Container",
+          "index": null,
+          "name": "Scribble",
+          "guid": "07c9bd92-a919-421a-85bf-3824f7642fe6",
+          "sources": [],
+          "expression": null,
+          "description": "A quick note",
+          "upstream": []
+        }
+      ],
+      "scalars": [],
+      "clusters": []
+    },
+    {
+      "index": 7,
+      "guid": "4717fb48-76df-4fd6-adcb-ea820511cd9f",
+      "type": "Plane",
+      "nickname": "Pln",
+      "values": {
+        "Description": "Contains a collection of three-dimensional axis-systems"
+      },
+      "ports": [
+        {
+          "kind": "Container",
+          "index": null,
+          "name": "Plane",
+          "guid": "4717fb48-76df-4fd6-adcb-ea820511cd9f",
+          "sources": [
+            "e4fafed3-21a7-46bd-99d6-d0e0e0b5ea16"
+          ],
+          "expression": null,
+          "description": "Contains a collection of three-dimensional axis-systems",
+          "upstream": [
+            {
+              "object_index": 27,
+              "port": "Plane"
+            }
+          ]
+        }
+      ],
+      "scalars": [],
+      "clusters": []
+    },
+    {
+      "index": 8,
+      "guid": "ebceec91-fe44-4e2a-a1f1-417661a7d95a",
+      "type": "Panel",
+      "nickname": "Orientation",
+      "values": {
+        "Description": "A panel for custom notes and text values",
+        "UserText": "Double click to edit panel content…"
+      },
+      "ports": [
+        {
+          "kind": "Container",
+          "index": null,
+          "name": "Panel",
+          "guid": "ebceec91-fe44-4e2a-a1f1-417661a7d95a",
+          "sources": [
+            "41d789dd-aceb-468c-86bc-dbab368848e2"
+          ],
+          "expression": null,
+          "description": "A panel for custom notes and text values",
+          "upstream": [
+            {
+              "object_index": 2,
+              "port": "Z-Axis"
+            }
+          ]
+        }
+      ],
+      "scalars": [],
+      "clusters": []
+    },
+    {
+      "index": 9,
+      "guid": "205c9e90-5af6-46d2-9258-59234105d3b7",
+      "type": "Scribble",
+      "nickname": "Scribble",
+      "values": {
+        "Description": "A quick note"
+      },
+      "ports": [
+        {
+          "kind": "Container",
+          "index": null,
+          "name": "Scribble",
+          "guid": "205c9e90-5af6-46d2-9258-59234105d3b7",
+          "sources": [],
+          "expression": null,
+          "description": "A quick note",
+          "upstream": []
+        }
+      ],
+      "scalars": [],
+      "clusters": []
+    },
+    {
+      "index": 10,
+      "guid": "e9b1741d-5da0-41f5-9c9e-322f56d6b668",
+      "type": "Deconstruct Vector",
+      "nickname": "DeVec",
+      "values": {
+        "Description": "Deconstruct a vector into its component parts."
+      },
+      "ports": [
+        {
+          "kind": "Container",
+          "index": null,
+          "name": "Deconstruct Vector",
+          "guid": "e9b1741d-5da0-41f5-9c9e-322f56d6b668",
+          "sources": [],
+          "expression": null,
+          "description": "Deconstruct a vector into its component parts.",
+          "upstream": []
+        },
+        {
+          "kind": "param_input",
+          "index": "0",
+          "name": "Vector",
+          "guid": "956792a8-41e8-40de-ab86-482f174bfb1f",
+          "sources": [
+            "41d789dd-aceb-468c-86bc-dbab368848e2"
+          ],
+          "expression": null,
+          "description": "Input vector",
+          "upstream": [
+            {
+              "object_index": 2,
+              "port": "Z-Axis"
+            }
+          ]
+        },
+        {
+          "kind": "param_output",
+          "index": "0",
+          "name": "X component",
+          "guid": "14f82d59-d6cd-45f4-b3c9-ec1b15faac5a",
+          "sources": [],
+          "expression": null,
+          "description": "Vector {x} component",
+          "upstream": []
+        },
+        {
+          "kind": "param_output",
+          "index": "1",
+          "name": "Y component",
+          "guid": "3cb0aa63-e20e-4a21-a70c-a7f2c33ba642",
+          "sources": [],
+          "expression": null,
+          "description": "Vector {y} component",
+          "upstream": []
+        },
+        {
+          "kind": "param_output",
+          "index": "2",
+          "name": "Z component",
+          "guid": "42fa8fc9-7b96-460a-b20f-158c6c98e92e",
+          "sources": [],
+          "expression": null,
+          "description": "Vector {z} component",
+          "upstream": []
+        }
+      ],
+      "scalars": [],
+      "clusters": []
+    },
+    {
+      "index": 11,
+      "guid": "bc7b1182-cf34-4a1e-b365-e2f57e73e71e",
+      "type": "Plane Coordinates",
+      "nickname": "PlCoord",
+      "values": {
+        "Description": "Get the coordinates of a point in a plane axis system."
+      },
+      "ports": [
+        {
+          "kind": "Container",
+          "index": null,
+          "name": "Plane Coordinates",
+          "guid": "bc7b1182-cf34-4a1e-b365-e2f57e73e71e",
+          "sources": [],
+          "expression": null,
+          "description": "Get the coordinates of a point in a plane axis system.",
+          "upstream": []
+        },
+        {
+          "kind": "param_input",
+          "index": "0",
+          "name": "Point",
+          "guid": "f796b558-e014-43f1-8cfd-e1b66af52177",
+          "sources": [
+            "622fbe40-5ccb-4ae3-bddd-2068be944bdc"
+          ],
+          "expression": null,
+          "description": "Input point",
+          "upstream": [
+            {
+              "object_index": 13,
+              "port": "Geometry"
+            }
+          ]
+        },
+        {
+          "kind": "param_input",
+          "index": "1",
+          "name": "System",
+          "guid": "9fe8bf87-bdbd-43aa-b823-9daa01938c05",
+          "sources": [],
+          "expression": null,
+          "description": "Local coordinate system",
+          "upstream": []
+        },
+        {
+          "kind": "param_output",
+          "index": "0",
+          "name": "X coordinate",
+          "guid": "c07f7bbd-cfc2-40f8-9b54-5d4fb20a0492",
+          "sources": [],
+          "expression": null,
+          "description": "Point {x} coordinate",
+          "upstream": []
+        },
+        {
+          "kind": "param_output",
+          "index": "1",
+          "name": "Y coordinate",
+          "guid": "9fa95bef-3d4b-4425-8758-7d913835b3e1",
+          "sources": [],
+          "expression": null,
+          "description": "Point {y} coordinate",
+          "upstream": []
+        },
+        {
+          "kind": "param_output",
+          "index": "2",
+          "name": "Z coordinate",
+          "guid": "9dcf2221-8b66-492f-96a5-9b2df50526ea",
+          "sources": [],
+          "expression": null,
+          "description": "Point {z} coordinate",
+          "upstream": []
+        }
+      ],
+      "scalars": [],
+      "clusters": []
+    },
+    {
+      "index": 12,
+      "guid": "2217bbb5-1c90-472a-8a19-b9123a579e80",
+      "type": "Number",
+      "nickname": "Num",
+      "values": {
+        "Description": "Contains a collection of floating point numbers"
+      },
+      "ports": [
+        {
+          "kind": "Container",
+          "index": null,
+          "name": "Number",
+          "guid": "2217bbb5-1c90-472a-8a19-b9123a579e80",
+          "sources": [
+            "14f82d59-d6cd-45f4-b3c9-ec1b15faac5a"
+          ],
+          "expression": null,
+          "description": "Contains a collection of floating point numbers",
+          "upstream": [
+            {
+              "object_index": 10,
+              "port": "X component"
+            }
+          ]
+        }
+      ],
+      "scalars": [],
+      "clusters": []
+    },
+    {
+      "index": 13,
+      "guid": "ee580023-4a5e-4442-87b7-a8f1537fe1ac",
+      "type": "Transform",
+      "nickname": "Transform",
+      "values": {
+        "Description": "Transform an object."
+      },
+      "ports": [
+        {
+          "kind": "Container",
+          "index": null,
+          "name": "Transform",
+          "guid": "ee580023-4a5e-4442-87b7-a8f1537fe1ac",
+          "sources": [],
+          "expression": null,
+          "description": "Transform an object.",
+          "upstream": []
+        },
+        {
+          "kind": "param_input",
+          "index": "0",
+          "name": "Geometry",
+          "guid": "03760648-9436-4608-8caa-48249fb9514f",
+          "sources": [
+            "fba59357-bf71-4244-a92e-f9cd39876585"
+          ],
+          "expression": null,
+          "description": "Base geometry",
+          "upstream": [
+            {
+              "object_index": 15,
+              "port": "Geometry"
+            }
+          ]
+        },
+        {
+          "kind": "param_input",
+          "index": "1",
+          "name": "Transform",
+          "guid": "a14079bb-9006-4162-b085-1d90673f3c60",
+          "sources": [
+            "dee880a7-c8e2-4339-89a1-6b57fda7b950"
+          ],
+          "expression": null,
+          "description": "Transformation",
+          "upstream": [
+            {
+              "object_index": 19,
+              "port": "Transform"
+            }
+          ]
+        },
+        {
+          "kind": "param_output",
+          "index": "0",
+          "name": "Geometry",
+          "guid": "622fbe40-5ccb-4ae3-bddd-2068be944bdc",
+          "sources": [],
+          "expression": null,
+          "description": "Transformed geometry",
+          "upstream": []
+        }
+      ],
+      "scalars": [],
+      "clusters": []
+    },
+    {
+      "index": 14,
+      "guid": "37eb9c02-2d02-4918-b54f-7d3dc3318d5c",
+      "type": "Number",
+      "nickname": "Num",
+      "values": {
+        "Description": "Contains a collection of floating point numbers"
+      },
+      "ports": [
+        {
+          "kind": "Container",
+          "index": null,
+          "name": "Number",
+          "guid": "37eb9c02-2d02-4918-b54f-7d3dc3318d5c",
+          "sources": [
+            "3cb0aa63-e20e-4a21-a70c-a7f2c33ba642"
+          ],
+          "expression": null,
+          "description": "Contains a collection of floating point numbers",
+          "upstream": [
+            {
+              "object_index": 10,
+              "port": "Y component"
+            }
+          ]
+        }
+      ],
+      "scalars": [],
+      "clusters": []
+    },
+    {
+      "index": 15,
+      "guid": "6717fa7e-c1fb-4602-b8d2-3157ff8e5fb1",
+      "type": "Transform",
+      "nickname": "Transform",
+      "values": {
+        "Description": "Transform an object."
+      },
+      "ports": [
+        {
+          "kind": "Container",
+          "index": null,
+          "name": "Transform",
+          "guid": "6717fa7e-c1fb-4602-b8d2-3157ff8e5fb1",
+          "sources": [],
+          "expression": null,
+          "description": "Transform an object.",
+          "upstream": []
+        },
+        {
+          "kind": "param_input",
+          "index": "0",
+          "name": "Geometry",
+          "guid": "1d3e61c9-3cc3-4523-9842-5df4d80c3df2",
+          "sources": [
+            "4717fb48-76df-4fd6-adcb-ea820511cd9f"
+          ],
+          "expression": null,
+          "description": "Base geometry",
+          "upstream": [
+            {
+              "object_index": 7,
+              "port": "Plane"
+            }
+          ]
+        },
+        {
+          "kind": "param_input",
+          "index": "1",
+          "name": "Transform",
+          "guid": "b602b83c-8433-468b-9dcc-ad9bb99288c8",
+          "sources": [
+            "13526aae-f75f-4724-b7c8-b3235e9fb511"
+          ],
+          "expression": null,
+          "description": "Transformation",
+          "upstream": [
+            {
+              "object_index": 45,
+              "port": "Relay"
+            }
+          ]
+        },
+        {
+          "kind": "param_output",
+          "index": "0",
+          "name": "Geometry",
+          "guid": "fba59357-bf71-4244-a92e-f9cd39876585",
+          "sources": [],
+          "expression": null,
+          "description": "Transformed geometry",
+          "upstream": []
+        }
+      ],
+      "scalars": [],
+      "clusters": []
+    },
+    {
+      "index": 16,
+      "guid": "db49d030-cea7-43d5-9837-cc4b95cfe2f5",
+      "type": "ArcCosine",
+      "nickname": "ACos",
+      "values": {
+        "Description": "Compute the angle whose cosine is the specified value."
+      },
+      "ports": [
+        {
+          "kind": "Container",
+          "index": null,
+          "name": "ArcCosine",
+          "guid": "db49d030-cea7-43d5-9837-cc4b95cfe2f5",
+          "sources": [],
+          "expression": null,
+          "description": "Compute the angle whose cosine is the specified value.",
+          "upstream": []
+        },
+        {
+          "kind": "param_input",
+          "index": "0",
+          "name": "Value",
+          "guid": "765d046d-ad2b-4ece-b1a4-3c95de4e61a3",
+          "sources": [
+            "58510615-40e3-405f-8908-6c87007e128e"
+          ],
+          "expression": null,
+          "description": "Input value",
+          "upstream": [
+            {
+              "object_index": 46,
+              "port": "A"
+            }
+          ]
+        },
+        {
+          "kind": "param_output",
+          "index": "0",
+          "name": "Result",
+          "guid": "0fa3fb61-79aa-4efb-b8c8-e938c2bad8cc",
+          "sources": [],
+          "expression": null,
+          "description": "Output value",
+          "upstream": []
+        }
+      ],
+      "scalars": [],
+      "clusters": []
+    },
+    {
+      "index": 17,
+      "guid": "a48f849f-ffce-45af-8bc6-6aafeea8918c",
+      "type": "Group",
+      "nickname": "",
+      "values": {
+        "Description": "A group of Grasshopper objects"
+      },
+      "ports": [
+        {
+          "kind": "Container",
+          "index": null,
+          "name": "Group",
+          "guid": "a48f849f-ffce-45af-8bc6-6aafeea8918c",
+          "sources": [],
+          "expression": null,
+          "description": "A group of Grasshopper objects",
+          "upstream": []
+        }
+      ],
+      "scalars": [],
+      "clusters": []
+    },
+    {
+      "index": 18,
+      "guid": "fa230764-f9d1-4fd3-a0cd-fe37d6f534bb",
+      "type": "Degrees",
+      "nickname": "Deg",
+      "values": {
+        "Description": "Convert an angle specified in radians to degrees"
+      },
+      "ports": [
+        {
+          "kind": "Container",
+          "index": null,
+          "name": "Degrees",
+          "guid": "fa230764-f9d1-4fd3-a0cd-fe37d6f534bb",
+          "sources": [],
+          "expression": null,
+          "description": "Convert an angle specified in radians to degrees",
+          "upstream": []
+        },
+        {
+          "kind": "param_input",
+          "index": "0",
+          "name": "Radians",
+          "guid": "bb80c5f6-2bf5-48ef-888a-18e62d04af0d",
+          "sources": [
+            "4c4e6828-da31-4794-b5e1-7fdd5f5bd65a"
+          ],
+          "expression": null,
+          "description": "Angle in radians",
+          "upstream": [
+            {
+              "object_index": 34,
+              "port": "Result"
+            }
+          ]
+        },
+        {
+          "kind": "param_output",
+          "index": "0",
+          "name": "Degrees",
+          "guid": "825799a6-a458-4dc3-a584-6e04cb94dd9a",
+          "sources": [],
+          "expression": null,
+          "description": "Angle in degrees",
+          "upstream": []
+        }
+      ],
+      "scalars": [],
+      "clusters": []
+    },
+    {
+      "index": 19,
+      "guid": "4dc2f859-5db7-44f1-8546-f0debb94fc32",
+      "type": "Rotate",
+      "nickname": "Rotate",
+      "values": {
+        "Description": "Rotate an object in a plane."
+      },
+      "ports": [
+        {
+          "kind": "Container",
+          "index": null,
+          "name": "Rotate",
+          "guid": "4dc2f859-5db7-44f1-8546-f0debb94fc32",
+          "sources": [],
+          "expression": null,
+          "description": "Rotate an object in a plane.",
+          "upstream": []
+        },
+        {
+          "kind": "param_input",
+          "index": "0",
+          "name": "Geometry",
+          "guid": "03ccab8a-695a-4416-88c6-dfd90e6c1a61",
+          "sources": [
+            "26e67268-968d-4b8d-ae8b-00319c11c24a"
+          ],
+          "expression": null,
+          "description": "Base geometry",
+          "upstream": [
+            {
+              "object_index": 24,
+              "port": "Geometry"
+            }
+          ]
+        },
+        {
+          "kind": "param_input",
+          "index": "1",
+          "name": "Angle",
+          "guid": "d1ae29f8-ba67-4979-a444-053a5ad6c328",
+          "sources": [
+            "626d95f8-f867-4394-8274-f4a653e0708e"
+          ],
+          "expression": null,
+          "description": "Rotation angle in radians",
+          "upstream": [
+            {
+              "object_index": 40,
+              "port": "Radians"
+            }
+          ]
+        },
+        {
+          "kind": "param_input",
+          "index": "2",
+          "name": "Plane",
+          "guid": "ebdd4b5b-110d-45c0-923c-6aa03247eb0c",
+          "sources": [
+            "26e67268-968d-4b8d-ae8b-00319c11c24a"
+          ],
+          "expression": null,
+          "description": "Rotation plane",
+          "upstream": [
+            {
+              "object_index": 24,
+              "port": "Geometry"
+            }
+          ]
+        },
+        {
+          "kind": "param_output",
+          "index": "0",
+          "name": "Geometry",
+          "guid": "052776a5-c0ff-4eee-89f9-c886ea8586ff",
+          "sources": [],
+          "expression": null,
+          "description": "Rotated geometry",
+          "upstream": []
+        },
+        {
+          "kind": "param_output",
+          "index": "1",
+          "name": "Transform",
+          "guid": "dee880a7-c8e2-4339-89a1-6b57fda7b950",
+          "sources": [],
+          "expression": null,
+          "description": "Transformation data",
+          "upstream": []
+        }
+      ],
+      "scalars": [],
+      "clusters": []
+    },
+    {
+      "index": 20,
+      "guid": "6e3cbe21-fa4f-4487-abd3-4bef72a04d72",
+      "type": "Expression",
+      "nickname": "Expression",
+      "values": {
+        "Description": "Evaluate an expression",
+        "Expression": "Atan2(y,x)"
+      },
+      "ports": [
+        {
+          "kind": "Container",
+          "index": null,
+          "name": "Expression",
+          "guid": "6e3cbe21-fa4f-4487-abd3-4bef72a04d72",
+          "sources": [],
+          "expression": "Atan2(y,x)",
+          "description": "Evaluate an expression",
+          "upstream": []
+        },
+        {
+          "kind": "InputParam",
+          "index": "0",
+          "name": "x",
+          "guid": "f692f567-104b-4c0b-9371-763f52c248ac",
+          "sources": [
+            "2217bbb5-1c90-472a-8a19-b9123a579e80"
+          ],
+          "expression": null,
+          "description": "'x' value used to evaluate 'Atan2(y,x)'",
+          "upstream": [
+            {
+              "object_index": 12,
+              "port": "Number"
+            }
+          ]
+        },
+        {
+          "kind": "InputParam",
+          "index": "1",
+          "name": "y",
+          "guid": "77e7d649-5a89-49e7-9a3b-20cd51d33462",
+          "sources": [
+            "37eb9c02-2d02-4918-b54f-7d3dc3318d5c"
+          ],
+          "expression": null,
+          "description": "'y' value used to evaluate 'Atan2(y,x)'",
+          "upstream": [
+            {
+              "object_index": 14,
+              "port": "Number"
+            }
+          ]
+        },
+        {
+          "kind": "OutputParam",
+          "index": "0",
+          "name": "Result",
+          "guid": "bac63d7f-1c85-4497-b35a-4c72d75437e6",
+          "sources": [],
+          "expression": null,
+          "description": "Result of expression",
+          "upstream": []
+        }
+      ],
+      "scalars": [
+        {
+          "chunk": "Container",
+          "name": "Expression",
+          "type": "gh_string",
+          "value": "Atan2(y,x)"
+        }
+      ],
+      "clusters": []
+    },
+    {
+      "index": 21,
+      "guid": "8fa4aa32-58c6-408e-90bf-756de260e63c",
+      "type": "Degrees",
+      "nickname": "Deg",
+      "values": {
+        "Description": "Convert an angle specified in radians to degrees"
+      },
+      "ports": [
+        {
+          "kind": "Container",
+          "index": null,
+          "name": "Degrees",
+          "guid": "8fa4aa32-58c6-408e-90bf-756de260e63c",
+          "sources": [],
+          "expression": null,
+          "description": "Convert an angle specified in radians to degrees",
+          "upstream": []
+        },
+        {
+          "kind": "param_input",
+          "index": "0",
+          "name": "Radians",
+          "guid": "80d44e19-6a71-4f59-bf0c-f9057e124e00",
+          "sources": [
+            "fe90d20c-25b8-4aaa-9760-2b58ac60fbbe"
+          ],
+          "expression": null,
+          "description": "Angle in radians",
+          "upstream": [
+            {
+              "object_index": 37,
+              "port": "Result"
+            }
+          ]
+        },
+        {
+          "kind": "param_output",
+          "index": "0",
+          "name": "Degrees",
+          "guid": "d28ea027-e66f-42dd-86aa-ee0d90cf543e",
+          "sources": [],
+          "expression": null,
+          "description": "Angle in degrees",
+          "upstream": []
+        }
+      ],
+      "scalars": [],
+      "clusters": []
+    },
+    {
+      "index": 22,
+      "guid": "c2f315ed-750e-44e1-8505-77107831de9d",
+      "type": "XY Plane",
+      "nickname": "XY",
+      "values": {
+        "Description": "World XY plane."
+      },
+      "ports": [
+        {
+          "kind": "Container",
+          "index": null,
+          "name": "XY Plane",
+          "guid": "c2f315ed-750e-44e1-8505-77107831de9d",
+          "sources": [],
+          "expression": null,
+          "description": "World XY plane.",
+          "upstream": []
+        },
+        {
+          "kind": "param_input",
+          "index": "0",
+          "name": "Origin",
+          "guid": "be126560-adb4-437f-bb2c-3cae5b2ba3f2",
+          "sources": [],
+          "expression": null,
+          "description": "Origin of plane",
+          "upstream": []
+        },
+        {
+          "kind": "param_output",
+          "index": "0",
+          "name": "Plane",
+          "guid": "5cca46f3-5eb0-4e46-8636-ccbc4fee4103",
+          "sources": [],
+          "expression": null,
+          "description": "World XY plane",
+          "upstream": []
+        }
+      ],
+      "scalars": [],
+      "clusters": []
+    },
+    {
+      "index": 23,
+      "guid": "73e11c0d-6665-4ef8-8a0d-9d079d4df346",
+      "type": "Panel",
+      "nickname": "Position",
+      "values": {
+        "Description": "A panel for custom notes and text values",
+        "UserText": "Double click to edit panel content…"
+      },
+      "ports": [
+        {
+          "kind": "Container",
+          "index": null,
+          "name": "Panel",
+          "guid": "73e11c0d-6665-4ef8-8a0d-9d079d4df346",
+          "sources": [
+            "23b5adb7-e20f-443d-b0eb-9a9121dc9c7e"
+          ],
+          "expression": null,
+          "description": "A panel for custom notes and text values",
+          "upstream": [
+            {
+              "object_index": 2,
+              "port": "Origin"
+            }
+          ]
+        }
+      ],
+      "scalars": [],
+      "clusters": []
+    },
+    {
+      "index": 24,
+      "guid": "3c68b384-207e-44ec-af69-5ee5ff4ca71f",
+      "type": "Rotate",
+      "nickname": "Rotate",
+      "values": {
+        "Description": "Rotate an object in a plane."
+      },
+      "ports": [
+        {
+          "kind": "Container",
+          "index": null,
+          "name": "Rotate",
+          "guid": "3c68b384-207e-44ec-af69-5ee5ff4ca71f",
+          "sources": [],
+          "expression": null,
+          "description": "Rotate an object in a plane.",
+          "upstream": []
+        },
+        {
+          "kind": "param_input",
+          "index": "0",
+          "name": "Geometry",
+          "guid": "c20e3824-4486-4194-b782-c5341180e275",
+          "sources": [
+            "5cca46f3-5eb0-4e46-8636-ccbc4fee4103"
+          ],
+          "expression": null,
+          "description": "Base geometry",
+          "upstream": [
+            {
+              "object_index": 22,
+              "port": "Plane"
+            }
+          ]
+        },
+        {
+          "kind": "param_input",
+          "index": "1",
+          "name": "Angle",
+          "guid": "ae556df3-b9c7-4a8a-904e-ed9f647dd95d",
+          "sources": [
+            "0fa3fb61-79aa-4efb-b8c8-e938c2bad8cc"
+          ],
+          "expression": null,
+          "description": "Rotation angle in radians",
+          "upstream": [
+            {
+              "object_index": 16,
+              "port": "Result"
+            }
+          ]
+        },
+        {
+          "kind": "param_input",
+          "index": "2",
+          "name": "Plane",
+          "guid": "967776c8-2c7c-4239-a5c0-e42e9334b820",
+          "sources": [
+            "7815a141-51ee-4545-9b2c-f30f5a7494da"
+          ],
+          "expression": null,
+          "description": "Rotation plane",
+          "upstream": [
+            {
+              "object_index": 49,
+              "port": "Plane"
+            }
+          ]
+        },
+        {
+          "kind": "param_output",
+          "index": "0",
+          "name": "Geometry",
+          "guid": "26e67268-968d-4b8d-ae8b-00319c11c24a",
+          "sources": [],
+          "expression": null,
+          "description": "Rotated geometry",
+          "upstream": []
+        },
+        {
+          "kind": "param_output",
+          "index": "1",
+          "name": "Transform",
+          "guid": "a9cfac9b-2ef3-4222-b7d2-d9ad84195258",
+          "sources": [],
+          "expression": null,
+          "description": "Transformation data",
+          "upstream": []
+        }
+      ],
+      "scalars": [],
+      "clusters": []
+    },
+    {
+      "index": 25,
+      "guid": "f33e2e9d-a25e-4054-aed7-42052e4143af",
+      "type": "Panel",
+      "nickname": "",
+      "values": {
+        "Description": "A panel for custom notes and text values",
+        "UserText": "Double click to edit panel content…"
+      },
+      "ports": [
+        {
+          "kind": "Container",
+          "index": null,
+          "name": "Panel",
+          "guid": "f33e2e9d-a25e-4054-aed7-42052e4143af",
+          "sources": [
+            "825799a6-a458-4dc3-a584-6e04cb94dd9a"
+          ],
+          "expression": null,
+          "description": "A panel for custom notes and text values",
+          "upstream": [
+            {
+              "object_index": 18,
+              "port": "Degrees"
+            }
+          ]
+        }
+      ],
+      "scalars": [],
+      "clusters": []
+    },
+    {
+      "index": 26,
+      "guid": "3ea4bcc7-c48d-4543-a34c-7af09647a687",
+      "type": "Result",
+      "nickname": "R",
+      "values": {
+        "Description": "Entwined result"
+      },
+      "ports": [
+        {
+          "kind": "Container",
+          "index": null,
+          "name": "Result",
+          "guid": "3ea4bcc7-c48d-4543-a34c-7af09647a687",
+          "sources": [
+            "de2b0bbe-c037-4612-97d1-8838076a6f0f"
+          ],
+          "expression": null,
+          "description": "Entwined result",
+          "upstream": [
+            {
+              "object_index": 4,
+              "port": "Result"
+            }
+          ]
+        }
+      ],
+      "scalars": [],
+      "clusters": []
+    },
+    {
+      "index": 27,
+      "guid": "e4fafed3-21a7-46bd-99d6-d0e0e0b5ea16",
+      "type": "Plane",
+      "nickname": "Pln",
+      "values": {
+        "Description": "Contains a collection of three-dimensional axis-systems"
+      },
+      "ports": [
+        {
+          "kind": "Container",
+          "index": null,
+          "name": "Plane",
+          "guid": "e4fafed3-21a7-46bd-99d6-d0e0e0b5ea16",
+          "sources": [],
+          "expression": null,
+          "description": "Contains a collection of three-dimensional axis-systems",
+          "upstream": []
+        }
+      ],
+      "scalars": [],
+      "clusters": []
+    },
+    {
+      "index": 28,
+      "guid": "38036774-c62c-460d-b7c7-f501a2da049c",
+      "type": "ACXYZ",
+      "nickname": "ACXYZ",
+      "values": {
+        "Description": "The result of the Division"
+      },
+      "ports": [
+        {
+          "kind": "Container",
+          "index": null,
+          "name": "ACXYZ",
+          "guid": "38036774-c62c-460d-b7c7-f501a2da049c",
+          "sources": [
+            "fa9dbe5e-0354-4d6e-9de5-e6e1b171679b"
+          ],
+          "expression": null,
+          "description": "The result of the Division",
+          "upstream": [
+            {
+              "object_index": 33,
+              "port": "Result"
+            }
+          ]
+        }
+      ],
+      "scalars": [],
+      "clusters": []
+    },
+    {
+      "index": 29,
+      "guid": "d422f8de-f925-4a01-a439-3781f41d65e6",
+      "type": "Entwine",
+      "nickname": "GCODE_Entwine position and orientation",
+      "values": {
+        "Description": "Flatten and combine a collection of data streams"
+      },
+      "ports": [
+        {
+          "kind": "Container",
+          "index": null,
+          "name": "Entwine",
+          "guid": "d422f8de-f925-4a01-a439-3781f41d65e6",
+          "sources": [],
+          "expression": null,
+          "description": "Flatten and combine a collection of data streams",
+          "upstream": []
+        },
+        {
+          "kind": "InputParam",
+          "index": "0",
+          "name": "Branch {0;0}",
+          "guid": "c6c0176c-53ad-4340-829b-b65a3d180783",
+          "sources": [
+            "825799a6-a458-4dc3-a584-6e04cb94dd9a"
+          ],
+          "expression": null,
+          "description": "Data to entwine",
+          "upstream": [
+            {
+              "object_index": 18,
+              "port": "Degrees"
+            }
+          ]
+        },
+        {
+          "kind": "InputParam",
+          "index": "1",
+          "name": "Branch {0;1}",
+          "guid": "484f3ec7-6081-44ba-b122-b480bf20c601",
+          "sources": [
+            "f66a9cf8-be16-40af-a41c-b92c3baba667"
+          ],
+          "expression": null,
+          "description": "Data to entwine",
+          "upstream": [
+            {
+              "object_index": 44,
+              "port": "Partial Results"
+            }
+          ]
+        },
+        {
+          "kind": "InputParam",
+          "index": "2",
+          "name": "Branch {0;2}",
+          "guid": "08a607c8-224c-49cd-86e8-38c1a8d62bbc",
+          "sources": [
+            "c07f7bbd-cfc2-40f8-9b54-5d4fb20a0492"
+          ],
+          "expression": null,
+          "description": "Data to entwine",
+          "upstream": [
+            {
+              "object_index": 11,
+              "port": "X coordinate"
+            }
+          ]
+        },
+        {
+          "kind": "InputParam",
+          "index": "3",
+          "name": "Branch {0;3}",
+          "guid": "db6f82b7-64e7-47cf-a61b-0671ae4a2f85",
+          "sources": [
+            "a1d54964-068c-4b52-8aee-c592859c695a"
+          ],
+          "expression": null,
+          "description": "Data to entwine",
+          "upstream": [
+            {
+              "object_index": 51,
+              "port": "Relay"
+            }
+          ]
+        },
+        {
+          "kind": "InputParam",
+          "index": "4",
+          "name": "Branch {0;4}",
+          "guid": "6a3824a6-0e17-4ce7-bb87-f9a6cf19e912",
+          "sources": [
+            "9dcf2221-8b66-492f-96a5-9b2df50526ea"
+          ],
+          "expression": null,
+          "description": "Data to entwine",
+          "upstream": [
+            {
+              "object_index": 11,
+              "port": "Z coordinate"
+            }
+          ]
+        },
+        {
+          "kind": "OutputParam",
+          "index": "0",
+          "name": "Result",
+          "guid": "f5589242-acdc-4eeb-b719-ce8b9bbc7327",
+          "sources": [],
+          "expression": null,
+          "description": "Entwined result",
+          "upstream": []
+        }
+      ],
+      "scalars": [],
+      "clusters": []
+    },
+    {
+      "index": 30,
+      "guid": "fba39d07-2be8-43d6-b036-27b65147cfee",
+      "type": "Integer",
+      "nickname": "Int",
+      "values": {
+        "Description": "Contains a collection of integer numbers"
+      },
+      "ports": [
+        {
+          "kind": "Container",
+          "index": null,
+          "name": "Integer",
+          "guid": "fba39d07-2be8-43d6-b036-27b65147cfee",
+          "sources": [
+            "68aed8b5-64d7-4d52-adaf-56fdd6dc77b8"
+          ],
+          "expression": null,
+          "description": "Contains a collection of integer numbers",
+          "upstream": [
+            {
+              "object_index": 31,
+              "port": "Result"
+            }
+          ]
+        }
+      ],
+      "scalars": [],
+      "clusters": []
+    },
+    {
+      "index": 31,
+      "guid": "c75f7ba7-8fb0-444e-bc04-b4624e3a1320",
+      "type": "Multiplication",
+      "nickname": "A×B",
+      "values": {
+        "Description": "Mathematical multiplication"
+      },
+      "ports": [
+        {
+          "kind": "Container",
+          "index": null,
+          "name": "Multiplication",
+          "guid": "c75f7ba7-8fb0-444e-bc04-b4624e3a1320",
+          "sources": [],
+          "expression": null,
+          "description": "Mathematical multiplication",
+          "upstream": []
+        },
+        {
+          "kind": "InputParam",
+          "index": "0",
+          "name": "A",
+          "guid": "288289c6-a98c-4f04-a43b-23cc1f1ec0d8",
+          "sources": [
+            "f5589242-acdc-4eeb-b719-ce8b9bbc7327"
+          ],
+          "expression": null,
+          "description": "First item for multiplication",
+          "upstream": [
+            {
+              "object_index": 29,
+              "port": "Result"
+            }
+          ]
+        },
+        {
+          "kind": "InputParam",
+          "index": "1",
+          "name": "B",
+          "guid": "a7c8a932-1260-4e1a-b79b-10b033f40e26",
+          "sources": [
+            "5ac9457c-ae59-47e7-a3e7-5e295cead682"
+          ],
+          "expression": null,
+          "description": "Second item for multiplication",
+          "upstream": [
+            {
+              "object_index": 32,
+              "port": "Number Slider"
+            }
+          ]
+        },
+        {
+          "kind": "OutputParam",
+          "index": "0",
+          "name": "Result",
+          "guid": "68aed8b5-64d7-4d52-adaf-56fdd6dc77b8",
+          "sources": [],
+          "expression": null,
+          "description": "Result of multiplication",
+          "upstream": []
+        }
+      ],
+      "scalars": [],
+      "clusters": []
+    },
+    {
+      "index": 32,
+      "guid": "5ac9457c-ae59-47e7-a3e7-5e295cead682",
+      "type": "Number Slider",
+      "nickname": "",
+      "values": {
+        "Description": "Numeric slider for single values"
+      },
+      "ports": [
+        {
+          "kind": "Container",
+          "index": null,
+          "name": "Number Slider",
+          "guid": "5ac9457c-ae59-47e7-a3e7-5e295cead682",
+          "sources": [],
+          "expression": null,
+          "description": "Numeric slider for single values",
+          "upstream": []
+        }
+      ],
+      "scalars": [
+        {
+          "chunk": "Slider",
+          "name": "Value",
+          "type": "gh_double",
+          "value": "100"
+        }
+      ],
+      "clusters": []
+    },
+    {
+      "index": 33,
+      "guid": "60be1eb3-f92a-489d-a400-e522a88592bc",
+      "type": "Division",
+      "nickname": "A/B",
+      "values": {
+        "Description": "Mathematical division"
+      },
+      "ports": [
+        {
+          "kind": "Container",
+          "index": null,
+          "name": "Division",
+          "guid": "60be1eb3-f92a-489d-a400-e522a88592bc",
+          "sources": [],
+          "expression": null,
+          "description": "Mathematical division",
+          "upstream": []
+        },
+        {
+          "kind": "param_input",
+          "index": "0",
+          "name": "A",
+          "guid": "0ae4d35e-23b7-4e1e-8948-599a134dd64d",
+          "sources": [
+            "fba39d07-2be8-43d6-b036-27b65147cfee"
+          ],
+          "expression": null,
+          "description": "Item to divide (dividend)",
+          "upstream": [
+            {
+              "object_index": 30,
+              "port": "Integer"
+            }
+          ]
+        },
+        {
+          "kind": "param_input",
+          "index": "1",
+          "name": "B",
+          "guid": "605c4038-3912-4190-ba16-11171033d224",
+          "sources": [
+            "5ac9457c-ae59-47e7-a3e7-5e295cead682"
+          ],
+          "expression": null,
+          "description": "Item to divide with (divisor)",
+          "upstream": [
+            {
+              "object_index": 32,
+              "port": "Number Slider"
+            }
+          ]
+        },
+        {
+          "kind": "param_output",
+          "index": "0",
+          "name": "Result",
+          "guid": "fa9dbe5e-0354-4d6e-9de5-e6e1b171679b",
+          "sources": [],
+          "expression": null,
+          "description": "The result of the Division",
+          "upstream": []
+        }
+      ],
+      "scalars": [],
+      "clusters": []
+    },
+    {
+      "index": 34,
+      "guid": "b2ca16a5-2774-4c7b-b7e3-66fed9726d75",
+      "type": "Multiplication",
+      "nickname": "A×B",
+      "values": {
+        "Description": "Mathematical multiplication"
+      },
+      "ports": [
+        {
+          "kind": "Container",
+          "index": null,
+          "name": "Multiplication",
+          "guid": "b2ca16a5-2774-4c7b-b7e3-66fed9726d75",
+          "sources": [],
+          "expression": null,
+          "description": "Mathematical multiplication",
+          "upstream": []
+        },
+        {
+          "kind": "InputParam",
+          "index": "0",
+          "name": "A",
+          "guid": "39f0906c-9869-4340-a29e-25837323bfd3",
+          "sources": [
+            "0fa3fb61-79aa-4efb-b8c8-e938c2bad8cc"
+          ],
+          "expression": null,
+          "description": "First item for multiplication",
+          "upstream": [
+            {
+              "object_index": 16,
+              "port": "Result"
+            }
+          ]
+        },
+        {
+          "kind": "InputParam",
+          "index": "1",
+          "name": "B",
+          "guid": "6bc6aa22-0b57-4c2b-9c30-1aac1a6a5523",
+          "sources": [],
+          "expression": null,
+          "description": "Second item for multiplication",
+          "upstream": []
+        },
+        {
+          "kind": "OutputParam",
+          "index": "0",
+          "name": "Result",
+          "guid": "4c4e6828-da31-4794-b5e1-7fdd5f5bd65a",
+          "sources": [],
+          "expression": null,
+          "description": "Result of multiplication",
+          "upstream": []
+        }
+      ],
+      "scalars": [],
+      "clusters": []
+    },
+    {
+      "index": 35,
+      "guid": "f85edb65-6ca6-464f-9498-62f37c53e4f4",
+      "type": "Point List",
+      "nickname": "Points",
+      "values": {
+        "Description": "Displays details about lists of points"
+      },
+      "ports": [
+        {
+          "kind": "Container",
+          "index": null,
+          "name": "Point List",
+          "guid": "f85edb65-6ca6-464f-9498-62f37c53e4f4",
+          "sources": [],
+          "expression": null,
+          "description": "Displays details about lists of points",
+          "upstream": []
+        },
+        {
+          "kind": "param_input",
+          "index": "0",
+          "name": "Points",
+          "guid": "df459bc4-f6f7-46e4-b093-fdeb25a227b9",
+          "sources": [
+            "23b5adb7-e20f-443d-b0eb-9a9121dc9c7e"
+          ],
+          "expression": null,
+          "description": "Points to display",
+          "upstream": [
+            {
+              "object_index": 2,
+              "port": "Origin"
+            }
+          ]
+        },
+        {
+          "kind": "param_input",
+          "index": "1",
+          "name": "Size",
+          "guid": "c7e5b55c-2c39-44ad-b6d3-8e6c711f528d",
+          "sources": [
+            "ae3c7174-7348-4e7a-aef8-cb9fcf625d31"
+          ],
+          "expression": null,
+          "description": "Optional text size (in Rhino units)",
+          "upstream": [
+            {
+              "object_index": 36,
+              "port": "Number Slider"
+            }
+          ]
+        }
+      ],
+      "scalars": [],
+      "clusters": []
+    },
+    {
+      "index": 36,
+      "guid": "ae3c7174-7348-4e7a-aef8-cb9fcf625d31",
+      "type": "Number Slider",
+      "nickname": "",
+      "values": {
+        "Description": "Numeric slider for single values"
+      },
+      "ports": [
+        {
+          "kind": "Container",
+          "index": null,
+          "name": "Number Slider",
+          "guid": "ae3c7174-7348-4e7a-aef8-cb9fcf625d31",
+          "sources": [],
+          "expression": null,
+          "description": "Numeric slider for single values",
+          "upstream": []
+        }
+      ],
+      "scalars": [
+        {
+          "chunk": "Slider",
+          "name": "Value",
+          "type": "gh_double",
+          "value": "1"
+        }
+      ],
+      "clusters": []
+    },
+    {
+      "index": 37,
+      "guid": "ff800ed1-6dce-4a23-a960-44fb1edc25d7",
+      "type": "Negative",
+      "nickname": "Neg",
+      "values": {
+        "Description": "Compute the negative of a value."
+      },
+      "ports": [
+        {
+          "kind": "Container",
+          "index": null,
+          "name": "Negative",
+          "guid": "ff800ed1-6dce-4a23-a960-44fb1edc25d7",
+          "sources": [],
+          "expression": null,
+          "description": "Compute the negative of a value.",
+          "upstream": []
+        },
+        {
+          "kind": "param_input",
+          "index": "0",
+          "name": "Value",
+          "guid": "833a1a23-6806-45ba-aefd-3c6d1cf7cb77",
+          "sources": [
+            "bac63d7f-1c85-4497-b35a-4c72d75437e6"
+          ],
+          "expression": null,
+          "description": "Input value",
+          "upstream": [
+            {
+              "object_index": 20,
+              "port": "Result"
+            }
+          ]
+        },
+        {
+          "kind": "param_output",
+          "index": "0",
+          "name": "Result",
+          "guid": "fe90d20c-25b8-4aaa-9760-2b58ac60fbbe",
+          "sources": [],
+          "expression": null,
+          "description": "Output value",
+          "upstream": []
+        }
+      ],
+      "scalars": [],
+      "clusters": []
+    },
+    {
+      "index": 38,
+      "guid": "c51d33a5-e0cf-44aa-91a3-f5598eed4e9e",
+      "type": "Panel",
+      "nickname": "",
+      "values": {
+        "Description": "A panel for custom notes and text values",
+        "UserText": "Double click to edit panel content…"
+      },
+      "ports": [
+        {
+          "kind": "Container",
+          "index": null,
+          "name": "Panel",
+          "guid": "c51d33a5-e0cf-44aa-91a3-f5598eed4e9e",
+          "sources": [
+            "d28ea027-e66f-42dd-86aa-ee0d90cf543e"
+          ],
+          "expression": null,
+          "description": "A panel for custom notes and text values",
+          "upstream": [
+            {
+              "object_index": 21,
+              "port": "Degrees"
+            }
+          ]
+        }
+      ],
+      "scalars": [],
+      "clusters": []
+    },
+    {
+      "index": 39,
+      "guid": "9d87fec5-3dcc-420f-88ae-55a312be10b8",
+      "type": "Panel",
+      "nickname": "",
+      "values": {
+        "Description": "A panel for custom notes and text values",
+        "UserText": "Double click to edit panel content…"
+      },
+      "ports": [
+        {
+          "kind": "Container",
+          "index": null,
+          "name": "Panel",
+          "guid": "9d87fec5-3dcc-420f-88ae-55a312be10b8",
+          "sources": [
+            "f66a9cf8-be16-40af-a41c-b92c3baba667"
+          ],
+          "expression": null,
+          "description": "A panel for custom notes and text values",
+          "upstream": [
+            {
+              "object_index": 44,
+              "port": "Partial Results"
+            }
+          ]
+        }
+      ],
+      "scalars": [],
+      "clusters": []
+    },
+    {
+      "index": 40,
+      "guid": "90f74137-5d5b-424a-8a7b-6bc7095d0252",
+      "type": "Radians",
+      "nickname": "Rad",
+      "values": {
+        "Description": "Convert an angle specified in degrees to radians"
+      },
+      "ports": [
+        {
+          "kind": "Container",
+          "index": null,
+          "name": "Radians",
+          "guid": "90f74137-5d5b-424a-8a7b-6bc7095d0252",
+          "sources": [],
+          "expression": null,
+          "description": "Convert an angle specified in degrees to radians",
+          "upstream": []
+        },
+        {
+          "kind": "param_input",
+          "index": "0",
+          "name": "Degrees",
+          "guid": "c5b70c3a-430d-4cfc-90c7-94e182d3f5c6",
+          "sources": [
+            "f66a9cf8-be16-40af-a41c-b92c3baba667"
+          ],
+          "expression": null,
+          "description": "Angle in degrees",
+          "upstream": [
+            {
+              "object_index": 44,
+              "port": "Partial Results"
+            }
+          ]
+        },
+        {
+          "kind": "param_output",
+          "index": "0",
+          "name": "Radians",
+          "guid": "626d95f8-f867-4394-8274-f4a653e0708e",
+          "sources": [],
+          "expression": null,
+          "description": "Angle in radians",
+          "upstream": []
+        }
+      ],
+      "scalars": [],
+      "clusters": []
+    },
+    {
+      "index": 41,
+      "guid": "ba3e6a66-8439-41c1-bc82-0b426dcf8b64",
+      "type": "Subtraction",
+      "nickname": "A-B",
+      "values": {
+        "Description": "Mathematical subtraction"
+      },
+      "ports": [
+        {
+          "kind": "Container",
+          "index": null,
+          "name": "Subtraction",
+          "guid": "ba3e6a66-8439-41c1-bc82-0b426dcf8b64",
+          "sources": [],
+          "expression": null,
+          "description": "Mathematical subtraction",
+          "upstream": []
+        },
+        {
+          "kind": "InputParam",
+          "index": "0",
+          "name": "A",
+          "guid": "901aa4ce-ea3f-48aa-97a7-1e261c161927",
+          "sources": [
+            "c51d33a5-e0cf-44aa-91a3-f5598eed4e9e"
+          ],
+          "expression": null,
+          "description": "First operand for subtraction",
+          "upstream": [
+            {
+              "object_index": 38,
+              "port": "Panel"
+            }
+          ]
+        },
+        {
+          "kind": "InputParam",
+          "index": "1",
+          "name": "B",
+          "guid": "2d4d904f-b6f4-4fd5-9371-23061e850f1e",
+          "sources": [
+            "9d87fec5-3dcc-420f-88ae-55a312be10b8"
+          ],
+          "expression": null,
+          "description": "Second operand for subtraction",
+          "upstream": [
+            {
+              "object_index": 39,
+              "port": "Panel"
+            }
+          ]
+        },
+        {
+          "kind": "OutputParam",
+          "index": "0",
+          "name": "Result",
+          "guid": "15b625cc-5ef2-4f8c-90e6-2a69202f6da1",
+          "sources": [],
+          "expression": null,
+          "description": "Result of subtraction",
+          "upstream": []
+        }
+      ],
+      "scalars": [],
+      "clusters": []
+    },
+    {
+      "index": 42,
+      "guid": "07dfe379-cc3d-4161-a86c-59f762abeb51",
+      "type": "Round",
+      "nickname": "Round",
+      "values": {
+        "Description": "Round a floating point value."
+      },
+      "ports": [
+        {
+          "kind": "Container",
+          "index": null,
+          "name": "Round",
+          "guid": "07dfe379-cc3d-4161-a86c-59f762abeb51",
+          "sources": [],
+          "expression": null,
+          "description": "Round a floating point value.",
+          "upstream": []
+        },
+        {
+          "kind": "param_input",
+          "index": "0",
+          "name": "Number",
+          "guid": "6c6546d3-3ebc-41d9-b532-d238135f83af",
+          "sources": [
+            "15b625cc-5ef2-4f8c-90e6-2a69202f6da1"
+          ],
+          "expression": null,
+          "description": "Number to round",
+          "upstream": [
+            {
+              "object_index": 41,
+              "port": "Result"
+            }
+          ]
+        },
+        {
+          "kind": "param_output",
+          "index": "0",
+          "name": "Nearest",
+          "guid": "5af254f5-345a-4dc5-95e3-7ca423f72edb",
+          "sources": [],
+          "expression": null,
+          "description": "Integer nearest to x",
+          "upstream": []
+        },
+        {
+          "kind": "param_output",
+          "index": "1",
+          "name": "Floor",
+          "guid": "9162ccef-ee8d-4c62-b32f-46f16e9ab172",
+          "sources": [],
+          "expression": null,
+          "description": "First integer smaller than or equal to x",
+          "upstream": []
+        },
+        {
+          "kind": "param_output",
+          "index": "2",
+          "name": "Ceiling",
+          "guid": "5aa4c4e2-8036-4c85-a20c-44ba17f4e3bd",
+          "sources": [],
+          "expression": null,
+          "description": "First integer larger than or equal to x",
+          "upstream": []
+        }
+      ],
+      "scalars": [],
+      "clusters": []
+    },
+    {
+      "index": 43,
+      "guid": "4764548a-2e93-43ed-9fca-6cb44902bd6d",
+      "type": "Panel",
+      "nickname": "",
+      "values": {
+        "Description": "A panel for custom notes and text values",
+        "UserText": "Double click to edit panel content…"
+      },
+      "ports": [
+        {
+          "kind": "Container",
+          "index": null,
+          "name": "Panel",
+          "guid": "4764548a-2e93-43ed-9fca-6cb44902bd6d",
+          "sources": [
+            "5af254f5-345a-4dc5-95e3-7ca423f72edb"
+          ],
+          "expression": null,
+          "description": "A panel for custom notes and text values",
+          "upstream": [
+            {
+              "object_index": 42,
+              "port": "Nearest"
+            }
+          ]
+        }
+      ],
+      "scalars": [],
+      "clusters": []
+    },
+    {
+      "index": 44,
+      "guid": "4b34adb8-25a9-485d-950b-6a37e52bccb3",
+      "type": "Cluster",
+      "nickname": "Rotation optimisation Cluster",
+      "values": {
+        "Description": "Contains a cluster of Grasshopper components"
+      },
+      "ports": [
+        {
+          "kind": "Container",
+          "index": null,
+          "name": "Cluster",
+          "guid": "4b34adb8-25a9-485d-950b-6a37e52bccb3",
+          "sources": [],
+          "expression": null,
+          "description": "Contains a cluster of Grasshopper components",
+          "upstream": []
+        },
+        {
+          "kind": "InputParam",
+          "index": "0",
+          "name": "Values",
+          "guid": "ae40ccd9-a6ac-4706-9ee0-24626655ea29",
+          "sources": [
+            "fe90d20c-25b8-4aaa-9760-2b58ac60fbbe"
+          ],
+          "expression": null,
+          "description": "List of data to operate on (numbers or points or vectors allowed)",
+          "upstream": [
+            {
+              "object_index": 37,
+              "port": "Result"
+            }
+          ]
+        },
+        {
+          "kind": "OutputParam",
+          "index": "0",
+          "name": "Partial Results",
+          "guid": "f66a9cf8-be16-40af-a41c-b92c3baba667",
+          "sources": [],
+          "expression": null,
+          "description": "List of partial results",
+          "upstream": []
+        },
+        {
+          "kind": "OutputParam",
+          "index": "1",
+          "name": "List",
+          "guid": "cee4a814-00e8-4e22-9e55-e186e974373a",
+          "sources": [],
+          "expression": null,
+          "description": "List with replaced values",
+          "upstream": []
+        }
+      ],
+      "scalars": [
+        {
+          "chunk": "ParamMap",
+          "name": "Value",
+          "type": "gh_guid",
+          "value": "fe261a36-1576-4f81-b113-6605ab7a167b"
+        },
+        {
+          "chunk": "ParamMap",
+          "name": "Value",
+          "type": "gh_guid",
+          "value": "ea7b5829-b306-491f-8d53-f4e5580b8b23"
+        },
+        {
+          "chunk": "ParamMap",
+          "name": "Value",
+          "type": "gh_guid",
+          "value": "fb9da7f7-808d-4101-96af-419239300062"
+        }
+      ],
+      "clusters": [
+        {
+          "bytes": 6677,
+          "sha256": "689471b4c0b2d269de5484387079f104295c590f2a288a873aa1db9512a24349",
+          "executed": false,
+          "binary_semantics_resolved": false,
+          "decompressed_bytes": 34583,
+          "string_evidence": [
+            "Document",
+            "plugin_version",
+            "DocumentHeader",
+            "\nDocumentID",
+            "Preview",
+            "Shaded",
+            "PreviewMeshType",
+            "\rPreviewNormal",
+            "PreviewSelected",
+            "DefinitionProperties",
+            "Description",
+            "KeepOpen",
+            "\r0804_5axis.gh\tRevisions",
+            "\rRevisionCount",
+            "\nProjection",
+            "Target",
+            "Views",
+            "\tViewCount",
+            "\tRcpLayout",
+            "\nGroupCount",
+            "GHALibraries",
+            "Count",
+            "Library",
+            "Author",
+            "Robert McNeel & Associates",
+            "Grasshopper",
+            "Version",
+            "8.26.25349.19001",
+            "Library",
+            "Author",
+            "Robert McNeel & Associates",
+            "Grasshopper",
+            "Version",
+            "8.26.25349.19001",
+            "Library",
+            "Author",
+            "Robert McNeel & Associates",
+            "Grasshopper",
+            "Version",
+            "8.26.25349.19001",
+            "DefinitionObjects",
+            "ObjectCount",
+            "Object",
+            "Group\tContainer",
+            "Border",
+            "Colour",
+            "Description",
+            "A group of Grasshopper objects",
+            "ID_Count",
+            "InstanceGuid",
+            "Group",
+            "NickName",
+            "\nAttributes",
+            "Object",
+            "Group\tContainer",
+            "Border",
+            "Colour",
+            "Description",
+            "A group of Grasshopper objects",
+            "ID_Count",
+            "InstanceGuid",
+            "Group",
+            "NickName",
+            "\nAttributes",
+            "Object",
+            "Group\tContainer",
+            "Border",
+            "Colour",
+            "Description",
+            "A group of Grasshopper objects",
+            "Wh,1'D",
+            "ID_Count",
+            "InstanceGuid",
+            "Group",
+            "NickName",
+            "Relative Mode Caxis\nAttributes",
+            "Object",
+            "Group\tContainer",
+            "Border",
+            "Colour",
+            "Description",
+            "A group of Grasshopper objects",
+            "ID_Count",
+            "InstanceGuid",
+            "Group",
+            "NickName",
+            "Takes Shortest Rotation\nAttributes",
+            "Object",
+            "Relative Differences\tContainer",
+            "Description",
+            "/Compute relative differences for a list of data",
+            "InstanceGuid",
+            "Relative Differences",
+            "NickName",
+            "RelDif\nAttributes",
+            "Bounds",
+            "Pivot",
+            "param_input",
+            "Access",
+            "Description",
+            "AList of data to operate on (numbers or points or vectors allowed)",
+            "InstanceGuid",
+            "Values",
+            "NickName",
+            "Optional",
+            "Source",
+            "SourceCount",
+            "\nAttributes",
+            "Bounds",
+            "Pivot",
+            "param_output",
+            "Access",
+            "Description",
+            "%Differences between consecutive items",
+            "InstanceGuid",
+            "Differenced",
+            "NickName",
+            "Optional",
+            "SourceCount",
+            "\nAttributes",
+            "Bounds",
+            "Pivot",
+            "Object",
+            "Panel\tContainer",
+            "Description",
+            "(A panel for custom notes and text values",
+            "InstanceGuid",
+            "Wh,1'D",
+            "Panel",
+            "NickName",
+            "Optional",
+            "ScrollRatio",
+            "Source",
+            "SourceCount",
+            "UserText",
+            "%Double click to edit panel content",
+            "\nAttributes",
+            "Bounds",
+            "nC\nMarginLeft",
+            "MarginRight",
+            "\tMarginTop",
+            "Pivot",
+            "PanelProperties",
+            "Colour",
+            "DrawIndices",
+            "\tDrawPaths",
+            "\tMultiline",
+            "SpecialCodes",
+            "Stream",
+            "Family",
+            "Courier New",
+            "Object",
+            "Sine\tContainer",
+            "Description",
+            "Compute the sine of a value",
+            "InstanceGuid",
+            "NickName",
+            "Sin\nAttributes",
+            "Bounds",
+            "Pivot",
+            "param_input",
+            "Description",
+            "Input value",
+            "InstanceGuid",
+            "Value",
+            "NickName",
+            "Optional",
+            "Source",
+            "Wh,1'D",
+            "SourceCount",
+            "\nUseDegrees",
+            "\nAttributes",
+            "Bounds",
+            "Pivot",
+            "param_output",
+            "Description",
+            "Output value",
+            "InstanceGuid",
+            "Result",
+            "NickName",
+            "Optional",
+            "SourceCount",
+            "\nAttributes",
+            "Bounds",
+            "Pivot",
+            "Object",
+            "ArcSine\tContainer",
+            "Description",
+            "4Compute the angle whose sine is the specified value.",
+            "InstanceGuid",
+            "ArcSine",
+            "NickName",
+            "ASin\nAttributes",
+            "Bounds",
+            "Pivot",
+            "param_input",
+            "Description",
+            "Input value",
+            "InstanceGuid",
+            "Value",
+            "NickName",
+            "Optional",
+            "Source",
+            "SourceCount",
+            "\nUseDegrees",
+            "\nAttributes",
+            "Bounds",
+            "Pivot",
+            "param_output",
+            "Description",
+            "Output value",
+            "InstanceGuid",
+            "Result",
+            "NickName",
+            "Optional",
+            "SourceCount",
+            "\nAttributes",
+            "Bounds",
+            "Pivot",
+            "Object",
+            "Degrees\tContainer",
+            "Description",
+            "0Convert an angle specified in radians to degrees",
+            "InstanceGuid",
+            "Degrees",
+            "NickName",
+            "Deg\nAttributes",
+            "Bounds",
+            "Pivot",
+            "param_input",
+            "Description",
+            "Angle in radians",
+            "InstanceGuid",
+            "Radians",
+            "NickName",
+            "Optional",
+            "Source",
+            "SourceCount",
+            "\nAttributes",
+            "Bounds",
+            "Pivot",
+            "param_output",
+            "Description",
+            "Angle in degrees",
+            "InstanceGuid",
+            "Degrees",
+            "NickName",
+            "Optional",
+            "SourceCount",
+            "\nAttributes",
+            "Bounds",
+            "Pivot",
+            "Object\t",
+            "\tList Item\tContainer",
+            "BaseOutputIndex",
+            "Description",
+            "%Retrieve a specific item from a list.",
+            "InstanceGuid",
+            "\tList Item",
+            "NickName",
+            "Item\nAttributes",
+            "Bounds",
+            "Pivot",
+            "D\rParameterData",
+            "\nInputCount",
+            "InputId",
+            "InputId",
+            "InputId",
+            "OutputCount",
+            "OutputId",
+            "\nInputParam",
+            "Access",
+            "Description",
+            "\tBase list",
+            "InstanceGuid",
+            "NickName",
+            "Optional",
+            "Source",
+            "P_P_8B",
+            "SourceCount",
+            "\nAttributes",
+            "Bounds",
+            "Pivot",
+            "D\nInputParam",
+            "Description",
+            "\nItem index",
+            "InstanceGuid",
+            "Index",
+            "NickName",
+            "Optional",
+            "SourceCount",
+            "\nAttributes",
+            "Bounds",
+            "Pivot",
+            "PersistentData",
+            "Count",
+            "Branch",
+            "Count",
+            "number",
+            "\nInputParam",
+            "Description",
+            "Wrap index to list bounds",
+            "InstanceGuid",
+            "NickName",
+            "Optional",
+            "SourceCount",
+            "\nAttributes",
+            "Bounds",
+            "Pivot",
+            "PersistentData",
+            "Count",
+            "Branch",
+            "Count",
+            "boolean",
+            "OutputParam",
+            "Description",
+            "Item at {i'}",
+            "InstanceGuid",
+            "Mutable",
+            "NickName",
+            "Optional",
+            "SourceCount",
+            "\nAttributes",
+            "Bounds",
+            "Pivot",
+            "Object\n",
+            "Panel\tContainer",
+            "Description",
+            "(A panel for custom notes and text values",
+            "InstanceGuid",
+            "Panel",
+            "NickName",
+            "Optional",
+            "ScrollRatio",
+            "Source",
+            "SourceCount",
+            "UserText",
+            "%Double click to edit panel content",
+            "\nAttributes",
+            "Bounds",
+            "DC\nMarginLeft",
+            "MarginRight",
+            "\tMarginTop",
+            "Pivot",
+            "PanelProperties",
+            "Colour",
+            "DrawIndices",
+            "\tDrawPaths",
+            "\tMultiline",
+            "SpecialCodes",
+            "Stream",
+            "Family",
+            "Courier New",
+            "Object",
+            "\rMass Addition\tContainer",
+            "Description",
+            "(Perform mass addition of a list of items",
+            "InstanceGuid",
+            "\rMass Addition",
+            "NickName",
+            "MA\nAttributes",
+            "Bounds",
+            "Pivot",
+            "param_input",
+            "Access",
+            "Description",
+            "Input values for mass addition.",
+            "InstanceGuid",
+            "Input",
+            "NickName",
+            "Optional",
+            "Source",
+            "SourceCount",
+            "\nAttributes",
+            "Bounds",
+            "Pivot",
+            "param_output",
+            "Description",
+            "Result of mass addition",
+            "InstanceGuid",
+            "Result",
+            "NickName",
+            "Optional",
+            "SourceCount",
+            "\nAttributes",
+            "Bounds",
+            "Pivot",
+            "param_output",
+            "Access",
+            "Description",
+            "List of partial results",
+            "InstanceGuid",
+            "Partial Results",
+            "NickName",
+            "Optional",
+            "SourceCount",
+            "\nAttributes",
+            "Bounds",
+            "Pivot",
+            "Object",
+            "\rReplace Items\tContainer",
+            "Description",
+            " Replace certain items in a list.",
+            "InstanceGuid",
+            "\rReplace Items",
+            "NickName",
+            "Replace\nAttributes",
+            "Bounds",
+            "Pivot",
+            "param_input",
+            "Access",
+            "Description",
+            "List to modify",
+            "InstanceGuid",
+            "NickName",
+            "Optional",
+            "Source",
+            "SourceCount",
+            "\nAttributes",
+            "Bounds",
+            "Pivot",
+            "param_input",
+            "Access",
+            "Description",
+            "HItems to replace with. If no items are supplied, nulls will be inserted.",
+            "InstanceGuid",
+            "@L9HG",
+            "NickName",
+            "Optional",
+            "Source",
+            "SourceCount",
+            "\nAttributes",
+            "Bounds",
+            "Pivot",
+            "param_input",
+            "Access",
+            "Description",
+            "Replacement index for each item",
+            "InstanceGuid",
+            "Indices",
+            "NickName",
+            "Optional",
+            "Source",
+            "SourceCount",
+            "\nAttributes",
+            "Bounds",
+            "Pivot",
+            "param_input",
+            "Description",
+            " If true, indices will be wrapped",
+            "InstanceGuid",
+            "NickName",
+            "Optional",
+            "SourceCount",
+            "\nAttributes",
+            "Bounds",
+            "Pivot",
+            "PersistentData",
+            "Count",
+            "Branch",
+            "Count",
+            "boolean",
+            "param_output",
+            "Access",
+            "Description",
+            "List with replaced values",
+            "InstanceGuid",
+            "NickName",
+            "Optional",
+            "SourceCount",
+            "\nAttributes",
+            "Bounds",
+            "Pivot",
+            "Object\r",
+            "\rNumber Slider\tContainer",
+            "Description",
+            " Numeric slider for single values",
+            "InstanceGuid",
+            "\rNumber Slider",
+            "NickName",
+            "Optional",
+            "SourceCount",
+            "\nAttributes",
+            "Bounds",
+            "Pivot",
+            "Slider",
+            "Digits",
+            "GripDisplay",
+            "Interval",
+            "\tSnapCount",
+            "Value",
+            "Object",
+            "Angle\tContainer",
+            "CustomDescription",
+            "\nCustomName",
+            "Angle",
+            "CustomNickName",
+            "Radian",
+            "Description",
+            "AList of data to operate on (numbers or points or vectors allowed)",
+            "InstanceGuid",
+            "Angle",
+            "NickName",
+            "Radian",
+            "Optional",
+            "SourceCount",
+            "\nAttributes",
+            "Bounds",
+            "Object",
+            "Partial Results\tContainer",
+            "CustomDescription",
+            "\nCustomName",
+            "CustomNickName",
+            "Description",
+            "List of partial results",
+            "InstanceGuid",
+            "Partial Results",
+            "NickName",
+            "Optional",
+            "Source",
+            "SourceCount",
+            "\nAttributes",
+            "Bounds",
+            "Object",
+            "Degrees\tContainer",
+            "Description",
+            "0Convert an angle specified in radians to degrees",
+            "InstanceGuid",
+            "Degrees",
+            "NickName",
+            "Deg\nAttributes",
+            "Bounds",
+            "Pivot",
+            "param_input",
+            "Description",
+            "Angle in radians",
+            "InstanceGuid",
+            "Radians",
+            "NickName",
+            "Optional",
+            "Source",
+            "SourceCount",
+            "\nAttributes",
+            "Bounds",
+            "Pivot",
+            "param_output",
+            "Description",
+            "Angle in degrees",
+            "InstanceGuid",
+            "P_P_8B",
+            "Degrees",
+            "NickName",
+            "Optional",
+            "SourceCount",
+            "\nAttributes",
+            "Bounds",
+            "Pivot",
+            "Object",
+            "\tC# Script\tContainer",
+            "CustomUsing",
+            "Description",
+            "A C#.NET scriptable component",
+            "EditorPosition",
+            "InstanceGuid",
+            "\tC# Script",
+            "NickName",
+            " C# 180 degree rotation condition",
+            "OutParameter",
+            "ReferenceCount",
+            "ScriptSource",
+            "\r\n\r\n    List<double> index = new List<double>();\r\n    List<double> rotation = new List<double>();\r\n\r\n    //if (1 <= x && x <= 100)\r\n    // take in Radian x is in radians\r\n    for(int i = 0; i < x.Count; i++){\r\n\r\n      if(RhinoMath.ToRadians(120) <= x[i] && x[i] <= RhinoMath.ToRadians(240)){ //if x is between 122 and 237\r\n        rotation.Add(x[i]); //output Degree\r\n        index.Add(i);\r\n      }\r\n      else if(RhinoMath.ToRadians(-240) <= x[i] && x[i] <= RhinoMath.ToRadians(-120)){// if the angle is between\r\n        rotation.Add(x[i]); //ouput degree\r\n        index.Add(i);\r\n      }\r\n    }\r\n    Rotation = rotation;\r\n    Index = index;\nAttributes",
+            "Bounds",
+            "Pivot",
+            "D\rParameterData",
+            "\nInputCount",
+            "InputId",
+            "OutputCount",
+            "OutputId",
+            "OutputId",
+            "OutputId",
+            "\nInputParam",
+            "Access",
+            "AllowTreeAccess",
+            "Description",
+            "Script Variable x",
+            "InstanceGuid",
+            "NickName",
+            "Optional",
+            "ScriptParamAccess",
+            "\rShowTypeHints",
+            "Source",
+            "SourceCount",
+            "\nTypeHintID",
+            "!\nAttributes",
+            "Bounds",
+            "Pivot",
+            "OutputParam",
+            "Access",
+            "Description",
+            " Print, Reflect and Error streams",
+            "InstanceGuid",
+            "NickName",
+            "Optional",
+            "SourceCount",
+            "\nAttributes",
+            "Bounds",
+            "Pivot",
+            "OutputParam",
+            "Description",
+            "Output parameter Rotation",
+            "InstanceGuid",
+            "Rotation",
+            "NickName",
+            "Rotation",
+            "Optional",
+            "SourceCount",
+            "\nAttributes",
+            "Bounds",
+            "Pivot",
+            "OutputParam",
+            "Description",
+            "Output parameter Index",
+            "InstanceGuid",
+            "Index",
+            "NickName",
+            "Index",
+            "Optional",
+            "SourceCount",
+            "\nAttributes",
+            "Bounds",
+            "Pivot",
+            "Object",
+            "\rReplace Items\tContainer",
+            "Description",
+            " Replace certain items in a list.",
+            "InstanceGuid",
+            "\rReplace Items",
+            "NickName",
+            "Replace\nAttributes",
+            "Bounds",
+            "Pivot",
+            "param_input",
+            "Access",
+            "Description",
+            "List to modify",
+            "InstanceGuid",
+            "NickName",
+            "Optional",
+            "Source",
+            "SourceCount",
+            "\nAttributes",
+            "Bounds",
+            "Pivot",
+            "param_input",
+            "Access",
+            "Description",
+            "HItems to replace with. If no items are supplied, nulls will be inserted.",
+            "InstanceGuid",
+            "NickName",
+            "Optional",
+            "Source",
+            "SourceCount",
+            "\nAttributes",
+            "Bounds",
+            "Pivot",
+            "param_input",
+            "Access",
+            "Description",
+            "Replacement index for each item",
+            "InstanceGuid",
+            "Indices",
+            "NickName",
+            "Optional",
+            "Source",
+            "SourceCount",
+            "\nAttributes",
+            "Bounds",
+            "Pivot",
+            "param_input",
+            "Description",
+            " If true, indices will be wrapped",
+            "InstanceGuid",
+            "NickName",
+            "Optional",
+            "SourceCount",
+            "\nAttributes",
+            "Bounds",
+            "Pivot",
+            "PersistentData",
+            "Count",
+            "Branch",
+            "Count",
+            "boolean",
+            "param_output",
+            "Access",
+            "Description",
+            "List with replaced values",
+            "InstanceGuid",
+            "NickName",
+            "Optional",
+            "SourceCount",
+            "\nAttributes",
+            "Bounds",
+            "Pivot",
+            "Object",
+            "List\tContainer",
+            "CustomDescription",
+            "\nCustomName",
+            "CustomNickName",
+            "Description",
+            "List with replaced values",
+            "InstanceGuid",
+            "NickName",
+            "Optional",
+            "Source",
+            "SourceCount",
+            "\nAttributes",
+            "Bounds",
+            "Object",
+            "Panel\tContainer",
+            "Description",
+            "(A panel for custom notes and text values",
+            "InstanceGuid",
+            "Panel",
+            "NickName",
+            "Optional",
+            "ScrollRatio",
+            "Source",
+            "SourceCount",
+            "UserText",
+            "%Double click to edit panel content",
+            "\nAttributes",
+            "Bounds",
+            "B\nMarginLeft",
+            "MarginRight",
+            "\tMarginTop",
+            "Pivot",
+            "PanelProperties",
+            "Colour",
+            "DrawIndices",
+            "\tDrawPaths",
+            "\tMultiline",
+            "SpecialCodes",
+            "Stream",
+            "Family",
+            "Courier New",
+            "Object",
+            "Panel\tContainer",
+            "Description",
+            "(A panel for custom notes and text values",
+            "InstanceGuid",
+            "Panel",
+            "NickName",
+            "Optional",
+            "ScrollRatio",
+            "Source",
+            "SourceCount",
+            "UserText",
+            "%Double click to edit panel content",
+            "\nAttributes",
+            "Bounds",
+            "@AD\nMarginLeft",
+            "MarginRight",
+            "\tMarginTop",
+            "Pivot",
+            "PanelProperties",
+            "Colour",
+            "DrawIndices",
+            "\tDrawPaths",
+            "\tMultiline",
+            "SpecialCodes",
+            "Stream",
+            "Family",
+            "Courier New",
+            "Object",
+            "Degrees\tContainer",
+            "Description",
+            "0Convert an angle specified in radians to degrees",
+            "InstanceGuid",
+            "Degrees",
+            "NickName",
+            "Deg\nAttributes",
+            "Bounds",
+            "Pivot",
+            "param_input",
+            "Description",
+            "Angle in radians",
+            "InstanceGuid",
+            "Radians",
+            "NickName",
+            "Optional",
+            "Source",
+            "Wh,1'D",
+            "SourceCount",
+            "\nAttributes",
+            "Bounds",
+            "Pivot",
+            "param_output",
+            "Description",
+            "Angle in degrees",
+            "InstanceGuid",
+            "Degrees",
+            "NickName",
+            "Optional",
+            "SourceCount",
+            "\nAttributes",
+            "Bounds",
+            "Pivot",
+            "Object",
+            "Panel\tContainer",
+            "Description",
+            "(A panel for custom notes and text values",
+            "InstanceGuid",
+            "Panel",
+            "NickName",
+            "Optional",
+            "ScrollRatio",
+            "Source",
+            "SourceCount",
+            "UserText",
+            "%Double click to edit panel content",
+            "\nAttributes",
+            "Bounds",
+            "D\nMarginLeft",
+            "MarginRight",
+            "\tMarginTop",
+            "Pivot",
+            "PanelProperties",
+            "Colour",
+            "DrawIndices",
+            "\tDrawPaths",
+            "\tMultiline",
+            "SpecialCodes",
+            "Stream",
+            "Family",
+            "Courier New",
+            "Object",
+            "Panel\tContainer",
+            "Description",
+            "(A panel for custom notes and text values",
+            "InstanceGuid",
+            "Panel",
+            "NickName",
+            "Optional",
+            "ScrollRatio",
+            "Source",
+            "SourceCount",
+            "UserText",
+            "%Double click to edit panel content",
+            "\nAttributes",
+            "Bounds",
+            "B\nMarginLeft",
+            "MarginRight",
+            "\tMarginTop",
+            "Pivot",
+            "PanelProperties",
+            "Colour",
+            "DrawIndices",
+            "\tDrawPaths",
+            "\tMultiline",
+            "SpecialCodes",
+            "Stream",
+            "Family",
+            "Courier New",
+            "Object",
+            "\tC# Script\tContainer",
+            "CustomUsing",
+            "Description",
+            "A C#.NET scriptable component",
+            "EditorPosition",
+            "InstanceGuid",
+            "\tC# Script",
+            "NickName",
+            "C# 90 degree rotation condition",
+            "OutParameter",
+            "ReferenceCount",
+            "ScriptSource",
+            "\r\n\r\n    List<double> index = new List<double>();\r\n    List<double> rotation = new List<double>();\r\n\r\n\r\n    for(int i = 0; i < x.Count; i++){\r\n\r\n      if(x[i] < RhinoMath.ToRadians(180) && x[i] > RhinoMath.ToRadians(90)){\r\n        rotation.Add(x[i]);\r\n        index.Add(i);\r\n      }\r\n      else if(x[i] > RhinoMath.ToRadians(-180) && x[i] < RhinoMath.ToRadians(-90)){\r\n        rotation.Add(x[i]);\r\n        index.Add(i);\r\n      }\r\n    }\r\n    Rotation = rotation;\r\n    Index = index;\nAttributes",
+            "Bounds",
+            "Pivot",
+            "D\rParameterData",
+            "\nInputCount",
+            "InputId",
+            "OutputCount",
+            "OutputId",
+            "OutputId",
+            "OutputId",
+            "\nInputParam",
+            "Access",
+            "AllowTreeAccess",
+            "Description",
+            "Script Variable x",
+            "InstanceGuid",
+            "NickName",
+            "Optional",
+            "ScriptParamAccess",
+            "\rShowTypeHints",
+            "Source",
+            "Wh,1'D",
+            "SourceCount",
+            "\nTypeHintID",
+            "!\nAttributes",
+            "Bounds",
+            "Pivot",
+            "OutputParam",
+            "Access",
+            "Description",
+            " Print, Reflect and Error streams",
+            "InstanceGuid",
+            "NickName",
+            "Optional",
+            "SourceCount",
+            "\nAttributes",
+            "Bounds",
+            "Pivot",
+            "OutputParam",
+            "Description",
+            "Output parameter Rotation",
+            "InstanceGuid",
+            "Rotation",
+            "NickName",
+            "Rotation",
+            "Optional",
+            "SourceCount",
+            "\nAttributes",
+            "Bounds",
+            "Pivot",
+            "OutputParam",
+            "Description",
+            "Output parameter Index",
+            "InstanceGuid",
+            "Index",
+            "NickName",
+            "Index",
+            "Optional",
+            "SourceCount",
+            "\nAttributes",
+            "Bounds",
+            "Pivot",
+            "Object",
+            "Degrees\tContainer",
+            "Description",
+            "0Convert an angle specified in radians to degrees",
+            "InstanceGuid",
+            "Degrees",
+            "NickName",
+            "Deg\nAttributes",
+            "Bounds",
+            "Pivot",
+            "param_input",
+            "Description",
+            "Angle in radians",
+            "InstanceGuid",
+            "Radians",
+            "NickName",
+            "Optional",
+            "Source",
+            "SourceCount",
+            "\nAttributes",
+            "Bounds",
+            "Pivot",
+            "param_output",
+            "Description",
+            "Angle in degrees",
+            "InstanceGuid",
+            "Degrees",
+            "NickName",
+            "Optional",
+            "SourceCount",
+            "\nAttributes",
+            "Bounds",
+            "Pivot",
+            "Object",
+            "Panel\tContainer",
+            "Description",
+            "(A panel for custom notes and text values",
+            "InstanceGuid",
+            "Panel",
+            "NickName",
+            "Optional",
+            "ScrollRatio",
+            "Source",
+            "SourceCount",
+            "UserText",
+            "%Double click to edit panel content",
+            "\nAttributes",
+            "Bounds",
+            "B\nMarginLeft",
+            "MarginRight",
+            "\tMarginTop",
+            "Pivot",
+            "PanelProperties",
+            "Colour",
+            "DrawIndices",
+            "\tDrawPaths",
+            "\tMultiline",
+            "SpecialCodes",
+            "Stream",
+            "Family",
+            "Courier New",
+            "Object",
+            "Panel\tContainer",
+            "Description",
+            "(A panel for custom notes and text values",
+            "InstanceGuid",
+            "Panel",
+            "NickName",
+            "Optional",
+            "ScrollRatio",
+            "Source",
+            "SourceCount",
+            "UserText",
+            "%Double click to edit panel content",
+            "\nAttributes",
+            "Bounds",
+            "B\nMarginLeft",
+            "MarginRight",
+            "\tMarginTop",
+            "Pivot",
+            "PanelProperties",
+            "Colour",
+            "DrawIndices",
+            "\tDrawPaths",
+            "\tMultiline",
+            "SpecialCodes",
+            "Stream",
+            "Family",
+            "Courier New",
+            "Object",
+            "\rReplace Items\tContainer",
+            "Description",
+            " Replace certain items in a list.",
+            "InstanceGuid",
+            "\rReplace Items",
+            "NickName",
+            "Replace\nAttributes",
+            "Bounds",
+            "Pivot",
+            "param_input",
+            "Access",
+            "Description",
+            "List to modify",
+            "InstanceGuid",
+            "NickName",
+            "Optional",
+            "Source",
+            "SourceCount",
+            "\nAttributes",
+            "Bounds",
+            "Pivot",
+            "param_input",
+            "Access",
+            "Description",
+            "HItems to replace with. If no items are supplied, nulls will be inserted.",
+            "InstanceGuid",
+            "NickName",
+            "Optional",
+            "Source",
+            "SourceCount",
+            "\nAttributes",
+            "Bounds",
+            "Pivot",
+            "param_input",
+            "Access",
+            "Description",
+            "Replacement index for each item",
+            "InstanceGuid",
+            "N CE5I",
+            "Indices",
+            "NickName",
+            "Optional",
+            "Source",
+            "SourceCount",
+            "\nAttributes",
+            "Bounds",
+            "Pivot",
+            "param_input",
+            "Description",
+            " If true, indices will be wrapped",
+            "InstanceGuid",
+            "NickName",
+            "Optional",
+            "SourceCount",
+            "\nAttributes",
+            "Bounds",
+            "Pivot",
+            "PersistentData",
+            "Count",
+            "Branch",
+            "Count",
+            "boolean",
+            "param_output",
+            "Access",
+            "Description",
+            "List with replaced values",
+            "InstanceGuid",
+            "NickName",
+            "Optional",
+            "SourceCount",
+            "\nAttributes",
+            "Bounds",
+            "Pivot",
+            "Object",
+            "Panel\tContainer",
+            "Description",
+            "(A panel for custom notes and text values",
+            "InstanceGuid",
+            "Panel",
+            "NickName",
+            "Optional",
+            "ScrollRatio",
+            "Source",
+            "SourceCount",
+            "UserText",
+            "%Double click to edit panel content",
+            "\nAttributes",
+            "Bounds",
+            "D\nMarginLeft",
+            "MarginRight",
+            "\tMarginTop",
+            "Pivot",
+            "PanelProperties",
+            "Colour",
+            "DrawIndices",
+            "\tDrawPaths",
+            "\tMultiline",
+            "SpecialCodes",
+            "Stream",
+            "Family",
+            "Courier New",
+            "Object",
+            "Degrees\tContainer",
+            "Description",
+            "0Convert an angle specified in radians to degrees",
+            "InstanceGuid",
+            "Degrees",
+            "NickName",
+            "Deg\nAttributes",
+            "Bounds",
+            "Pivot",
+            "param_input",
+            "Description",
+            "Angle in radians",
+            "InstanceGuid",
+            "Radians",
+            "NickName",
+            "Optional",
+            "Source",
+            "SourceCount",
+            "\nAttributes",
+            "Bounds",
+            "Pivot",
+            "param_output",
+            "Description",
+            "Angle in degrees",
+            "InstanceGuid",
+            "Degrees",
+            "NickName",
+            "Optional",
+            "SourceCount",
+            "\nAttributes",
+            "Bounds",
+            "Pivot",
+            "Object ",
+            "Panel\tContainer",
+            "Description",
+            "(A panel for custom notes and text values",
+            "InstanceGuid",
+            "Panel",
+            "NickName",
+            "Optional",
+            "ScrollRatio",
+            "Source",
+            "SourceCount",
+            "UserText",
+            "%Double click to edit panel content",
+            "\nAttributes",
+            "Bounds",
+            "C\nMarginLeft",
+            "MarginRight",
+            "\tMarginTop",
+            "Pivot",
+            "PanelProperties",
+            "Colour",
+            "DrawIndices",
+            "\tDrawPaths",
+            "\tMultiline",
+            "SpecialCodes",
+            "Stream",
+            "Family",
+            "Courier New",
+            "Object!",
+            "Degrees\tContainer",
+            "Description",
+            "0Convert an angle specified in radians to degrees",
+            "InstanceGuid",
+            "Degrees",
+            "NickName",
+            "Deg\nAttributes",
+            "Bounds",
+            "Pivot",
+            "param_input",
+            "Description",
+            "Angle in radians",
+            "InstanceGuid",
+            "Radians",
+            "NickName",
+            "Optional",
+            "Source",
+            "SourceCount",
+            "\nAttributes",
+            "Bounds",
+            "Pivot",
+            "param_output",
+            "Description",
+            "Angle in degrees",
+            "InstanceGuid",
+            "Degrees",
+            "NickName",
+            "Optional",
+            "SourceCount",
+            "\nAttributes",
+            "Bounds",
+            "Pivot",
+            "Object\"",
+            "\rNumber Slider\tContainer",
+            "Description",
+            " Numeric slider for single values",
+            "InstanceGuid",
+            "\rNumber Slider",
+            "NickName",
+            "Optional",
+            "SourceCount",
+            "\nAttributes",
+            "Bounds",
+            "Pivot",
+            "Slider",
+            "Digits",
+            "GripDisplay",
+            "Interval",
+            "\tSnapCount",
+            "Value"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 45,
+      "guid": "13526aae-f75f-4724-b7c8-b3235e9fb511",
+      "type": "Relay",
+      "nickname": "",
+      "values": {
+        "Description": "A wire relay object"
+      },
+      "ports": [
+        {
+          "kind": "Container",
+          "index": null,
+          "name": "Relay",
+          "guid": "13526aae-f75f-4724-b7c8-b3235e9fb511",
+          "sources": [
+            "a9cfac9b-2ef3-4222-b7d2-d9ad84195258"
+          ],
+          "expression": null,
+          "description": "A wire relay object",
+          "upstream": [
+            {
+              "object_index": 24,
+              "port": "Transform"
+            }
+          ]
+        }
+      ],
+      "scalars": [],
+      "clusters": []
+    },
+    {
+      "index": 46,
+      "guid": "589bfcd6-3eb9-494d-8a73-e3a8c5e7b8a2",
+      "type": "C# Script",
+      "nickname": "C#",
+      "values": {
+        "Description": "A C#.NET scriptable component",
+        "ScriptSource": "\n    for(int i = 0; i < x.Count; i++){\n      if(x[i] == -1){\n        x[i] = 1;\n      }\n    }\n    \n      A = x;\n"
+      },
+      "ports": [
+        {
+          "kind": "Container",
+          "index": null,
+          "name": "C# Script",
+          "guid": "589bfcd6-3eb9-494d-8a73-e3a8c5e7b8a2",
+          "sources": [],
+          "expression": null,
+          "description": "A C#.NET scriptable component",
+          "upstream": []
+        },
+        {
+          "kind": "InputParam",
+          "index": "0",
+          "name": "x",
+          "guid": "00aceba2-ecd7-487b-a20f-c92004772202",
+          "sources": [
+            "c906d04c-bb22-4916-86fc-7c5dc47857cb"
+          ],
+          "expression": null,
+          "description": "Script Variable x",
+          "upstream": [
+            {
+              "object_index": 3,
+              "port": "Z component"
+            }
+          ]
+        },
+        {
+          "kind": "OutputParam",
+          "index": "0",
+          "name": "out",
+          "guid": "7c7e982c-36ec-40b0-89a8-9e585d19ca34",
+          "sources": [],
+          "expression": null,
+          "description": "Print, Reflect and Error streams",
+          "upstream": []
+        },
+        {
+          "kind": "OutputParam",
+          "index": "1",
+          "name": "A",
+          "guid": "58510615-40e3-405f-8908-6c87007e128e",
+          "sources": [],
+          "expression": null,
+          "description": "Output parameter A",
+          "upstream": []
+        }
+      ],
+      "scalars": [],
+      "clusters": []
+    },
+    {
+      "index": 47,
+      "guid": "2bf8e1b0-0504-4f5d-b9a7-333ecab0d548",
+      "type": "Panel",
+      "nickname": "",
+      "values": {
+        "Description": "A panel for custom notes and text values",
+        "UserText": "Double click to edit panel content…"
+      },
+      "ports": [
+        {
+          "kind": "Container",
+          "index": null,
+          "name": "Panel",
+          "guid": "2bf8e1b0-0504-4f5d-b9a7-333ecab0d548",
+          "sources": [
+            "58510615-40e3-405f-8908-6c87007e128e"
+          ],
+          "expression": null,
+          "description": "A panel for custom notes and text values",
+          "upstream": [
+            {
+              "object_index": 46,
+              "port": "A"
+            }
+          ]
+        }
+      ],
+      "scalars": [],
+      "clusters": []
+    },
+    {
+      "index": 48,
+      "guid": "452fa498-b73d-48b9-b1d8-7f5de625b851",
+      "type": "Panel",
+      "nickname": "",
+      "values": {
+        "Description": "A panel for custom notes and text values",
+        "UserText": "Double click to edit panel content…"
+      },
+      "ports": [
+        {
+          "kind": "Container",
+          "index": null,
+          "name": "Panel",
+          "guid": "452fa498-b73d-48b9-b1d8-7f5de625b851",
+          "sources": [
+            "41d789dd-aceb-468c-86bc-dbab368848e2"
+          ],
+          "expression": null,
+          "description": "A panel for custom notes and text values",
+          "upstream": [
+            {
+              "object_index": 2,
+              "port": "Z-Axis"
+            }
+          ]
+        }
+      ],
+      "scalars": [],
+      "clusters": []
+    },
+    {
+      "index": 49,
+      "guid": "bb8ff7b8-bbea-452c-a025-b8667cf89ede",
+      "type": "XZ Plane",
+      "nickname": "XZ",
+      "values": {
+        "Description": "World XZ plane."
+      },
+      "ports": [
+        {
+          "kind": "Container",
+          "index": null,
+          "name": "XZ Plane",
+          "guid": "bb8ff7b8-bbea-452c-a025-b8667cf89ede",
+          "sources": [],
+          "expression": null,
+          "description": "World XZ plane.",
+          "upstream": []
+        },
+        {
+          "kind": "param_input",
+          "index": "0",
+          "name": "Origin",
+          "guid": "03a81875-b5cc-4587-bf87-127fa0845f33",
+          "sources": [],
+          "expression": null,
+          "description": "Origin of plane",
+          "upstream": []
+        },
+        {
+          "kind": "param_output",
+          "index": "0",
+          "name": "Plane",
+          "guid": "7815a141-51ee-4545-9b2c-f30f5a7494da",
+          "sources": [],
+          "expression": null,
+          "description": "World XZ plane",
+          "upstream": []
+        }
+      ],
+      "scalars": [],
+      "clusters": []
+    },
+    {
+      "index": 50,
+      "guid": "c4797a84-7487-411f-98c6-4a34f7d89003",
+      "type": "Negative",
+      "nickname": "Neg",
+      "values": {
+        "Description": "Compute the negative of a value."
+      },
+      "ports": [
+        {
+          "kind": "Container",
+          "index": null,
+          "name": "Negative",
+          "guid": "c4797a84-7487-411f-98c6-4a34f7d89003",
+          "sources": [],
+          "expression": null,
+          "description": "Compute the negative of a value.",
+          "upstream": []
+        },
+        {
+          "kind": "param_input",
+          "index": "0",
+          "name": "Value",
+          "guid": "8fb797dd-4d3f-4931-80f9-7d9587330e8e",
+          "sources": [
+            "9fa95bef-3d4b-4425-8758-7d913835b3e1"
+          ],
+          "expression": null,
+          "description": "Input value",
+          "upstream": [
+            {
+              "object_index": 11,
+              "port": "Y coordinate"
+            }
+          ]
+        },
+        {
+          "kind": "param_output",
+          "index": "0",
+          "name": "Result",
+          "guid": "6cfa98f3-426f-4475-bea8-dfc6c88fbaf7",
+          "sources": [],
+          "expression": null,
+          "description": "Output value",
+          "upstream": []
+        }
+      ],
+      "scalars": [],
+      "clusters": []
+    },
+    {
+      "index": 51,
+      "guid": "a1d54964-068c-4b52-8aee-c592859c695a",
+      "type": "Relay",
+      "nickname": "",
+      "values": {
+        "Description": "A wire relay object"
+      },
+      "ports": [
+        {
+          "kind": "Container",
+          "index": null,
+          "name": "Relay",
+          "guid": "a1d54964-068c-4b52-8aee-c592859c695a",
+          "sources": [
+            "9fa95bef-3d4b-4425-8758-7d913835b3e1"
+          ],
+          "expression": null,
+          "description": "A wire relay object",
+          "upstream": [
+            {
+              "object_index": 11,
+              "port": "Y coordinate"
+            }
+          ]
+        }
+      ],
+      "scalars": [],
+      "clusters": []
+    },
+    {
+      "index": 52,
+      "guid": "ee8837c2-681a-4138-b0b9-c584502786d6",
+      "type": "Relay",
+      "nickname": "",
+      "values": {
+        "Description": "A wire relay object"
+      },
+      "ports": [
+        {
+          "kind": "Container",
+          "index": null,
+          "name": "Relay",
+          "guid": "ee8837c2-681a-4138-b0b9-c584502786d6",
+          "sources": [
+            "9fa95bef-3d4b-4425-8758-7d913835b3e1"
+          ],
+          "expression": null,
+          "description": "A wire relay object",
+          "upstream": [
+            {
+              "object_index": 11,
+              "port": "Y coordinate"
+            }
+          ]
+        }
+      ],
+      "scalars": [],
+      "clusters": []
+    },
+    {
+      "index": 53,
+      "guid": "00f3f17d-007f-4cc8-852d-75a17295216b",
+      "type": "Nearest",
+      "nickname": "N",
+      "values": {
+        "Description": "Integer nearest to x"
+      },
+      "ports": [
+        {
+          "kind": "Container",
+          "index": null,
+          "name": "Nearest",
+          "guid": "00f3f17d-007f-4cc8-852d-75a17295216b",
+          "sources": [
+            "5af254f5-345a-4dc5-95e3-7ca423f72edb"
+          ],
+          "expression": null,
+          "description": "Integer nearest to x",
+          "upstream": [
+            {
+              "object_index": 42,
+              "port": "Nearest"
+            }
+          ]
+        }
+      ],
+      "scalars": [],
+      "clusters": []
+    }
+  ]
+}

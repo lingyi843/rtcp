@@ -1,0 +1,94 @@
+{
+  "schema_version": 1,
+  "offline_only": true,
+  "live_supported": false,
+  "deployment_ready": false,
+  "scope": "Static lint of supplied local files, not current machine state or include resolution",
+  "sha256": {
+    "source/corexy_uv.py": "ea2079a54856aff918806d2d2aaef11a63f79d4c339186664a8bb9067c77ac0d",
+    "source/toolhead.py": "911d675604003f9cffc1356562de17c85c9bead3d744e53922a0d77d5dee1e3b",
+    "source/force_move.py": "7e861a0a6f98a984a2fe621a66aeeb11bf5f8f093f1a1639369163dd1bb79930",
+    "source/laser_motion.py": "35da7fc5315dbb5758dfa25666999594c6342de2646057bd9e207cb06687de0e",
+    "config/machine_functions.cfg": "3e0e94d3b5ed9623a06ec0c540b2c892beb339bcc7b869d68aff24f1542757b3",
+    "config_final/printer.cfg": "fc41290bed8786fc727887de70ad5dd675d5b3c7d544a7d5837b34010f73b4e5"
+  },
+  "observed_u_gear": "60:16",
+  "issues": [
+    {
+      "code": "missing_reference_host_method",
+      "message": "Rotary reference calls a method not defined in this toolhead snapshot.",
+      "file": "corexy_uv.py",
+      "lines": [
+        112
+      ]
+    },
+    {
+      "code": "no_reference_caller_in_scanned_sources",
+      "message": "No set_reference caller in the four scanned Python files; inspect integration.",
+      "file": "corexy_uv.py",
+      "lines": [
+        105
+      ]
+    },
+    {
+      "code": "uv_reference_macro_requires_verification",
+      "message": "SET_U/V use SET_KINEMATIC_POSITION; check the installed parser supports UV.",
+      "file": "machine_functions.cfg",
+      "lines": [
+        115,
+        284,
+        303,
+        311,
+        318,
+        326
+      ]
+    },
+    {
+      "code": "rotary_range_guard_not_found",
+      "message": "No recognized min/max angle guard in check_move; heuristic, not a proof of absence.",
+      "file": "corexy_uv.py",
+      "lines": [
+        117
+      ]
+    },
+    {
+      "code": "legacy_laser_manual_stepper",
+      "message": "Laser module still looks up manual_stepper; native rotary compatibility needs review.",
+      "file": "laser_motion.py",
+      "lines": [
+        279
+      ]
+    },
+    {
+      "code": "legacy_laser_generation",
+      "message": "Laser module expects move_generation absent from this toolhead source.",
+      "file": "laser_motion.py",
+      "lines": [
+        147,
+        187,
+        211,
+        284,
+        287,
+        337,
+        347,
+        357,
+        368,
+        486
+      ]
+    },
+    {
+      "code": "u_gear_mismatch_or_unknown",
+      "message": "Snapshot U gear='60:16'; requested hardware ratio is 260:18. No file changed.",
+      "file": "printer.cfg",
+      "lines": [
+        102,
+        132,
+        153,
+        174,
+        199,
+        221,
+        271
+      ]
+    }
+  ]
+}
